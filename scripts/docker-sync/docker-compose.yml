@@ -1,0 +1,10 @@
+services:
+  obsidian-sync-worker:
+    build: .
+    container_name: obsidian-sync-worker
+    restart: unless-stopped
+    volumes:
+      # Mount the Obsidian vault directory
+      - ../..:/vault
+    working_dir: /vault
+    # Entrypoint script handles the loop

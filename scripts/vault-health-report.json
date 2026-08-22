@@ -1,0 +1,243 @@
+{
+  "vault_root": "C:\\Users\\asus\\Documents\\Obsidian Vault",
+  "generated_at": "2026-08-22T14:51:27.926971",
+  "overall_status": "warn",
+  "checks": {
+    "required_folders": {
+      "agents": {
+        "path": "C:\\Users\\asus\\Documents\\Obsidian Vault\\agents",
+        "exists": true,
+        "status": "pass"
+      },
+      "Inbox": {
+        "path": "C:\\Users\\asus\\Documents\\Obsidian Vault\\Inbox",
+        "exists": true,
+        "status": "pass"
+      },
+      "memory": {
+        "path": "C:\\Users\\asus\\Documents\\Obsidian Vault\\memory",
+        "exists": true,
+        "status": "pass"
+      },
+      "Projects": {
+        "path": "C:\\Users\\asus\\Documents\\Obsidian Vault\\Projects",
+        "exists": true,
+        "status": "pass"
+      },
+      "scripts": {
+        "path": "C:\\Users\\asus\\Documents\\Obsidian Vault\\scripts",
+        "exists": true,
+        "status": "pass"
+      },
+      "templates": {
+        "path": "C:\\Users\\asus\\Documents\\Obsidian Vault\\templates",
+        "exists": true,
+        "status": "pass"
+      },
+      "status": "pass",
+      "details": {
+        "agents": {
+          "exists": true,
+          "status": "pass"
+        },
+        "Inbox": {
+          "exists": true,
+          "status": "pass"
+        },
+        "memory": {
+          "exists": true,
+          "status": "pass"
+        },
+        "Projects": {
+          "exists": true,
+          "status": "pass"
+        },
+        "scripts": {
+          "exists": true,
+          "status": "pass"
+        },
+        "templates": {
+          "exists": true,
+          "status": "pass"
+        }
+      }
+    },
+    "agents_registry": {
+      "path": "C:\\Users\\asus\\Documents\\Obsidian Vault\\agents\\registry.md",
+      "exists": true,
+      "status": "pass",
+      "details": {
+        "total_lines": 452,
+        "table_rows": 448,
+        "has_header_separator": true,
+        "is_valid_table": true
+      }
+    },
+    "templates": {
+      "path": "C:\\Users\\asus\\Documents\\Obsidian Vault\\templates",
+      "exists": true,
+      "status": "pass",
+      "files": {
+        "cross-agent-sync.md": {
+          "has_frontmatter": true,
+          "frontmatter_keys": [
+            "source_agent",
+            "target_agents",
+            "sync_timestamp",
+            "shared_context"
+          ],
+          "status": "pass"
+        },
+        "memory-template.md": {
+          "has_frontmatter": true,
+          "frontmatter_keys": [
+            "agent_id",
+            "memory_type",
+            "created_at",
+            "importance",
+            "tags"
+          ],
+          "status": "pass"
+        },
+        "project-context.md": {
+          "has_frontmatter": true,
+          "frontmatter_keys": [
+            "project_name",
+            "goals",
+            "current_status",
+            "blockers",
+            "next_steps"
+          ],
+          "status": "pass"
+        },
+        "project-template.md": {
+          "has_frontmatter": true,
+          "frontmatter_keys": [
+            "project_id",
+            "name",
+            "status",
+            "created_at",
+            "updated_at",
+            "tags"
+          ],
+          "status": "pass"
+        },
+        "session-note.md": {
+          "has_frontmatter": true,
+          "frontmatter_keys": [
+            "agent_id",
+            "model",
+            "timestamp",
+            "task",
+            "outcome",
+            "follow-up"
+          ],
+          "status": "pass"
+        },
+        "session-template.md": {
+          "has_frontmatter": true,
+          "frontmatter_keys": [
+            "agent_id",
+            "session_id",
+            "started_at",
+            "ended_at",
+            "status",
+            "tags"
+          ],
+          "status": "pass"
+        }
+      }
+    },
+    "session_notes": {
+      "total_notes": 5,
+      "status": "warn",
+      "by_agent": {
+        "browseros": 1,
+        "claude-code": 2,
+        "hermes-agent": 1,
+        "system": 1
+      },
+      "timestamps": [
+        {
+          "time": "2026-08-22T07:32:43",
+          "file": "20260822-073243_vault-test-001.md",
+          "agent": "system"
+        },
+        {
+          "time": "2026-08-22T07:40:33",
+          "file": "20260822-074033_claude-test-001.md",
+          "agent": "claude-code"
+        },
+        {
+          "time": "2026-08-22T07:40:47",
+          "file": "20260822-074047_hermes-test-001.md",
+          "agent": "hermes-agent"
+        },
+        {
+          "time": "2026-08-22T07:41:16",
+          "file": "20260822-074116_20260822-074116.md",
+          "agent": "browseros"
+        },
+        {
+          "time": "2026-08-22T08:47:49",
+          "file": "20260822-084749_hook-test-001.md",
+          "agent": "claude-code"
+        }
+      ],
+      "gaps": [
+        {
+          "from": "2026-08-22T07:41:16",
+          "to": "2026-08-22T08:47:49",
+          "gap_minutes": 66.5
+        }
+      ]
+    },
+    "sync_scripts": {
+      "path": "C:\\Users\\asus\\Documents\\Obsidian Vault\\scripts",
+      "exists": true,
+      "status": "pass",
+      "scripts": {
+        "scripts\\elevate-schedule.vbs": {
+          "executable": true,
+          "status": "pass"
+        },
+        "scripts\\read-from-obsidian.py": {
+          "executable": true,
+          "status": "pass"
+        },
+        "scripts\\schedule-sync.ps1": {
+          "executable": true,
+          "status": "pass"
+        },
+        "scripts\\setup-vault.sh": {
+          "executable": true,
+          "status": "pass"
+        },
+        "scripts\\sync-all-agents.bat": {
+          "executable": true,
+          "status": "pass"
+        },
+        "scripts\\sync-all-agents.py": {
+          "executable": true,
+          "status": "pass"
+        },
+        "scripts\\sync-to-obsidian.py": {
+          "executable": true,
+          "status": "pass"
+        },
+        "scripts\\vault-healthcheck.py": {
+          "executable": true,
+          "status": "pass"
+        },
+        "scripts\\workflows\\claude-code-hook.sh": {
+          "executable": true,
+          "status": "pass"
+        },
+        "scripts\\workflows\\hermes-memory-bridge.py": {
+          "executable": true,
+          "status": "pass"
+        }
+      }
+    }
+  }
+}

@@ -191,6 +191,7 @@ def write_project(project_context: dict) -> Path:
 
 
 def main() -> int:
+    global VAULT_ROOT, TEMPLATES_DIR, AGENTS_DIR, PROJECTS_DIR, INBOX_DIR
     parser = argparse.ArgumentParser(description="Sync agent data into the Obsidian vault.")
     parser.add_argument("--agent-id", required=True, help="Unique agent identifier")
     parser.add_argument("--session-data", required=False, help="Session data as JSON string or path to JSON file")
@@ -198,7 +199,6 @@ def main() -> int:
     parser.add_argument("--vault-path", required=False, default=str(VAULT_ROOT), help="Override vault root path")
     args = parser.parse_args()
 
-    global VAULT_ROOT, TEMPLATES_DIR, AGENTS_DIR, PROJECTS_DIR, INBOX_DIR
     VAULT_ROOT = Path(args.vault_path).resolve()
     TEMPLATES_DIR = VAULT_ROOT / "Templates"
     AGENTS_DIR = VAULT_ROOT / "Agents"

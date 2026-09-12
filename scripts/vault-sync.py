@@ -32,7 +32,7 @@ BRIEFINGS_DIR = VAULT_ROOT / "memory" / "cross-agent"
 DIGESTS_DIR = VAULT_ROOT / "memory" / "session-notes"
 HEARTBEAT = VAULT_ROOT / "agents" / "system" / "heartbeat.md"
 
-AGENT_IDS = ["hermes", "claude", "codex", "gemini", "prime"]
+AGENT_IDS = ["hermes", "claude", "codex", "gemini", "prime", "browseros"]
 
 AGENT_SOURCES = {
     "hermes": [Path("C:/Users/asus/AppData/Local/hermes/sessions")],
@@ -40,6 +40,7 @@ AGENT_SOURCES = {
     "codex": [Path("C:/Users/asus/.codex/sessions")],
     "gemini": [Path("C:/Users/asus/.gemini/tmp"), Path("C:/Users/asus/.gemini/history")],
     "prime": [Path("C:/Users/asus/.prime/sessions")],
+    "browseros": [Path("C:/Users/asus/.browseros/sessions")],
 }
 
 ACTIVITY_WINDOW_HOURS = 26.0

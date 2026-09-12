@@ -32,15 +32,26 @@ BRIEFINGS_DIR = VAULT_ROOT / "memory" / "cross-agent"
 DIGESTS_DIR = VAULT_ROOT / "memory" / "session-notes"
 HEARTBEAT = VAULT_ROOT / "agents" / "system" / "heartbeat.md"
 
-AGENT_IDS = ["hermes", "claude", "codex", "gemini", "prime", "browseros"]
+CORE_AGENT_IDS = ["hermes", "claude", "codex", "gemini", "prime", "browseros"]
+KNOWN_AGENT_IDS = [
+    "hermes", "claude", "codex", "gemini", "prime", "browseros",
+    "cline", "roo-cline", "cursor", "copilot", "kilo-code", "open-code"
+]
+AGENT_IDS = KNOWN_AGENT_IDS
 
 AGENT_SOURCES = {
-    "hermes": [Path("C:/Users/asus/AppData/Local/hermes/sessions")],
+    "hermes": [Path("C:/Users/asus/AppData/Local/hermes/sessions"), Path("C:/Users/asus/.hermes/sessions")],
     "claude": [Path("C:/Users/asus/.claude/projects")],
     "codex": [Path("C:/Users/asus/.codex/sessions")],
     "gemini": [Path("C:/Users/asus/.gemini/antigravity/brain"), Path("C:/Users/asus/.gemini/tmp"), Path("C:/Users/asus/.gemini/history")],
     "prime": [Path("C:/Users/asus/.prime/sessions")],
     "browseros": [Path("C:/Users/asus/.browseros/sessions")],
+    "cline": [Path("C:/Users/asus/AppData/Roaming/Code/User/globalStorage/saoudrizwan.claude-dev/tasks")],
+    "roo-cline": [Path("C:/Users/asus/AppData/Roaming/Code/User/globalStorage/rooveterinaryinc.roo-cline/tasks")],
+    "cursor": [Path("C:/Users/asus/AppData/Roaming/Cursor/User/workspaceStorage")],
+    "copilot": [Path("C:/Users/asus/.copilot")],
+    "kilo-code": [Path("C:/Users/asus/.kilocode/globalStorage"), Path("C:/Users/asus/.kilocode/workspaceStorage")],
+    "open-code": [Path("C:/Users/asus/.opencode/agents")],
 }
 
 ACTIVITY_WINDOW_HOURS = 26.0
@@ -61,6 +72,34 @@ def now_utc():
 
 def safe_name(s):
     return re.sub(r"[^A-Za-z0-9_-]", "_", str(s))[:80]
+
+
+def safe_agent_id(s):
+    if not s:
+        return "unknown-agent"
+    cleaned = re.sub(r"[^A-Za-z0-9_-]", "-", str(s).strip().lower())
+    return cleaned[:64] or "unknown-agent"
+
+
+def get_tracked_agents():
+    """Discover all active and known agent IDs across configuration and vault directories."""
+    agents = set(KNOWN_AGENT_IDS)
+    if AGENTS_DIR.is_dir():
+        for d in AGENTS_DIR.iterdir():
+            if d.is_dir() and d.name != "system" and not d.name.startswith("."):
+                agents.add(d.name)
+    return sorted(agents)
+
+
+def ensure_agent_dirs(agent_id):
+    """Dynamically initialize agent subdirectories (sessions and memory) if missing."""
+    agent_id = safe_agent_id(agent_id)
+    agent_dir = AGENTS_DIR / agent_id
+    sessions_dir = agent_dir / "sessions"
+    memory_dir = agent_dir / "memory"
+    sessions_dir.mkdir(parents=True, exist_ok=True)
+    memory_dir.mkdir(parents=True, exist_ok=True)
+    return sessions_dir, memory_dir
 
 
 def redact(text):
@@ -142,6 +181,8 @@ def find_latest_meaningful(files):
 # ── writers ─────────────────────────────────────────────────────────────────
 
 def write_session(agent_id, session_id, summary, status="completed", source="manual"):
+    agent_id = safe_agent_id(agent_id)
+    ensure_agent_dirs(agent_id)
     fm = build_fm({
         "agent": agent_id,
         "session_id": session_id,
@@ -160,6 +201,8 @@ def write_session(agent_id, session_id, summary, status="completed", source="man
 
 
 def write_memory(agent_id, content_text, importance="medium", memory_type="episodic"):
+    agent_id = safe_agent_id(agent_id)
+    ensure_agent_dirs(agent_id)
     fm = build_fm({
         "agent": agent_id,
         "memory_type": memory_type,
@@ -175,6 +218,8 @@ def write_memory(agent_id, content_text, importance="medium", memory_type="episo
 
 def read_agent_memory(agent_id, limit=50):
     """Return recent memory + session notes for an agent, newest first."""
+    agent_id = safe_agent_id(agent_id)
+    ensure_agent_dirs(agent_id)
     out = {"agent": agent_id, "generated_at": now_utc().isoformat(), "sessions": [], "memory": []}
     for sub, key in (("sessions", "sessions"), ("memory", "memory")):
         d = AGENTS_DIR / agent_id / sub
@@ -218,9 +263,10 @@ def newest_artifact_mtime(files):
 
 
 def cmd_sync(args):
-    agents = [args.agent] if args.agent else AGENT_IDS
+    agents = [safe_agent_id(args.agent)] if args.agent else get_tracked_agents()
     results = {}
     for agent_id in agents:
+        ensure_agent_dirs(agent_id)
         files = discover_recent(agent_id, ACTIVITY_WINDOW_HOURS)
         if not files:
             results[agent_id] = {"status": "no recent activity", "logged": False}
@@ -243,16 +289,18 @@ def cmd_sync(args):
 
 
 def cmd_log(args):
-    if not args.agent or args.agent not in AGENT_IDS:
-        print("[ERROR] --agent required (one of: " + ", ".join(AGENT_IDS) + ")", file=sys.stderr)
+    if not args.agent or not str(args.agent).strip():
+        print("[ERROR] --agent required (universal agent identifier)", file=sys.stderr)
         return 1
+    agent_id = safe_agent_id(args.agent)
+    ensure_agent_dirs(agent_id)
     if args.memory:
-        dest = write_memory(args.agent, args.memory, importance=args.importance or "medium",
+        dest = write_memory(agent_id, args.memory, importance=args.importance or "medium",
                             memory_type=args.memory_type or "episodic")
         print(json.dumps({"status": "ok", "memory_file": str(dest)}))
         return 0
     if args.summary and args.session_id:
-        dest = write_session(args.agent, args.session_id, args.summary,
+        dest = write_session(agent_id, args.session_id, args.summary,
                              status=args.status or "completed", source="manual")
         print(json.dumps({"status": "ok", "session_file": str(dest)}))
         return 0
@@ -261,10 +309,12 @@ def cmd_log(args):
 
 
 def cmd_read(args):
-    if not args.agent:
+    if not args.agent or not str(args.agent).strip():
         print("[ERROR] --agent required", file=sys.stderr)
         return 1
-    print(json.dumps(read_agent_memory(args.agent), indent=2))
+    agent_id = safe_agent_id(args.agent)
+    ensure_agent_dirs(agent_id)
+    print(json.dumps(read_agent_memory(agent_id), indent=2))
     return 0
 
 
@@ -275,7 +325,8 @@ def cmd_brief(args):
              "Generated: " + now_utc().isoformat(), "",
              "What each agent did in the last 24h:", ""]
     any_activity = False
-    for agent_id in AGENT_IDS:
+    tracked = get_tracked_agents()
+    for agent_id in tracked:
         d = AGENTS_DIR / agent_id / "sessions"
         recent = []
         if d.is_dir():
@@ -296,7 +347,7 @@ def cmd_brief(args):
                 body = "(unreadable)"
             lines.append("- latest: " + body)
             lines.append("")
-        else:
+        elif agent_id in CORE_AGENT_IDS:
             lines.append("## " + agent_id)
             lines.append("- no logged activity in last 24h")
             lines.append("")
@@ -317,7 +368,7 @@ def cmd_digest(args):
     lines = ["# Weekly Digest " + week_label, "",
              "Generated: " + now_utc().isoformat(), ""]
     total = 0
-    for agent_id in AGENT_IDS:
+    for agent_id in get_tracked_agents():
         d = AGENTS_DIR / agent_id / "sessions"
         recent = []
         if d.is_dir():
@@ -355,9 +406,10 @@ def cmd_heartbeat(args):
 
 
 def cmd_status(args):
+    tracked = get_tracked_agents()
     print("Vault: " + str(VAULT_ROOT))
-    print("Agents tracked: " + ", ".join(AGENT_IDS))
-    for agent_id in AGENT_IDS:
+    print("Agents tracked (" + str(len(tracked)) + "): " + ", ".join(tracked))
+    for agent_id in tracked:
         sd = AGENTS_DIR / agent_id / "sessions"
         md = AGENTS_DIR / agent_id / "memory"
         ns = len(list(sd.glob("*.md"))) if sd.is_dir() else 0
@@ -418,14 +470,14 @@ def cmd_commit(args):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Obsidian AI Memory vault sync v2")
+    parser = argparse.ArgumentParser(description="Obsidian AI Memory vault sync v2 (Universal Adapter)")
     sub = parser.add_subparsers(dest="command")
 
     p_sync = sub.add_parser("sync")
-    p_sync.add_argument("--agent", choices=AGENT_IDS)
+    p_sync.add_argument("--agent", help="Universal agent identifier")
 
     p_log = sub.add_parser("log")
-    p_log.add_argument("--agent", choices=AGENT_IDS, required=True)
+    p_log.add_argument("--agent", required=True, help="Universal agent identifier")
     p_log.add_argument("--session-id")
     p_log.add_argument("--summary")
     p_log.add_argument("--status")
@@ -434,7 +486,7 @@ def main():
     p_log.add_argument("--memory-type")
 
     p_read = sub.add_parser("read")
-    p_read.add_argument("--agent", choices=AGENT_IDS, required=True)
+    p_read.add_argument("--agent", required=True, help="Universal agent identifier")
 
     for name in ("brief", "digest", "heartbeat", "status"):
         sub.add_parser(name)

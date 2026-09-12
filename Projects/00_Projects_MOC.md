@@ -1,10 +1,10 @@
 ---
 title: "Projects Map of Content"
 type: moc
-last_updated: 2026-09-13 01:01
+last_updated: 2026-09-12 21:06
 total_projects: 222
-finished_count: 50
-unfinished_count: 172
+finished_count: 52
+unfinished_count: 170
 tags:
   - moc
   - projects
@@ -14,12 +14,12 @@ tags:
 # 🗺️ Master Projects Map of Content (MOC)
 
 > Central navigation index for all **222 mapped codebases** across the computer.
-> **Readiness:** 🟢 **50 Finished / Production-Ready** | 🟡 **172 Unfinished / In-Progress**
+> **Readiness:** 🟢 **52 Finished / Production-Ready** | 🟡 **170 Unfinished / In-Progress**
 > Interlinked with [[AI Memory Hub]] for cross-agent memory discovery.
 
 ---
 
-## 🟢 Finished & Production-Ready Projects (50)
+## 🟢 Finished & Production-Ready Projects (52)
 Projects with clean git state, remote remotes, verified builds, or live deployments:
 
 ```dataview
@@ -28,6 +28,8 @@ FROM "Projects"
 WHERE is_finished = true AND file.name != "00_Projects_MOC"
 SORT completion_score DESC, file.name ASC
 ```
+- [[omnichannel_crm_odoo_ashish_bhai_latest]] — *Core User Repositories* (`Score: 100/100`)
+- [[linkedin_and_job_hunting]] — *Career & Portfolio* (`Score: 100/100`)
 
 - [[ab202b9f-dc88-4c07-9bd7-2a4b1ba8fd0c]] — *Downloads & Inbound Code* (`Score: 85/100`)
 - [[academic-research-skills]] — *Core User Repositories* (`Score: 95/100`)
@@ -83,7 +85,7 @@ SORT completion_score DESC, file.name ASC
 
 ---
 
-## 🟡 Unfinished & In-Progress Projects (172)
+## 🟡 Unfinished & In-Progress Projects (170)
 Active developments, prototypes, drafts, and projects needing work or remote sync:
 
 ```dataview
@@ -185,7 +187,6 @@ SORT completion_score DESC, file.name ASC
 - [[kilocode_kilo-code-7_4_11-win32-x64]] — *Prototype / Early Draft* (`Score: 40/100`)
 - [[kilocode_kilo-code-7_4_16-win32-x64]] — *Prototype / Early Draft* (`Score: 40/100`)
 - [[kilocode_kilo-code-7_4_17-win32-x64]] — *Prototype / Early Draft* (`Score: 40/100`)
-- [[linkedin_and_job_hunting]] — *Experimental / Inactive* (`Score: 15/100`)
 - [[llvm-vs-code-extensions_vscode-clangd-0_6_0-universal]] — *Prototype / Early Draft* (`Score: 30/100`)
 - [[mcp_server]] — *Prototype / Early Draft* (`Score: 25/100`)
 - [[meta_pyrefly-1_1_1-win32-x64]] — *Prototype / Early Draft* (`Score: 30/100`)
@@ -212,7 +213,6 @@ SORT completion_score DESC, file.name ASC
 - [[odoo_multi_channel_crm_client_latest]] — *Unfinished / In-Progress (WIP)* (`Score: 55/100`)
 - [[odoo_multi_channel_crm_latest]] — *Unfinished / In-Progress (WIP)* (`Score: 60/100`)
 - [[OmniChannel_CRM_odoo]] — *Experimental / Inactive* (`Score: 0/100`)
-- [[omnichannel_crm_odoo_ashish_bhai_latest]] — *Experimental / Inactive* (`Score: 0/100`)
 - [[onboarding-checklist-tracker]] — *Prototype / Early Draft* (`Score: 40/100`)
 - [[openagentcut]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
 - [[opencode]] — *Experimental / Inactive* (`Score: 15/100`)

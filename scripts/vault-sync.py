@@ -38,7 +38,7 @@ AGENT_SOURCES = {
     "hermes": [Path("C:/Users/asus/AppData/Local/hermes/sessions")],
     "claude": [Path("C:/Users/asus/.claude/projects")],
     "codex": [Path("C:/Users/asus/.codex/sessions")],
-    "gemini": [Path("C:/Users/asus/.gemini/tmp"), Path("C:/Users/asus/.gemini/history")],
+    "gemini": [Path("C:/Users/asus/.gemini/antigravity/brain"), Path("C:/Users/asus/.gemini/tmp"), Path("C:/Users/asus/.gemini/history")],
     "prime": [Path("C:/Users/asus/.prime/sessions")],
     "browseros": [Path("C:/Users/asus/.browseros/sessions")],
 }

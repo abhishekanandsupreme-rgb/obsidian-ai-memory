@@ -1,10 +1,10 @@
 ---
 title: "Projects Map of Content"
 type: moc
-last_updated: 2026-09-12 21:06
+last_updated: 2026-09-12 21:10
 total_projects: 222
-finished_count: 52
-unfinished_count: 170
+finished_count: 53
+unfinished_count: 169
 tags:
   - moc
   - projects
@@ -14,12 +14,12 @@ tags:
 # 🗺️ Master Projects Map of Content (MOC)
 
 > Central navigation index for all **222 mapped codebases** across the computer.
-> **Readiness:** 🟢 **52 Finished / Production-Ready** | 🟡 **170 Unfinished / In-Progress**
+> **Readiness:** 🟢 **53 Finished / Production-Ready** | 🟡 **169 Unfinished / In-Progress**
 > Interlinked with [[AI Memory Hub]] for cross-agent memory discovery.
 
 ---
 
-## 🟢 Finished & Production-Ready Projects (52)
+## 🟢 Finished & Production-Ready Projects (53)
 Projects with clean git state, remote remotes, verified builds, or live deployments:
 
 ```dataview
@@ -28,6 +28,7 @@ FROM "Projects"
 WHERE is_finished = true AND file.name != "00_Projects_MOC"
 SORT completion_score DESC, file.name ASC
 ```
+- [[sales-pipeline]] — *Core User Repositories* (`Score: 90/100`)
 - [[omnichannel_crm_odoo_ashish_bhai_latest]] — *Core User Repositories* (`Score: 100/100`)
 - [[linkedin_and_job_hunting]] — *Career & Portfolio* (`Score: 100/100`)
 
@@ -85,7 +86,7 @@ SORT completion_score DESC, file.name ASC
 
 ---
 
-## 🟡 Unfinished & In-Progress Projects (170)
+## 🟡 Unfinished & In-Progress Projects (169)
 Active developments, prototypes, drafts, and projects needing work or remote sync:
 
 ```dataview
@@ -233,7 +234,6 @@ SORT completion_score DESC, file.name ASC
 - [[rooveterinaryinc_roo-cline-3_54_0-universal]] — *Prototype / Early Draft* (`Score: 30/100`)
 - [[rooveterinaryinc_roo-cline-3_54_0-universal]] — *Prototype / Early Draft* (`Score: 30/100`)
 - [[rooveterinaryinc_roo-cline-3_54_0-universal]] — *Prototype / Early Draft* (`Score: 30/100`)
-- [[sales-pipeline]] — *Experimental / Inactive* (`Score: 15/100`)
 - [[sales-playbook]] — *Experimental / Inactive* (`Score: 15/100`)
 - [[saoudrizwan_claude-dev-3_88_1-universal]] — *Prototype / Early Draft* (`Score: 40/100`)
 - [[saoudrizwan_claude-dev-4_0_11-universal]] — *Prototype / Early Draft* (`Score: 40/100`)

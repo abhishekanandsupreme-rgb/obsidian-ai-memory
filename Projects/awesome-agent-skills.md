@@ -1,44 +1,56 @@
 ---
 title: "awesome-agent-skills"
 type: project
-category: "Core Repositories & Tools"
-status: active
+category: "Core User Repositories"
+status: "Finished / Production-Ready"
+completion_score: 75
+is_finished: true
 tech_stack: []
 path: "C:/Users/asus/awesome-agent-skills"
 git_remote: "https://github.com/VoltAgent/awesome-agent-skills.git"
+git_branch: "main"
+git_dirty: false
+last_commit: "2026-08-03"
 created_at: 2026-09-13
-last_mapped: 2026-09-13 00:29:16
+last_mapped: 2026-09-13 01:00:59
 tags:
   - project
-  - core-repositories-and-tools
+  - project-finished
+  - core-user-repositories
 ---
 
 # awesome-agent-skills
 
-> **Category:** `Core Repositories & Tools` | **Status:** `Active`
+> **Category:** `Core User Repositories`
+> **Lifecycle Status:** `Finished / Production-Ready` (Health Score: **75/100**)
 > **Local Path:** `C:/Users/asus/awesome-agent-skills`
 > **Git Remote:** [https://github.com/VoltAgent/awesome-agent-skills.git](https://github.com/VoltAgent/awesome-agent-skills.git)
 
 ---
 
+## 📊 Lifecycle & Readiness Analysis
+- Pushed to remote git repository
+- Working tree clean (all changes committed)
+- README documentation present
+
 ## 🧭 Overview & Mission
-<a href="https://github.com/VoltAgent/voltagent"> <img width="1500" alt="claude-skills" src="https://github.com/user-attachments/assets/0db54cfc-f3dd-4683-abbb-e4c01d9dfb5d" /> </a> <br/> <br/> <div align="center"> <strong>A collection of official Agent Skills from leading development teams and the community. <br /> Hand-picked, not AI-slop generated. </strong> <br /> <br /> </div> <div align="center"> [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Skills Count](https://img.shields.io/badge/Skills-1497+-blue?style=flat-square) ![Last Update](https://img.shields.io/github/last
+<a href="https://github.com/VoltAgent/voltagent"> <img width="1500" alt="claude-skills" src="https://github.com/user-attachments/assets/0db54cfc-f3dd-4683-abbb-e4c01d9dfb5d" /> </a> <br/> <br/> <div align="center"> <strong>A collection of official Agent Skills from leading development teams and the community. <br /> Hand-picked, not AI-slop generated. </strong> <br /> <br /> </div> <div align="center"> [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Skills Count](https://img.shi
 
 ## 🛠️ Technology Stack
-- **Core Tech:** General / Automation
-- **Vault Integrations:** [[AI Memory Hub]] | [[00_Projects_MOC]]
+- **Languages & Frameworks:** General / Scripts
+- **Obsidian Graph:** [[AI Memory Hub]] | [[00_Projects_MOC]]
 
-## 📂 Key Architecture & Directories
-- **Sub-Modules:** Flat structure
-- **Key Artifacts:** `CONTRIBUTING.md`, `LICENSE`, `README.md`
+## 📂 Key Architecture
+- **Sub-Modules:** Flat
+- **Artifacts:** `CONTRIBUTING.md`, `LICENSE`, `README.md`
 
-## 🚀 Execution & Developer Quickstart
+## 🚀 Developer Run & Next Steps
 ```bash
 cd "C:/Users/asus/awesome-agent-skills"
-See project documentation
+See documentation
 ```
+- **Next Action:** Deploy/Publish
 
-## 🔗 Interlinks & Knowledge Connections
-- Master Index: [[00_Projects_MOC|Projects Map of Content]]
-- Central Brain Hub: [[AI Memory Hub]]
-- Category: [[Core Repositories & Tools]]
+## 🔗 Interlinks
+- Master Index: [[00_Projects_MOC]]
+- Category Hub: [[Core User Repositories]]

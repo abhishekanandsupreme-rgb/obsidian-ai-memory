@@ -1,44 +1,57 @@
 ---
 title: "MoneyPrinterTurbo"
 type: project
-category: "Core Repositories & Tools"
-status: active
-tech_stack: ["Streamlit", "Python", "FastAPI", "Docker"]
+category: "Core User Repositories"
+status: "Prototype / Early Draft"
+completion_score: 40
+is_finished: false
+tech_stack: ["Python", "Streamlit", "Docker", "FastAPI"]
 path: "C:/Users/asus/MoneyPrinterTurbo"
 git_remote: ""
+git_branch: ""
+git_dirty: false
+last_commit: ""
 created_at: 2026-09-13
-last_mapped: 2026-09-13 00:29:16
+last_mapped: 2026-09-13 01:01:06
 tags:
   - project
-  - core-repositories-and-tools
+  - project-prototype
+  - core-user-repositories
 ---
 
 # MoneyPrinterTurbo
 
-> **Category:** `Core Repositories & Tools` | **Status:** `Active`
+> **Category:** `Core User Repositories`
+> **Lifecycle Status:** `Prototype / Early Draft` (Health Score: **40/100**)
 > **Local Path:** `C:/Users/asus/MoneyPrinterTurbo`
 > **Git Remote:** `Local Only / Unpushed`
 
 ---
 
+## 📊 Lifecycle & Readiness Analysis
+- No git tracking configured
+- README documentation present
+- Standard dependency manifest present
+- Unit/integration test suite included
+
 ## 🧭 Overview & Mission
-<div align="center"> 只需提供视频<b>主题</b>或<b>关键词</b>，即可自动生成视频脚本、匹配素材、生成字幕和背景音乐，并合成高清短视频。 [![Version](https://img.shields.io/github/v/release/harry0703/MoneyPrinterTurbo?color=blue&label=version)](https://github.com/harry0703/MoneyPrinterTurbo/releases) [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](https://github.com/harry0703/MoneyPrinterTurbo/releases/latest) [![Python](https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/) [![Downloads](https://img.shields.io/github/downloads/harry0703/Mone
+<div align="center"> 只需提供视频<b>主题</b>或<b>关键词</b>，即可自动生成视频脚本、匹配素材、生成字幕和背景音乐，并合成高清短视频。 [![Version](https://img.shields.io/github/v/release/harry0703/MoneyPrinterTurbo?color=blue&label=version)](https://github.com/harry0703/MoneyPrinterTurbo/releases) [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](https://github.com/harry0703/MoneyPrinterTurbo/releases/latest) [![Python](https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=w
 
 ## 🛠️ Technology Stack
-- **Core Tech:** Streamlit, Python, FastAPI, Docker
-- **Vault Integrations:** [[AI Memory Hub]] | [[00_Projects_MOC]]
+- **Languages & Frameworks:** Python, Streamlit, Docker, FastAPI
+- **Obsidian Graph:** [[AI Memory Hub]] | [[00_Projects_MOC]]
 
-## 📂 Key Architecture & Directories
-- **Sub-Modules:** `app/`, `docs/`, `media_clips/`, `resource/`, `test/`, `test_tts_samples/`, `video_clips/`, `video_frames/`, `video_segments/`, `webui/`
-- **Key Artifacts:** `build_with_pexels.py`, `cli.py`, `config.example.toml`, `config.toml`, `docker-compose.gpu.yml`, `docker-compose.release.yml`, `docker-compose.yml`, `Dockerfile`, `Dockerfile.gpu`, `download_clips.py`, `extracted_audio.aac`, `ffmpeg_concat.txt`, `generate_cinematic_video.py`, `generate_full_video.py`, `LICENSE`
+## 📂 Key Architecture
+- **Sub-Modules:** `app/`, `docs/`, `media_clips/`, `resource/`, `test/`, `test_tts_samples/`, `video_clips/`, `video_frames/`
+- **Artifacts:** `build_with_pexels.py`, `cli.py`, `config.example.toml`, `config.toml`, `docker-compose.gpu.yml`, `docker-compose.release.yml`, `docker-compose.yml`, `Dockerfile`, `Dockerfile.gpu`, `download_clips.py`, `extracted_audio.aac`, `ffmpeg_concat.txt`
 
-## 🚀 Execution & Developer Quickstart
+## 🚀 Developer Run & Next Steps
 ```bash
 cd "C:/Users/asus/MoneyPrinterTurbo"
 python main.py
 ```
+- **Next Action:** Complete core features, resolve git status, and push to remote.
 
-## 🔗 Interlinks & Knowledge Connections
-- Master Index: [[00_Projects_MOC|Projects Map of Content]]
-- Central Brain Hub: [[AI Memory Hub]]
-- Category: [[Core Repositories & Tools]]
+## 🔗 Interlinks
+- Master Index: [[00_Projects_MOC]]
+- Category Hub: [[Core User Repositories]]

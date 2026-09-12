@@ -1,44 +1,55 @@
 ---
 title: "healthfit-saas"
 type: project
-category: "Core Repositories & Tools"
-status: active
+category: "Core User Repositories"
+status: "Experimental / Inactive"
+completion_score: 15
+is_finished: false
 tech_stack: ["Next.js", "Node.js", "TypeScript"]
 path: "C:/Users/asus/healthfit-saas"
 git_remote: ""
+git_branch: ""
+git_dirty: false
+last_commit: ""
 created_at: 2026-09-13
-last_mapped: 2026-09-13 00:29:16
+last_mapped: 2026-09-13 01:01:05
 tags:
   - project
-  - core-repositories-and-tools
+  - project-unfinished
+  - core-user-repositories
 ---
 
 # healthfit-saas
 
-> **Category:** `Core Repositories & Tools` | **Status:** `Active`
+> **Category:** `Core User Repositories`
+> **Lifecycle Status:** `Experimental / Inactive` (Health Score: **15/100**)
 > **Local Path:** `C:/Users/asus/healthfit-saas`
 > **Git Remote:** `Local Only / Unpushed`
 
 ---
 
+## 📊 Lifecycle & Readiness Analysis
+- No git tracking configured
+- Standard dependency manifest present
+
 ## 🧭 Overview & Mission
-Core codebase repository. Detailed documentation dynamically linked in project architecture.
+Repository codebase mapped from computer disk.
 
 ## 🛠️ Technology Stack
-- **Core Tech:** Next.js, Node.js, TypeScript
-- **Vault Integrations:** [[AI Memory Hub]] | [[00_Projects_MOC]]
+- **Languages & Frameworks:** Next.js, Node.js, TypeScript
+- **Obsidian Graph:** [[AI Memory Hub]] | [[00_Projects_MOC]]
 
-## 📂 Key Architecture & Directories
+## 📂 Key Architecture
 - **Sub-Modules:** `node_modules/`, `src/`
-- **Key Artifacts:** `next-env.d.ts`, `next.config.mjs`, `package-lock.json`, `package.json`, `tsconfig.json`
+- **Artifacts:** `next-env.d.ts`, `next.config.mjs`, `package-lock.json`, `package.json`, `tsconfig.json`
 
-## 🚀 Execution & Developer Quickstart
+## 🚀 Developer Run & Next Steps
 ```bash
 cd "C:/Users/asus/healthfit-saas"
 npm run dev
 ```
+- **Next Action:** Complete core features, resolve git status, and push to remote.
 
-## 🔗 Interlinks & Knowledge Connections
-- Master Index: [[00_Projects_MOC|Projects Map of Content]]
-- Central Brain Hub: [[AI Memory Hub]]
-- Category: [[Core Repositories & Tools]]
+## 🔗 Interlinks
+- Master Index: [[00_Projects_MOC]]
+- Category Hub: [[Core User Repositories]]

@@ -1,6 +1,6 @@
 # Cross-Agent Briefing
 
-Generated: 2026-09-12T19:23:10.014872+00:00
+Generated: 2026-09-12T20:13:21.392145+00:00
 
 What each agent did in the last 24h:
 
@@ -13,8 +13,8 @@ What each agent did in the last 24h:
 ## codex
 - no logged activity in last 24h
 
-## gemini (2 session log(s))
-- latest: # Session gemini-20260912-1923 ## Summary Detected 765 recent artifacts in gemini store (26h window). Notable: 00000000.jsonl, 00000001.jsonl, 00000002.jsonl, 00000003.jsonl, 00000004.jsonl .... Newest: transcript.jsonl. Logged at: 2026-09-12T19:23:09.904996+00:00
+## gemini (7 session log(s))
+- latest: # Session gemini-20260912-2013 ## Summary Detected 715 recent artifacts in gemini store (26h window). Notable: 00000000.jsonl, 00000001.jsonl, 00000002.jsonl, 00000003.jsonl, 00000004.jsonl .... Newest: transcript.jsonl. Logged at: 2026-09-12T20:13:15.104114+00:00
 
 ## prime
 - no logged activity in last 24h

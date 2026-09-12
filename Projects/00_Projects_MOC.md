@@ -1,7 +1,10 @@
 ---
 title: "Projects Map of Content"
 type: moc
-last_updated: 2026-09-13 00:29
+last_updated: 2026-09-13 01:01
+total_projects: 222
+finished_count: 50
+unfinished_count: 172
 tags:
   - moc
   - projects
@@ -10,117 +13,265 @@ tags:
 
 # 🗺️ Master Projects Map of Content (MOC)
 
-> Central navigation index for all **73 mapped repositories and codebases** across the computer.
-> Interlinked with [[AI Memory Hub]] for cross-agent discovery.
+> Central navigation index for all **222 mapped codebases** across the computer.
+> **Readiness:** 🟢 **50 Finished / Production-Ready** | 🟡 **172 Unfinished / In-Progress**
+> Interlinked with [[AI Memory Hub]] for cross-agent memory discovery.
 
 ---
+
+## 🟢 Finished & Production-Ready Projects (50)
+Projects with clean git state, remote remotes, verified builds, or live deployments:
 
 ```dataview
-TABLE category, tech_stack, status, last_mapped
+TABLE category, tech_stack, completion_score, git_remote
 FROM "Projects"
-WHERE file.name != "00_Projects_MOC"
-SORT category ASC, file.name ASC
+WHERE is_finished = true AND file.name != "00_Projects_MOC"
+SORT completion_score DESC, file.name ASC
 ```
 
----
+- [[ab202b9f-dc88-4c07-9bd7-2a4b1ba8fd0c]] — *Downloads & Inbound Code* (`Score: 85/100`)
+- [[academic-research-skills]] — *Core User Repositories* (`Score: 95/100`)
+- [[agent-skills]] — *Core User Repositories* (`Score: 75/100`)
+- [[ai-memory]] — *Core User Repositories* (`Score: 110/100`)
+- [[audit-architecture]] — *Downloads & Inbound Code* (`Score: 85/100`)
+- [[audit-logic]] — *Downloads & Inbound Code* (`Score: 85/100`)
+- [[audit-performance]] — *Downloads & Inbound Code* (`Score: 85/100`)
+- [[audit-security]] — *Downloads & Inbound Code* (`Score: 85/100`)
+- [[awesome-agent-skills]] — *Core User Repositories* (`Score: 75/100`)
+- [[awesome-gpt-image-2]] — *Core User Repositories* (`Score: 75/100`)
+- [[career-ops]] — *Downloads & Inbound Code* (`Score: 85/100`)
+- [[career-ops]] — *Core User Repositories* (`Score: 85/100`)
+- [[CL4R1T4S]] — *Personal Data & Ventures* (`Score: 85/100`)
+- [[claude-youtube-editor]] — *Core User Repositories* (`Score: 75/100`)
+- [[code-cli]] — *Core User Repositories* (`Score: 110/100`)
+- [[competitor_price_matcher]] — *Personal Data & Ventures* (`Score: 85/100`)
+- [[courier-skills]] — *Core User Repositories* (`Score: 75/100`)
+- [[crawl4ai]] — *Core User Repositories* (`Score: 110/100`)
+- [[factory-plugins]] — *Core User Repositories* (`Score: 75/100`)
+- [[figma]] — *Core User Repositories* (`Score: 75/100`)
+- [[firebase]] — *Core User Repositories* (`Score: 75/100`)
+- [[freellmapi]] — *Core User Repositories* (`Score: 100/100`)
+- [[healthcare-saas]] — *Core User Repositories* (`Score: 95/100`)
+- [[healthcare-saas-remote]] — *Core User Repositories* (`Score: 100/100`)
+- [[hyperframes]] — *Core User Repositories* (`Score: 100/100`)
+- [[i-have-adhd]] — *Core User Repositories* (`Score: 110/100`)
+- [[mattpocock-skills]] — *Core User Repositories* (`Score: 100/100`)
+- [[n8n]] — *Client & Side Projects* (`Score: 75/100`)
+- [[netlify-deployment]] — *Core User Repositories* (`Score: 90/100`)
+- [[odoo_multi_channel_crm]] — *Core User Repositories* (`Score: 80/100`)
+- [[open-seo]] — *Core User Repositories* (`Score: 100/100`)
+- [[OpenCut]] — *Core User Repositories* (`Score: 85/100`)
+- [[OpenMontage]] — *Personal Data & Ventures* (`Score: 95/100`)
+- [[reclip]] — *Core User Repositories* (`Score: 100/100`)
+- [[repo]] — *Core User Repositories* (`Score: 100/100`)
+- [[reverse-skill]] — *Core User Repositories* (`Score: 85/100`)
+- [[scientific-agent-skills]] — *Core User Repositories* (`Score: 80/100`)
+- [[skills]] — *Core User Repositories* (`Score: 75/100`)
+- [[skills]] — *Core User Repositories* (`Score: 85/100`)
+- [[strix]] — *Personal Data & Ventures* (`Score: 80/100`)
+- [[supabase-hosted]] — *Core User Repositories* (`Score: 75/100`)
+- [[supabase-local]] — *Core User Repositories* (`Score: 75/100`)
+- [[superpowers]] — *Core User Repositories* (`Score: 100/100`)
+- [[superpowers-marketplace]] — *Core User Repositories* (`Score: 75/100`)
+- [[system-prompts-and-models-of-ai-tools]] — *Personal Data & Ventures* (`Score: 75/100`)
+- [[TencentDB-Agent-Memory]] — *Core User Repositories* (`Score: 85/100`)
+- [[trite-battery]] — *Core User Repositories* (`Score: 85/100`)
+- [[video-use]] — *Core User Repositories* (`Score: 80/100`)
+- [[voltagent]] — *Core User Repositories* (`Score: 90/100`)
+- [[zero-plugins]] — *Core User Repositories* (`Score: 75/100`)
 
-## 📂 Project Categories
-
-
-### 🏷️ Career & Portfolio (1)
-
-- [[linkedin_and_job_hunting]]
-
-### 🏷️ Client & CRM Solutions (3)
-
-- [[OmniChannel_CRM_odoo_orig]]
-- [[odoo_multi_channel_crm_client_latest]]
-- [[omnichannel_crm_odoo_ashish_bhai_latest]]
-
-### 🏷️ Client & Side Projects (10)
-
-- [[Affiliate_marketing_business_plus_other_side_gigs]]
-- [[Ai_hack_agent]]
-- [[AstroAI-android-feature-desi-connect-app-9924190810085556398]]
-- [[Personal_and_jobs]]
-- [[Ragdoll_Dodgeball]]
-- [[React_Duels]]
-- [[Yotube_automation__side_gigs]]
-- [[shashi-international-school]]
-- [[shashi_school_app]]
-- [[youtube_ai_song_music]]
-
-### 🏷️ Core Repositories & Tools (34)
-
-- [[Delta]]
-- [[MoneyPrinterTurbo]]
-- [[OpenCut]]
-- [[WorkBuddy]]
-- [[ZCodeProject]]
-- [[academic-research-skills]]
-- [[ad-orchestrator]]
-- [[ai-memory]]
-- [[ai-prompt-store]]
-- [[ansel]]
-- [[awesome-agent-skills]]
-- [[awesome-llm-apps]]
-- [[career-ops]]
-- [[crawl4ai]]
-- [[freellmapi]]
-- [[healthcare-saas]]
-- [[healthfit-saas]]
-- [[hyperframes]]
-- [[i-have-adhd]]
-- [[money-mission]]
-- [[news-pulse]]
-- [[open-seo]]
-- [[orca]]
-- [[portfolio-hub]]
-- [[prime-agent]]
-- [[rakazo]]
-- [[reclip]]
-- [[research]]
-- [[scientific-agent-skills]]
-- [[startup-os]]
-- [[superpowers]]
-- [[velocity-rush]]
-- [[video-use]]
-- [[work]]
-
-### 🏷️ Founder Mode SaaS (10)
-
-- [[churnradar]]
-- [[github-pr-template-enforcer]]
-- [[guardian-eye]]
-- [[multi-agent-pipeline]]
-- [[nutrition-label-decoder]]
-- [[onboarding-checklist-tracker]]
-- [[ranklens]]
-- [[replypilot]]
-- [[tokenguard]]
-- [[trustdesk]]
-
-### 🏷️ Personal Data & Ventures (15)
-
-- [[CL4R1T4S]]
-- [[OpenMontage]]
-- [[application_kit]]
-- [[apply_team]]
-- [[competitor_price_matcher]]
-- [[crewAI]]
-- [[crewai_new]]
-- [[posthog]]
-- [[posthog-repo]]
-- [[projects]]
-- [[records]]
-- [[resume]]
-- [[scratch]]
-- [[strix]]
-- [[system-prompts-and-models-of-ai-tools]]
 
 ---
 
-## ⚡ Quick Navigation
-- [[AI Memory Hub|🧠 AI Memory Hub (Master Dashboard)]]
-- [[00_Career_MOC|💼 Career & Personas Hub]]
-- [[00_Resources_MOC|📚 Resources & Toolkits Hub]]
+## 🟡 Unfinished & In-Progress Projects (172)
+Active developments, prototypes, drafts, and projects needing work or remote sync:
+
+```dataview
+TABLE category, status, tech_stack, completion_score
+FROM "Projects"
+WHERE is_finished = false AND file.name != "00_Projects_MOC"
+SORT completion_score DESC, file.name ASC
+```
+
+- [[_continue]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[_kilocode]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[_opencode]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[00646299-6eec-4e35-954b-749f4d216e4c]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[03dc6f41a414882318256679dd5b72dbf7cd58d33d5d59937cfc5fcf0e52d490]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[06dafc81-47b0-41ad-831c-5ab421be0a0e]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[0828626b-a3bd-4176-a8df-6ba6a25cfb48]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[0d0046ff-edf9-4a36-a3f9-8d45b8fe9809]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[194f7a93-7143-4f9b-a24f-9d8b609624ef]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[1d5969f9-aa45-4e78-8818-bc88013873ce]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[1e111d0b-0be5-4d11-98d0-b1f2cb755936]] — *Unfinished / In-Progress (WIP)* (`Score: 55/100`)
+- [[1f17d55d-3bf3-4251-a187-2e00f1892309]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[3096b02f-52e5-49e7-8de0-7aae1a90754e]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[3493971b-500c-40fc-9144-fa7c4a818b12]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[42e60169-736a-4e18-a9d9-24af1b355e27]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[476a0bcd-1dab-490a-aa0a-1279a4cfe400]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[55efbe3d-3d27-4548-9468-ae8a19890d58]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[58377c15-61ae-4c39-9a79-5e61c673cf60]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[65c45735-5af1-4ccd-a847-847548b9c0ea]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[69df70aa-d419-4393-b0e7-6909202b0605]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[6c5a7d42-2720-4e1d-b23a-99aba47b4ccb]] — *Prototype / Early Draft* (`Score: 35/100`)
+- [[77f26db1-58e1-4846-977a-842090a5199d]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[8f4738d6-f70d-43db-9e02-c69178ae6244]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[965b2d0f-4e6d-42fb-9b43-2fac4db57bde]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[98da3a45-3c49-4a33-9d0f-4c5f18a3644a]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[_mpt]] — *Prototype / Early Draft* (`Score: 40/100`)
+- [[ad-orchestrator]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[ai-prompt-store]] — *Unfinished / In-Progress (WIP)* (`Score: 70/100`)
+- [[ai-prompt-store-remote]] — *Unfinished / In-Progress (WIP)* (`Score: 70/100`)
+- [[akash-cx_blackbox-debug-0_1_2-universal]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[alert-dryosaurus]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[alert-dryosaurus]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[anthropic_claude-code-2_1_220-win32-x64]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[anysphere_remote-containers-1_0_37]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[anysphere_remote-ssh-1_0_54]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[anysphere_remote-wsl-1_0_13]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[api]] — *Prototype / Early Draft* (`Score: 40/100`)
+- [[arxiv-reader]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[assets]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[astro_vedic_darpan]] — *Unfinished / In-Progress (WIP)* (`Score: 55/100`)
+- [[astro_vedic_darpan]] — *Unfinished / In-Progress (WIP)* (`Score: 55/100`)
+- [[AstroAI-android-feature-desi-connect-app-9924190810085556398]] — *Unfinished / In-Progress (WIP)* (`Score: 70/100`)
+- [[AstroAI-android-feature-desi-connect-app-9924190810085556398]] — *Unfinished / In-Progress (WIP)* (`Score: 70/100`)
+- [[astroai-android-feature-desi-connect-app-9924190810085556398]] — *Prototype / Early Draft* (`Score: 20/100`)
+- [[audit-assets]] — *Unfinished / In-Progress (WIP)* (`Score: 70/100`)
+- [[awesome-design-md]] — *Unfinished / In-Progress (WIP)* (`Score: 70/100`)
+- [[awesome-llm-apps]] — *Unfinished / In-Progress (WIP)* (`Score: 70/100`)
+- [[b726c2ba-77fc-4252-bc4f-2f004197ce6a]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[blackboxapp_blackboxagent-3_3_33-universal]] — *Prototype / Early Draft* (`Score: 40/100`)
+- [[c3f8bab4-7a15-430f-b9bc-b573153ac573]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[canvases]] — *Experimental / Inactive* (`Score: 0/100`)
+- [[canvases]] — *Experimental / Inactive* (`Score: 0/100`)
+- [[capability-evolver]] — *Prototype / Early Draft* (`Score: 40/100`)
+- [[career-ops-main]] — *Prototype / Early Draft* (`Score: 40/100`)
+- [[career-ops-v2]] — *Unfinished / In-Progress (WIP)* (`Score: 60/100`)
+- [[churnradar]] — *Prototype / Early Draft* (`Score: 40/100`)
+- [[content-ops]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[continue_continue-2_0_0-win32-x64]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[conversion-ops]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[crewAI]] — *Prototype / Early Draft* (`Score: 35/100`)
+- [[crewai_new]] — *Unfinished / In-Progress (WIP)* (`Score: 70/100`)
+- [[d3ce36d6-3492-4b06-812f-caa9abaa2041]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[daee57dd-260d-4b68-b4d8-06a16d63062d]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[ddf97a35-1118-402d-bd48-9bf6648ac53e]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[earnings-tracker]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[email-skill]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[f04a374d-ee6a-40ba-94aa-edb2d8a4d863]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[f16f032d-6be2-492c-a17a-53cce370583b]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[f19cf9cd-eea1-4636-9cac-464d9abfe09b]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[f40044ac-7f45-4360-85e8-ee897a084f09]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[fbs-bookwriter]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[fd128361-5884-4b2d-a356-610d9897e951]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[finance-ops]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[fix4_desktop]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[flutter]] — *Unfinished / In-Progress (WIP)* (`Score: 70/100`)
+- [[flutter]] — *Unfinished / In-Progress (WIP)* (`Score: 55/100`)
+- [[frontend]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[functions]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[github-pr-template-enforcer]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[golang_go-0_56_0-universal]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[growth-engine]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[harmless-lead]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[harmless-lead]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[healthfit-saas]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[hf-cli]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[interactive_resume]] — *Unfinished / In-Progress (WIP)* (`Score: 70/100`)
+- [[kade_kade-4_0_4-universal]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[kilo]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[kilocode_kilo-code-7_3_40-win32-x64]] — *Prototype / Early Draft* (`Score: 40/100`)
+- [[kilocode_kilo-code-7_4_11-win32-x64]] — *Prototype / Early Draft* (`Score: 40/100`)
+- [[kilocode_kilo-code-7_4_16-win32-x64]] — *Prototype / Early Draft* (`Score: 40/100`)
+- [[kilocode_kilo-code-7_4_17-win32-x64]] — *Prototype / Early Draft* (`Score: 40/100`)
+- [[linkedin_and_job_hunting]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[llvm-vs-code-extensions_vscode-clangd-0_6_0-universal]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[mcp_server]] — *Prototype / Early Draft* (`Score: 25/100`)
+- [[meta_pyrefly-1_1_1-win32-x64]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[meta_pyrefly-1_2_0-win32-x64]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[microsoft-vs-code]] — *Prototype / Early Draft* (`Score: 20/100`)
+- [[MoneyPrinterTurbo]] — *Prototype / Early Draft* (`Score: 40/100`)
+- [[ms-azuretools_vscode-containers-2_4_5-universal]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[ms-azuretools_vscode-containers-2_4_5-universal]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[ms-azuretools_vscode-docker-2_0_0-universal]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[ms-python_debugpy-2026_6_0-win32-x64]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[ms-python_debugpy-2026_6_0-win32-x64]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[ms-python_python-2026_4_0-universal]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[ms-python_python-2026_4_0-universal]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[ms-python_vscode-python-envs-1_20_1-universal]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[ms-python_vscode-python-envs-1_20_1-universal]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[multi-agent-pipeline]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[my-career-ops]] — *Prototype / Early Draft* (`Score: 40/100`)
+- [[n8n-docker]] — *Experimental / Inactive* (`Score: 0/100`)
+- [[Obsidian_Vault]] — *Unfinished / In-Progress (WIP)* (`Score: 55/100`)
+- [[odoo-multi-channel-crm-client-latest]] — *Prototype / Early Draft* (`Score: 20/100`)
+- [[odoo_multi_channel_crm]] — *Unfinished / In-Progress (WIP)* (`Score: 60/100`)
+- [[odoo_multi_channel_crm]] — *Unfinished / In-Progress (WIP)* (`Score: 70/100`)
+- [[odoo_multi_channel_crm_client_latest]] — *Unfinished / In-Progress (WIP)* (`Score: 70/100`)
+- [[odoo_multi_channel_crm_client_latest]] — *Unfinished / In-Progress (WIP)* (`Score: 55/100`)
+- [[odoo_multi_channel_crm_latest]] — *Unfinished / In-Progress (WIP)* (`Score: 60/100`)
+- [[OmniChannel_CRM_odoo]] — *Experimental / Inactive* (`Score: 0/100`)
+- [[omnichannel_crm_odoo_ashish_bhai_latest]] — *Experimental / Inactive* (`Score: 0/100`)
+- [[onboarding-checklist-tracker]] — *Prototype / Early Draft* (`Score: 40/100`)
+- [[openagentcut]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[opencode]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[outbound-engine]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[plugins]] — *Unfinished / In-Progress (WIP)* (`Score: 50/100`)
+- [[podcast-ops]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[portfolio-hub]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[portfolio-hub-remote]] — *Unfinished / In-Progress (WIP)* (`Score: 70/100`)
+- [[posthog]] — *Prototype / Early Draft* (`Score: 35/100`)
+- [[posthog-repo]] — *Prototype / Early Draft* (`Score: 35/100`)
+- [[ranklens]] — *Prototype / Early Draft* (`Score: 40/100`)
+- [[React_Duels]] — *Prototype / Early Draft* (`Score: 35/100`)
+- [[references]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[references]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[references]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[replypilot]] — *Prototype / Early Draft* (`Score: 40/100`)
+- [[revenue-intelligence]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[rooveterinaryinc_roo-cline-3_54_0-universal]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[rooveterinaryinc_roo-cline-3_54_0-universal]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[rooveterinaryinc_roo-cline-3_54_0-universal]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[sales-pipeline]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[sales-playbook]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[saoudrizwan_claude-dev-3_88_1-universal]] — *Prototype / Early Draft* (`Score: 40/100`)
+- [[saoudrizwan_claude-dev-4_0_11-universal]] — *Prototype / Early Draft* (`Score: 40/100`)
+- [[saoudrizwan_claude-dev-4_0_12-universal]] — *Prototype / Early Draft* (`Score: 40/100`)
+- [[saoudrizwan_claude-dev-4_0_9-universal]] — *Prototype / Early Draft* (`Score: 40/100`)
+- [[scripts]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[scripts]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[scripts]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[scripts]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[scripts]] — *Experimental / Inactive* (`Score: 0/100`)
+- [[scripts]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[seo-ops]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[shashi-international-school]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[shopify_ruby-lsp-0_10_4-universal]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[shopify_ruby-lsp-0_10_6-universal]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[slack-gif-creator]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[sst-dev_opencode-0_0_13-universal]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[sst-dev_opencode-0_0_13-universal]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[stitch_desifit_ui_design]] — *Unfinished / In-Progress (WIP)* (`Score: 70/100`)
+- [[tanishqkancharla_opencode-vscode-0_4_4-universal]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[tanishqkancharla_opencode-vscode-0_4_4-universal]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[team-ops]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[tokenguard]] — *Prototype / Early Draft* (`Score: 40/100`)
+- [[trustdesk]] — *Prototype / Early Draft* (`Score: 40/100`)
+- [[velocity-rush]] — *Unfinished / In-Progress (WIP)* (`Score: 50/100`)
+- [[web]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[wiki]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[wiki_bak]] — *Prototype / Early Draft* (`Score: 30/100`)
+- [[wiki_corrupt-20260910T095424]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
+- [[x-longform-post]] — *Experimental / Inactive* (`Score: 15/100`)
+- [[yt-competitive-analysis]] — *Experimental / Inactive* (`Score: 15/100`)
+
+
+---
+
+## ⚡ Fast Navigation
+- [[AI Memory Hub|🧠 Master Executive Dashboard]]
+- [[00_Career_MOC|💼 Career & Personas]]
+- [[Founder_Decision_OS|🚀 Founder Decision OS]]
+- [[00_Resources_MOC|📚 Resources & Scripts]]
+- [[briefing|🤖 Cross-Agent Shared Memory Briefing]]

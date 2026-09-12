@@ -1,44 +1,54 @@
 ---
-title: "AstroAI-android-feature-desi-connect-app-9924190810085556398"
+title: "astroai-android-feature-desi-connect-app-9924190810085556398"
 type: project
-category: "Client & Side Projects"
-status: active
+category: "Core User Repositories"
+status: "Prototype / Early Draft"
+completion_score: 20
+is_finished: false
 tech_stack: []
-path: "C:/Users/asus/Documents/Projects/AstroAI-android-feature-desi-connect-app-9924190810085556398"
-git_remote: "https://gitlab.com/abhishekanand1official-group/vedic-astro-darshan.git"
+path: "C:/Users/asus/.gemini/history/astroai-android-feature-desi-connect-app-9924190810085556398"
+git_remote: ""
+git_branch: "main"
+git_dirty: true
+last_commit: "2026-06-18"
 created_at: 2026-09-13
-last_mapped: 2026-09-13 00:29:15
+last_mapped: 2026-09-13 01:00:51
 tags:
   - project
-  - client-and-side-projects
+  - project-prototype
+  - core-user-repositories
 ---
 
-# AstroAI-android-feature-desi-connect-app-9924190810085556398
+# astroai-android-feature-desi-connect-app-9924190810085556398
 
-> **Category:** `Client & Side Projects` | **Status:** `Active`
-> **Local Path:** `C:/Users/asus/Documents/Projects/AstroAI-android-feature-desi-connect-app-9924190810085556398`
-> **Git Remote:** [https://gitlab.com/abhishekanand1official-group/vedic-astro-darshan.git](https://gitlab.com/abhishekanand1official-group/vedic-astro-darshan.git)
+> **Category:** `Core User Repositories`
+> **Lifecycle Status:** `Prototype / Early Draft` (Health Score: **20/100**)
+> **Local Path:** `C:/Users/asus/.gemini/history/astroai-android-feature-desi-connect-app-9924190810085556398`
+> **Git Remote:** `Local Only / Unpushed`
 
 ---
+
+## 📊 Lifecycle & Readiness Analysis
+- Uncommitted local modifications present
 
 ## 🧭 Overview & Mission
-To make it easy for you to get started with GitLab, here's a list of recommended next steps. Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)! * [Create](https://docs.gitlab.com/user/project/repository/web_editor/#create-a-file) or [upload](https://docs.gitlab.com/user/project/repository/web_editor/#upload-a-file) files * [Add files using the command line](https://docs.gitlab.com/topics/git/add_files/#add-files-to-a-git-repository) or push an existing Git repository with the following command: ``` cd exis
+Repository codebase mapped from computer disk.
 
 ## 🛠️ Technology Stack
-- **Core Tech:** General / Automation
-- **Vault Integrations:** [[AI Memory Hub]] | [[00_Projects_MOC]]
+- **Languages & Frameworks:** General / Scripts
+- **Obsidian Graph:** [[AI Memory Hub]] | [[00_Projects_MOC]]
 
-## 📂 Key Architecture & Directories
-- **Sub-Modules:** `astro vedic assets latest/`, `AstroAI-android-feature-desi-connect-app-9924190810085556398/`, `astro_vedic_darpan/`, `backend/`, `build/`, `docs/`, `download/`, `lib/`, `new asssets/`, `tarot cards for astro vedic darshan/`
-- **Key Artifacts:** `app_final_wait.png`, `app_home.png`, `ORIGINAL_REQUEST.md`, `README.md`, `review-diff.patch`
+## 📂 Key Architecture
+- **Sub-Modules:** Flat
+- **Artifacts:** None
 
-## 🚀 Execution & Developer Quickstart
+## 🚀 Developer Run & Next Steps
 ```bash
-cd "C:/Users/asus/Documents/Projects/AstroAI-android-feature-desi-connect-app-9924190810085556398"
-See project documentation
+cd "C:/Users/asus/.gemini/history/astroai-android-feature-desi-connect-app-9924190810085556398"
+See documentation
 ```
+- **Next Action:** Complete core features, resolve git status, and push to remote.
 
-## 🔗 Interlinks & Knowledge Connections
-- Master Index: [[00_Projects_MOC|Projects Map of Content]]
-- Central Brain Hub: [[AI Memory Hub]]
-- Category: [[Client & Side Projects]]
+## 🔗 Interlinks
+- Master Index: [[00_Projects_MOC]]
+- Category Hub: [[Core User Repositories]]

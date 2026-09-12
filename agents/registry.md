@@ -1,4 +1,15 @@
+---
+updated: 2026-09-12
+---
+
 # Obsidian AI Memory Agent Registry
+
+> **Current system (2026-09-12):** shared memory for hermes, claude, codex, gemini, prime, browseros.
+> Engine: `scripts/vault-sync.py` (sync/log/read/brief/digest) - scheduled every 15 min (task `ObsidianVaultSync`).
+> Protocol installed in each agent's instruction file (CLAUDE.md/AGENTS.md/GEMINI.md/instructions.md) + Hermes SOUL.md.
+> Agents read `memory/cross-agent/briefing.md` before work, log after work. Entry point: [[AI Memory Hub]].
+
+## Historical profile inventory (2026-08-22, machine-generated)
 
 Generated: 2026-08-22 12:00:00
 

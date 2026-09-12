@@ -1,44 +1,54 @@
 ---
 title: "omnichannel crm odoo ashish bhai latest"
 type: project
-category: "Client & CRM Solutions"
-status: active
+category: "Core User Repositories"
+status: "Experimental / Inactive"
+completion_score: 0
+is_finished: false
 tech_stack: ["Docker"]
 path: "C:/Users/asus/Desktop/omnichannel crm odoo ashish bhai latest"
 git_remote: ""
+git_branch: ""
+git_dirty: false
+last_commit: ""
 created_at: 2026-09-13
-last_mapped: 2026-09-13 00:29:15
+last_mapped: 2026-09-13 01:00:30
 tags:
   - project
-  - client-and-crm-solutions
+  - project-unfinished
+  - core-user-repositories
 ---
 
 # omnichannel crm odoo ashish bhai latest
 
-> **Category:** `Client & CRM Solutions` | **Status:** `Active`
+> **Category:** `Core User Repositories`
+> **Lifecycle Status:** `Experimental / Inactive` (Health Score: **0/100**)
 > **Local Path:** `C:/Users/asus/Desktop/omnichannel crm odoo ashish bhai latest`
 > **Git Remote:** `Local Only / Unpushed`
 
 ---
 
+## 📊 Lifecycle & Readiness Analysis
+- No git tracking configured
+
 ## 🧭 Overview & Mission
-Core codebase repository. Detailed documentation dynamically linked in project architecture.
+Repository codebase mapped from computer disk.
 
 ## 🛠️ Technology Stack
-- **Core Tech:** Docker
-- **Vault Integrations:** [[AI Memory Hub]] | [[00_Projects_MOC]]
+- **Languages & Frameworks:** Docker
+- **Obsidian Graph:** [[AI Memory Hub]] | [[00_Projects_MOC]]
 
-## 📂 Key Architecture & Directories
+## 📂 Key Architecture
 - **Sub-Modules:** `odoo_multi_channel_crm/`
-- **Key Artifacts:** `docker-compose.yml`, `Dockerfile`, `omnichannel_crm_documentation.md`
+- **Artifacts:** `docker-compose.yml`, `Dockerfile`, `omnichannel_crm_documentation.md`
 
-## 🚀 Execution & Developer Quickstart
+## 🚀 Developer Run & Next Steps
 ```bash
 cd "C:/Users/asus/Desktop/omnichannel crm odoo ashish bhai latest"
-See project documentation
+See documentation
 ```
+- **Next Action:** Complete core features, resolve git status, and push to remote.
 
-## 🔗 Interlinks & Knowledge Connections
-- Master Index: [[00_Projects_MOC|Projects Map of Content]]
-- Central Brain Hub: [[AI Memory Hub]]
-- Category: [[Client & CRM Solutions]]
+## 🔗 Interlinks
+- Master Index: [[00_Projects_MOC]]
+- Category Hub: [[Core User Repositories]]

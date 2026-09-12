@@ -1,44 +1,55 @@
 ---
 title: "portfolio-hub"
 type: project
-category: "Core Repositories & Tools"
-status: active
-tech_stack: ["Next.js", "Tailwind CSS", "Node.js"]
+category: "Core User Repositories"
+status: "Experimental / Inactive"
+completion_score: 15
+is_finished: false
+tech_stack: ["Tailwind CSS", "Next.js", "Node.js"]
 path: "C:/Users/asus/portfolio-hub"
 git_remote: ""
+git_branch: ""
+git_dirty: false
+last_commit: ""
 created_at: 2026-09-13
-last_mapped: 2026-09-13 00:29:17
+last_mapped: 2026-09-13 01:01:08
 tags:
   - project
-  - core-repositories-and-tools
+  - project-unfinished
+  - core-user-repositories
 ---
 
 # portfolio-hub
 
-> **Category:** `Core Repositories & Tools` | **Status:** `Active`
+> **Category:** `Core User Repositories`
+> **Lifecycle Status:** `Experimental / Inactive` (Health Score: **15/100**)
 > **Local Path:** `C:/Users/asus/portfolio-hub`
 > **Git Remote:** `Local Only / Unpushed`
 
 ---
 
+## 📊 Lifecycle & Readiness Analysis
+- No git tracking configured
+- Standard dependency manifest present
+
 ## 🧭 Overview & Mission
-Core codebase repository. Detailed documentation dynamically linked in project architecture.
+Repository codebase mapped from computer disk.
 
 ## 🛠️ Technology Stack
-- **Core Tech:** Next.js, Tailwind CSS, Node.js
-- **Vault Integrations:** [[AI Memory Hub]] | [[00_Projects_MOC]]
+- **Languages & Frameworks:** Tailwind CSS, Next.js, Node.js
+- **Obsidian Graph:** [[AI Memory Hub]] | [[00_Projects_MOC]]
 
-## 📂 Key Architecture & Directories
+## 📂 Key Architecture
 - **Sub-Modules:** `app/`, `components/`, `lib/`, `node_modules/`
-- **Key Artifacts:** `jsconfig.json`, `next.config.mjs`, `package-lock.json`, `package.json`, `postcss.config.js`, `tailwind.config.js`
+- **Artifacts:** `jsconfig.json`, `next.config.mjs`, `package-lock.json`, `package.json`, `postcss.config.js`, `tailwind.config.js`
 
-## 🚀 Execution & Developer Quickstart
+## 🚀 Developer Run & Next Steps
 ```bash
 cd "C:/Users/asus/portfolio-hub"
 npm run dev
 ```
+- **Next Action:** Complete core features, resolve git status, and push to remote.
 
-## 🔗 Interlinks & Knowledge Connections
-- Master Index: [[00_Projects_MOC|Projects Map of Content]]
-- Central Brain Hub: [[AI Memory Hub]]
-- Category: [[Core Repositories & Tools]]
+## 🔗 Interlinks
+- Master Index: [[00_Projects_MOC]]
+- Category Hub: [[Core User Repositories]]

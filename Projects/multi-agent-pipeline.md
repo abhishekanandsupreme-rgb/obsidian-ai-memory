@@ -2,43 +2,54 @@
 title: "multi-agent-pipeline"
 type: project
 category: "Founder Mode SaaS"
-status: active
+status: "Experimental / Inactive"
+completion_score: 15
+is_finished: false
 tech_stack: ["Node.js"]
 path: "C:/Users/asus/Desktop/Founder mode/multi-agent-pipeline"
 git_remote: ""
+git_branch: ""
+git_dirty: false
+last_commit: ""
 created_at: 2026-09-13
-last_mapped: 2026-09-13 00:29:14
+last_mapped: 2026-09-13 01:00:29
 tags:
   - project
+  - project-unfinished
   - founder-mode-saas
 ---
 
 # multi-agent-pipeline
 
-> **Category:** `Founder Mode SaaS` | **Status:** `Active`
+> **Category:** `Founder Mode SaaS`
+> **Lifecycle Status:** `Experimental / Inactive` (Health Score: **15/100**)
 > **Local Path:** `C:/Users/asus/Desktop/Founder mode/multi-agent-pipeline`
 > **Git Remote:** `Local Only / Unpushed`
 
 ---
 
+## 📊 Lifecycle & Readiness Analysis
+- No git tracking configured
+- Standard dependency manifest present
+
 ## 🧭 Overview & Mission
-Core codebase repository. Detailed documentation dynamically linked in project architecture.
+Repository codebase mapped from computer disk.
 
 ## 🛠️ Technology Stack
-- **Core Tech:** Node.js
-- **Vault Integrations:** [[AI Memory Hub]] | [[00_Projects_MOC]]
+- **Languages & Frameworks:** Node.js
+- **Obsidian Graph:** [[AI Memory Hub]] | [[00_Projects_MOC]]
 
-## 📂 Key Architecture & Directories
+## 📂 Key Architecture
 - **Sub-Modules:** `src/`
-- **Key Artifacts:** `package.json`
+- **Artifacts:** `package.json`
 
-## 🚀 Execution & Developer Quickstart
+## 🚀 Developer Run & Next Steps
 ```bash
 cd "C:/Users/asus/Desktop/Founder mode/multi-agent-pipeline"
 npm run dev
 ```
+- **Next Action:** Complete core features, resolve git status, and push to remote.
 
-## 🔗 Interlinks & Knowledge Connections
-- Master Index: [[00_Projects_MOC|Projects Map of Content]]
-- Central Brain Hub: [[AI Memory Hub]]
-- Category: [[Founder Mode SaaS]]
+## 🔗 Interlinks
+- Master Index: [[00_Projects_MOC]]
+- Category Hub: [[Founder Mode SaaS]]

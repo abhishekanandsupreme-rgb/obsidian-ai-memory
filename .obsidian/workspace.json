@@ -6,6 +6,7 @@
       {
         "id": "e96047b91c0fba2c",
         "type": "tabs",
+        "dimension": 16.58374792703151,
         "children": [
           {
             "id": "c6271ef422cc3c4e",
@@ -26,6 +27,7 @@
       {
         "id": "53ae48f9eb344817",
         "type": "tabs",
+        "dimension": 83.41625207296849,
         "children": [
           {
             "id": "7ee2381c7ff92ce1",
@@ -204,7 +206,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "c6271ef422cc3c4e",
+  "active": "7ee2381c7ff92ce1",
   "lastOpenFiles": [
     "Welcome.md"
   ]

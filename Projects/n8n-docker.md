@@ -3,7 +3,7 @@ title: "n8n-docker"
 type: project
 category: "Client & Side Projects"
 status: "Experimental / Inactive"
-completion_score: 0
+completion_score: 15
 is_finished: false
 tech_stack: ["Docker"]
 path: "C:/Users/asus/Documents/Projects/Affiliate marketing business plus other side gigs/n8n-docker"
@@ -52,3 +52,15 @@ See documentation
 ## 🔗 Interlinks
 - Master Index: [[00_Projects_MOC]]
 - Category Hub: [[Client & Side Projects]]
+
+
+## 🤖 Autonomous Agent Audit & Upgrade Log
+- **Audited by:** `claude` at `2026-09-12T20:50:35.534165+00:00`
+- **Previous Score:** 0 -> **Upgraded Score:** 15/100
+- **Workspace Diagnostics:**
+  - Directory Exists: True (C:/Users/asus/Documents/Projects/Affiliate marketing business plus other side gigs/n8n-docker)
+  - Git Initialized: False
+  - README Available: False
+  - Code Files Indexed: 3250
+  - Test Suite Detected: False
+- **Autonomous Next Action:** Test suite integration and continuous verification.

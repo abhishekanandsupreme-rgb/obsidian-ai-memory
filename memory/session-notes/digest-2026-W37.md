@@ -1,6 +1,6 @@
 # Weekly Digest 2026-W37
 
-Generated: 2026-09-12T22:08:25.064415+00:00
+Generated: 2026-09-12T22:23:28.846895+00:00
 
 ## api-health-sentinel - 2 sessions
 - 20260912-213823_swarm_audit.md: # Parallel Swarm Session: API & Port Health Monitor - **Project Audited:** [[continue_continue-2_0_0-win32-x64]] - **Previous Score:** 30/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_ex
@@ -33,13 +33,14 @@ Generated: 2026-09-12T22:08:25.064415+00:00
 - 20260912-213819_swarm_audit.md: # Parallel Swarm Session: Codex GPT-5.5 Engine - **Project Audited:** [[microsoft-vs-code]] - **Previous Score:** 20/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists": true, "has_git
 - 20260912-214000_swarm_audit.md: # Parallel Swarm Session: Codex GPT-5.5 Engine - **Project Audited:** [[ms-azuretools_vscode-containers-2_4_5-universal]] - **Previous Score:** 30/100 - **Upgraded Score:** 65/100 - **Diagnostics:** {
 
-## copilot - 6 sessions
+## copilot - 7 sessions
 - 20260912-205943_copilot-test-1.md: # Session copilot-test-1 ## Summary Verified copilot adapter Logged at: 2026-09-12T20:59:43.018193+00:00
 - 20260912-210805_copilot-20260912-2108.md: # Session copilot-20260912-2108 ## Summary Detected 29 recent artifacts in copilot store (26h window). Notable: 671634a2-bcff-423e-bc7f-bc7c2960e89b.lock, a7192086-0018-400e-8573-68da5528f1fd.lock, da
 - 20260912-212308_copilot-20260912-2123.md: # Session copilot-20260912-2123 ## Summary Detected 29 recent artifacts in copilot store (26h window). Notable: 671634a2-bcff-423e-bc7f-bc7c2960e89b.lock, a7192086-0018-400e-8573-68da5528f1fd.lock, da
 - 20260912-213811_copilot-20260912-2138.md: # Session copilot-20260912-2138 ## Summary Detected 33 recent artifacts in copilot store (26h window). Notable: .workspace-fork.lock, 671634a2-bcff-423e-bc7f-bc7c2960e89b.lock, a7192086-0018-400e-8573
 - 20260912-215312_copilot-20260912-2153.md: # Session copilot-20260912-2153 ## Summary Detected 37 recent artifacts in copilot store (26h window). Notable: .gitignore, .workspace-fork.lock, README.md, c88d3e3c-223f-4ed7-a276-65f8d7e03172.lock, 
 - 20260912-220808_copilot-20260912-2208.md: # Session copilot-20260912-2208 ## Summary Detected 37 recent artifacts in copilot store (26h window). Notable: .gitignore, .workspace-fork.lock, README.md, c88d3e3c-223f-4ed7-a276-65f8d7e03172.lock, 
+- 20260912-222309_copilot-20260912-2223.md: # Session copilot-20260912-2223 ## Summary Detected 215 recent artifacts in copilot store (26h window). Notable: .copilot-log.lock, .gitignore, .mcp.json, .workspace-fork.lock, AGENTS.md .... Newest: 
 
 ## copilot-cli-adapter - 2 sessions
 - 20260912-213824_swarm_audit.md: # Parallel Swarm Session: GitHub Copilot CLI Adapter - **Project Audited:** [[anysphere_remote-containers-1_0_37]] - **Previous Score:** 30/100 - **Upgraded Score:** 60/100 - **Diagnostics:** { "path_

@@ -1,0 +1,6 @@
+scripts/task-sync.log
+scripts/schedule-sync.log
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+__pycache__/
+*.pyc

@@ -476,6 +476,38 @@ class AgentCopilot:
         except requests.RequestException as e:
             return {"status": "offline", "error": str(e)}
 
+
+    def heal_project(self, project_name: Optional[str] = None, agent_id: str = "gemini") -> Dict[str, Any]:
+        """Trigger autonomous git self-healing via POST /api/heal/project."""
+        payload = {"project_name": project_name, "agent_id": agent_id}
+        try:
+            r = requests.post(f"{self.agent_os_url}/api/heal/project", json=payload, timeout=60)
+            if r.status_code == 200:
+                return r.json()
+            return {"status": "error", "code": r.status_code, "text": r.text}
+        except requests.RequestException as e:
+            return {"status": "offline", "error": str(e)}
+
+    def get_remote_info(self) -> Dict[str, Any]:
+        """Fetch LAN connection details & QR code via GET /api/remote/info."""
+        try:
+            r = requests.get(f"{self.agent_os_url}/api/remote/info", timeout=5)
+            if r.status_code == 200:
+                return r.json()
+            return {"status": "error", "code": r.status_code}
+        except requests.RequestException as e:
+            return {"status": "offline", "error": str(e)}
+
+    def get_llm_status(self) -> Dict[str, Any]:
+        """Fetch status of local and cloud LLMs via GET /api/llm/status."""
+        try:
+            r = requests.get(f"{self.agent_os_url}/api/llm/status", timeout=5)
+            if r.status_code == 200:
+                return r.json()
+            return {"status": "error", "code": r.status_code}
+        except requests.RequestException as e:
+            return {"status": "offline", "error": str(e)}
+
     # -----------------------------------------------------------------
     # Semantic Search
     # -----------------------------------------------------------------
@@ -1035,6 +1067,18 @@ def build_parser() -> argparse.ArgumentParser:
     n_parser.add_argument("--channel", default="general", help="Notification channel")
     n_parser.add_argument("--level", default="info", choices=["info", "warning", "critical"])
 
+
+    # Command: heal
+    h_parser = subparsers.add_parser("heal", help="Trigger autonomous git self-healing on a project")
+    h_parser.add_argument("project", nargs="?", default=None, help="Target project name")
+    h_parser.add_argument("--agent", default="gemini", help="Healing agent id")
+
+    # Command: remote-qr
+    subparsers.add_parser("remote-qr", help="Display local LAN IP and mobile connection QR code")
+
+    # Command: llm-status
+    subparsers.add_parser("llm-status", help="Check status of connected local and cloud LLM models")
+
     return parser
 
 
@@ -1135,6 +1179,34 @@ def main():
     elif args.command == "notify":
         res = copilot.send_notification(args.message, channel=args.channel, level=args.level)
         print(json.dumps(res, indent=2))
+
+    elif args.command == "heal":
+        res = copilot.heal_project(project_name=args.project, agent_id=args.agent)
+        print(json.dumps(res, indent=2))
+
+    elif args.command == "remote-qr":
+        info = copilot.get_remote_info()
+        if info.get("status") == "offline":
+            print(f"[OFFLINE] AgentOS daemon not reachable at {copilot.agent_os_url}")
+        else:
+            conn = info.get("connections", {})
+            print(f"\n📱 AgentOS Mobile & Remote Access:")
+            print(f"  - Local LAN URL:   {conn.get('lan_url')}")
+            print(f"  - Localhost URL:   {conn.get('localhost_url')}")
+            if conn.get("tailscale_url"):
+                print(f"  - Tailscale Mesh:  {conn.get('tailscale_url')}")
+            print(f"  - Security PIN:    {conn.get('pin')}\n")
+            try:
+                from agent_os.core.remote_bridge import bridge
+                print("Scan QR code below with phone camera on same Wi-Fi:\n")
+                print(bridge.generate_qr_ascii(conn.get('lan_url')))
+            except Exception:
+                pass
+
+    elif args.command == "llm-status":
+        res = copilot.get_llm_status()
+        print(json.dumps(res, indent=2))
+
 
 
 if __name__ == "__main__":

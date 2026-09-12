@@ -1,20 +1,57 @@
 # Weekly Digest 2026-W37
 
-Generated: 2026-09-12T21:23:29.920965+00:00
+Generated: 2026-09-12T21:38:54.640243+00:00
+
+## api-health-sentinel - 1 sessions
+- 20260912-213823_swarm_audit.md: # Parallel Swarm Session: API & Port Health Monitor - **Project Audited:** [[continue_continue-2_0_0-win32-x64]] - **Previous Score:** 30/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_ex
+
+## browseros-neo-runner - 1 sessions
+- 20260912-213816_swarm_audit.md: # Parallel Swarm Session: BrowserOS neo Web Agent - **Project Audited:** [[content-ops]] - **Previous Score:** 25/100 - **Upgraded Score:** 80/100 - **Diagnostics:** { "path_exists": true, "has_git": 
 
 ## claude - 1 sessions
 - 20260912-180802_claude-20260912-1808.md: # Session claude-20260912-1808 ## Summary Detected 7 recent artifacts in claude store (26h window). Notable: 414381fb-72b5-4f1a-ac2e-19d4699d10ec.jsonl, 42c109bd-e395-4e29-be21-05a8be13b62b.jsonl, 449
+
+## claude-code-lead - 1 sessions
+- 20260912-213823_swarm_audit.md: # Parallel Swarm Session: Claude Code Lead - **Project Audited:** [[_opencode]] - **Previous Score:** 15/100 - **Upgraded Score:** 60/100 - **Diagnostics:** { "path_exists": true, "has_git": false, "h
+
+## claude-opus-deep - 1 sessions
+- 20260912-213818_swarm_audit.md: # Parallel Swarm Session: Claude Opus Deep Thinker - **Project Audited:** [[AstroAI-android-feature-desi-connect-app-9924190810085556398]] - **Previous Score:** 20/100 - **Upgraded Score:** 65/100 - *
 
 ## cline - 2 sessions
 - 20260912-205924_test-s1.md: # Session test-s1 ## Summary Verified cline universal memory Logged at: 2026-09-12T20:59:24.188586+00:00
 - 20260912-210125_test-s1.md: # Session test-s1 ## Summary Verified cline universal memory Logged at: 2026-09-12T21:01:25.139018+00:00
 
-## copilot - 3 sessions
+## cline-headless-bot - 1 sessions
+- 20260912-213822_swarm_audit.md: # Parallel Swarm Session: Cline Headless Worker - **Project Audited:** [[ad-orchestrator]] - **Previous Score:** 30/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_exists": true, "has_git"
+
+## codex-gpt5 - 1 sessions
+- 20260912-213819_swarm_audit.md: # Parallel Swarm Session: Codex GPT-5.5 Engine - **Project Audited:** [[microsoft-vs-code]] - **Previous Score:** 20/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists": true, "has_git
+
+## copilot - 4 sessions
 - 20260912-205943_copilot-test-1.md: # Session copilot-test-1 ## Summary Verified copilot adapter Logged at: 2026-09-12T20:59:43.018193+00:00
 - 20260912-210805_copilot-20260912-2108.md: # Session copilot-20260912-2108 ## Summary Detected 29 recent artifacts in copilot store (26h window). Notable: 671634a2-bcff-423e-bc7f-bc7c2960e89b.lock, a7192086-0018-400e-8573-68da5528f1fd.lock, da
 - 20260912-212308_copilot-20260912-2123.md: # Session copilot-20260912-2123 ## Summary Detected 29 recent artifacts in copilot store (26h window). Notable: 671634a2-bcff-423e-bc7f-bc7c2960e89b.lock, a7192086-0018-400e-8573-68da5528f1fd.lock, da
+- 20260912-213811_copilot-20260912-2138.md: # Session copilot-20260912-2138 ## Summary Detected 33 recent artifacts in copilot store (26h window). Notable: .workspace-fork.lock, 671634a2-bcff-423e-bc7f-bc7c2960e89b.lock, a7192086-0018-400e-8573
 
-## gemini - 26 sessions
+## copilot-cli-adapter - 1 sessions
+- 20260912-213824_swarm_audit.md: # Parallel Swarm Session: GitHub Copilot CLI Adapter - **Project Audited:** [[anysphere_remote-containers-1_0_37]] - **Previous Score:** 30/100 - **Upgraded Score:** 60/100 - **Diagnostics:** { "path_
+
+## deepseek-v4-flash - 1 sessions
+- 20260912-213818_swarm_audit.md: # Parallel Swarm Session: DeepSeek V4 Flash Profiler - **Project Audited:** [[odoo-multi-channel-crm-client-latest]] - **Previous Score:** 20/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "pat
+
+## deepseek-v4-pro - 1 sessions
+- 20260912-213821_swarm_audit.md: # Parallel Swarm Session: DeepSeek V4 Pro Coding Specialist - **Project Audited:** [[03dc6f41a414882318256679dd5b72dbf7cd58d33d5d59937cfc5fcf0e52d490]] - **Previous Score:** 25/100 - **Upgraded Score:
+
+## dependency-doctor - 1 sessions
+- 20260912-213822_swarm_audit.md: # Parallel Swarm Session: Dependency & Vulnerability Doctor - **Project Audited:** [[fbs-bookwriter]] - **Previous Score:** 30/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists": true
+
+## docker-sentinel - 1 sessions
+- 20260912-213817_swarm_audit.md: # Parallel Swarm Session: Docker & Container Sentinel - **Project Audited:** [[finance-ops]] - **Previous Score:** 30/100 - **Upgraded Score:** 80/100 - **Diagnostics:** { "path_exists": true, "has_gi
+
+## docs-synthesizer - 1 sessions
+- 20260912-213818_swarm_audit.md: # Parallel Swarm Session: Documentation & README Synthesizer - **Project Audited:** [[f40044ac-7f45-4360-85e8-ee897a084f09]] - **Previous Score:** 30/100 - **Upgraded Score:** 70/100 - **Diagnostics:*
+
+## gemini - 27 sessions
 - 20260912-185942_second-brain-build-20260913.md: # Session second-brain-build-20260913 ## Summary Completed comprehensive personal and professional Second Brain build in Obsidian: mapped 73 active projects across PC (Desktop, Documents, User home), 
 - 20260912-192309_gemini-20260912-1923.md: # Session gemini-20260912-1923 ## Summary Detected 765 recent artifacts in gemini store (26h window). Notable: 00000000.jsonl, 00000001.jsonl, 00000002.jsonl, 00000003.jsonl, 00000004.jsonl .... Newes
 - 20260912-193119_deep-pc-mapping-222-projects.md: # Session deep-pc-mapping-222-projects ## Summary Completed exhaustive PC-wide project discovery: indexed 222 projects across all drives (Desktop, Documents, Downloads, C:\tokenguard, C:\root). Classi
@@ -41,6 +78,19 @@ Generated: 2026-09-12T21:23:29.920965+00:00
 - 20260912-211513_challenger-e2e-verdict.md: # Session challenger-e2e-verdict ## Summary Completed empirical E2E challenge of unified 4-pillar extension: verified universal agent ID logging, AutonomousWorker graduation flow, and Copilot synthesi
 - 20260912-211534_m5-challenger.md: # Session m5-challenger ## Summary Adversarial stress test completed: core/autonomous_worker.py and web/app.py verified robust against empty folders, broken AST, forged HMAC signatures, and concurrenc
 - 20260912-212327_gemini-20260912-2123.md: # Session gemini-20260912-2123 ## Summary Detected 1501 recent artifacts in gemini store (26h window). Notable: 00000000.jsonl, 00000001.jsonl, 00000002.jsonl, 00000003.jsonl, 00000004.jsonl .... Newe
+- 20260912-213853_gemini-20260912-2138.md: # Session gemini-20260912-2138 ## Summary Detected 1546 recent artifacts in gemini store (26h window). Notable: 00000000.jsonl, 00000001.jsonl, 00000002.jsonl, 00000003.jsonl, 00000004.jsonl .... Newe
+
+## gemini-3-5-flash - 1 sessions
+- 20260912-213822_swarm_audit.md: # Parallel Swarm Session: Gemini 3.5 Flash Speed Demon - **Project Audited:** [[assets]] - **Previous Score:** 25/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_exists": true, "has_git": 
+
+## gemini-architect - 1 sessions
+- 20260912-213824_swarm_audit.md: # Parallel Swarm Session: Gemini 3.1 Pro Architect - **Project Audited:** [[_kilocode]] - **Previous Score:** 15/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_exists": true, "has_git": f
+
+## gemma3-local - 1 sessions
+- 20260912-213818_swarm_audit.md: # Parallel Swarm Session: Gemma 3 Local Assistant - **Project Audited:** [[0828626b-a3bd-4176-a8df-6ba6a25cfb48]] - **Previous Score:** 30/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_e
+
+## git-sentinel-bot - 1 sessions
+- 20260912-213817_swarm_audit.md: # Parallel Swarm Session: Git Repository Reconciler - **Project Audited:** [[arxiv-reader]] - **Previous Score:** 30/100 - **Upgraded Score:** 90/100 - **Diagnostics:** { "path_exists": true, "has_git
 
 ## hermes - 2 sessions
 - 20260912-175000_vault-setup-20260912.md: # Session vault-setup-20260912 ## Summary Completed full multi-agent Obsidian memory vault setup: vault-sync v2 engine, env var, instruction files for 6 agent homes, scheduled 15-min sync. Logged at: 
@@ -48,4 +98,46 @@ Generated: 2026-09-12T21:23:29.920965+00:00
 
 ## hermes-agent - 1 sessions
 - 20260822-092356_245ef5c9-97e5-4faa-8594-0b180af9f564.md: # Session: 245ef5c9-97e5-4faa-8594-0b180af9f564 **Agent:** hermes-agent **Started:** 2026-08-22T12:57:35.156975 **Ended:** 2026-08-22T09:23:55.768511+00:00 **Status:** active ## Summary <!-- Session s
+
+## hermes-automation - 1 sessions
+- 20260912-213817_swarm_audit.md: # Parallel Swarm Session: Hermes Background Runner - **Project Audited:** [[canvases]] - **Previous Score:** 20/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_exists": true, "has_git": fa
+
+## kilo-code-runner - 1 sessions
+- 20260912-213823_swarm_audit.md: # Parallel Swarm Session: Kilo / Kiro Code Agent - **Project Audited:** [[akash-cx_blackbox-debug-0_1_2-universal]] - **Previous Score:** 30/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path
+
+## minimax-m3-logic - 1 sessions
+- 20260912-213823_swarm_audit.md: # Parallel Swarm Session: MiniMax M3 Logic Engine - **Project Audited:** [[earnings-tracker]] - **Previous Score:** 25/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists": true, "has_g
+
+## moonshot-kimi-context - 1 sessions
+- 20260912-213821_swarm_audit.md: # Parallel Swarm Session: Moonshot Kimi Large Context - **Project Audited:** [[fix4_desktop]] - **Previous Score:** 25/100 - **Upgraded Score:** 60/100 - **Diagnostics:** { "path_exists": true, "has_g
+
+## nemotron-ultra-spec - 1 sessions
+- 20260912-213818_swarm_audit.md: # Parallel Swarm Session: Nvidia Nemotron 3 Ultra - **Project Audited:** [[mcp_server]] - **Previous Score:** 25/100 - **Upgraded Score:** 60/100 - **Diagnostics:** { "path_exists": true, "has_git": f
+
+## opencode-agent-bot - 1 sessions
+- 20260912-213821_swarm_audit.md: # Parallel Swarm Session: OpenCode Engine - **Project Audited:** [[anthropic_claude-code-2_1_220-win32-x64]] - **Previous Score:** 30/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists
+
+## performance-profiler - 1 sessions
+- 20260912-213821_swarm_audit.md: # Parallel Swarm Session: Performance & Latency Profiler - **Project Audited:** [[github-pr-template-enforcer]] - **Previous Score:** 30/100 - **Upgraded Score:** 85/100 - **Diagnostics:** { "path_exi
+
+## prime-ops-runner - 1 sessions
+- 20260912-213816_swarm_audit.md: # Parallel Swarm Session: Prime Operations Engine - **Project Audited:** [[conversion-ops]] - **Previous Score:** 25/100 - **Upgraded Score:** 80/100 - **Diagnostics:** { "path_exists": true, "has_git
+
+## refactor-doctor - 1 sessions
+- 20260912-213817_swarm_audit.md: # Parallel Swarm Session: Refactoring & Clean Architecture Specialist - **Project Audited:** [[email-skill]] - **Previous Score:** 30/100 - **Upgraded Score:** 80/100 - **Diagnostics:** { "path_exists
+
+## security-auditor-sentinel - 1 sessions
+- 20260912-213824_swarm_audit.md: # Parallel Swarm Session: Security & Secrets Sentinel - **Project Audited:** [[anysphere_remote-ssh-1_0_54]] - **Previous Score:** 30/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists
+
+## swarm-consensus-lead - 1 sessions
+- 20260912-213824_swarm_audit.md: # Parallel Swarm Session: Swarm Consensus & Load Balancer - **Project Audited:** [[golang_go-0_56_0-universal]] - **Previous Score:** 30/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_exi
+
+## test-runner-sentinel - 1 sessions
+- 20260912-213823_swarm_audit.md: # Parallel Swarm Session: Automated Test Discovery Bot - **Project Audited:** [[anysphere_remote-wsl-1_0_13]] - **Previous Score:** 30/100 - **Upgraded Score:** 60/100 - **Diagnostics:** { "path_exist
+
+## vault-sync-sentinel - 1 sessions
+- 20260912-213818_swarm_audit.md: # Parallel Swarm Session: Obsidian Vault Synchronizer - **Project Audited:** [[b726c2ba-77fc-4252-bc4f-2f004197ce6a]] - **Previous Score:** 30/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "pa
+
+## webhook-router - 1 sessions
+- 20260912-213822_swarm_audit.md: # Parallel Swarm Session: Webhook & Event Router - **Project Audited:** [[frontend]] - **Previous Score:** 30/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_exists": true, "has_git": fals
 

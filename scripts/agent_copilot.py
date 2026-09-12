@@ -92,10 +92,10 @@ class VaultSemanticSearch:
 
     @staticmethod
     def tokenize(text: str) -> List[str]:
-        """Extract lowercase alphanumeric tokens."""
+        """Extract lowercase alphanumeric and unicode tokens."""
         if not text:
             return []
-        return [t.lower() for t in re.findall(r'[a-zA-Z0-9_\-\.]{2,}', text)]
+        return [t.lower() for t in re.findall(r'[\w\-\.]{2,}', text, re.UNICODE)]
 
     @classmethod
     def filter_stopwords(cls, tokens: List[str]) -> List[str]:
@@ -434,6 +434,26 @@ class AgentCopilot:
             return {"unfinished_projects": [], "error": r.text}
         except requests.RequestException as e:
             return {"unfinished_projects": [], "error": str(e)}
+
+    def run_swarm(self, max_agents: int = 30) -> Dict[str, Any]:
+        """Trigger 30-agent parallel swarm execution via AgentOS."""
+        try:
+            r = requests.post(f"{self.agent_os_url}/api/swarm/run", json={"max_agents": max_agents}, timeout=90)
+            if r.status_code == 200:
+                return r.json()
+            return {"status": "error", "code": r.status_code, "text": r.text}
+        except Exception as e:
+            return {"status": "offline", "error": str(e)}
+
+    def get_swarm_status(self) -> Dict[str, Any]:
+        """Get real-time status of the 30-agent swarm."""
+        try:
+            r = requests.get(f"{self.agent_os_url}/api/swarm/status", timeout=10)
+            if r.status_code == 200:
+                return r.json()
+            return {"status": "error", "code": r.status_code}
+        except Exception as e:
+            return {"status": "offline", "error": str(e)}
 
     def trigger_vault_sync(self) -> Dict[str, Any]:
         """Trigger bi-directional vault synchronization via POST /api/vault/sync."""
@@ -1003,6 +1023,10 @@ def build_parser() -> argparse.ArgumentParser:
     subparsers.add_parser("unfinished", help="List unfinished projects via AgentOS API")
 
     # Command: sync
+    swarm_p = subparsers.add_parser("swarm", help="Trigger 30-agent parallel swarm execution")
+    swarm_p.add_argument("--max-agents", type=int, default=30, help="Number of concurrent agents (default: 30)")
+
+    subparsers.add_parser("swarm-status", help="Get 30-agent parallel swarm status")
     subparsers.add_parser("sync", help="Trigger bi-directional vault sync via AgentOS API")
 
     # Command: notify
@@ -1097,6 +1121,13 @@ def main():
         res = copilot.get_unfinished_projects()
         print(json.dumps(res, indent=2))
 
+    elif args.command == "swarm":
+        res = copilot.run_swarm(max_agents=args.max_agents)
+        print(json.dumps(res, indent=2))
+
+    elif args.command == "swarm-status":
+        res = copilot.get_swarm_status()
+        print(json.dumps(res, indent=2))
     elif args.command == "sync":
         res = copilot.trigger_vault_sync()
         print(json.dumps(res, indent=2))

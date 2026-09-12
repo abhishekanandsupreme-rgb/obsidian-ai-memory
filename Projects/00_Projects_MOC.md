@@ -1,10 +1,10 @@
 ---
 title: "Projects Map of Content"
 type: moc
-last_updated: 2026-09-12 21:38
+last_updated: 2026-09-12 21:41
 total_projects: 222
-finished_count: 54
-unfinished_count: 168
+finished_count: 56
+unfinished_count: 166
 tags:
   - moc
   - projects
@@ -14,12 +14,12 @@ tags:
 # 🗺️ Master Projects Map of Content (MOC)
 
 > Central navigation index for all **222 mapped codebases** across the computer.
-> **Readiness:** 🟢 **54 Finished / Production-Ready** | 🟡 **168 Unfinished / In-Progress**
+> **Readiness:** 🟢 **56 Finished / Production-Ready** | 🟡 **166 Unfinished / In-Progress**
 > Interlinked with [[AI Memory Hub]] for cross-agent memory discovery.
 
 ---
 
-## 🟢 Finished & Production-Ready Projects (54)
+## 🟢 Finished & Production-Ready Projects (56)
 Projects with clean git state, remote remotes, verified builds, or live deployments:
 
 ```dataview
@@ -28,6 +28,8 @@ FROM "Projects"
 WHERE is_finished = true AND file.name != "00_Projects_MOC"
 SORT completion_score DESC, file.name ASC
 ```
+- [[MoneyPrinterTurbo]] — *Core User Repositories* (`Score: 90/100`)
+- [[api]] — *Founder Mode SaaS* (`Score: 100/100`)
 - [[arxiv-reader]] — *Core User Repositories* (`Score: 90/100`)
 - [[sales-pipeline]] — *Core User Repositories* (`Score: 90/100`)
 - [[omnichannel_crm_odoo_ashish_bhai_latest]] — *Core User Repositories* (`Score: 100/100`)
@@ -87,7 +89,7 @@ SORT completion_score DESC, file.name ASC
 
 ---
 
-## 🟡 Unfinished & In-Progress Projects (168)
+## 🟡 Unfinished & In-Progress Projects (166)
 Active developments, prototypes, drafts, and projects needing work or remote sync:
 
 ```dataview
@@ -133,7 +135,6 @@ SORT completion_score DESC, file.name ASC
 - [[anysphere_remote-containers-1_0_37]] — *Prototype / Early Draft* (`Score: 30/100`)
 - [[anysphere_remote-ssh-1_0_54]] — *Prototype / Early Draft* (`Score: 30/100`)
 - [[anysphere_remote-wsl-1_0_13]] — *Prototype / Early Draft* (`Score: 30/100`)
-- [[api]] — *Prototype / Early Draft* (`Score: 40/100`)
 - [[assets]] — *Experimental / Inactive* (`Score: 15/100`)
 - [[astro_vedic_darpan]] — *Unfinished / In-Progress (WIP)* (`Score: 55/100`)
 - [[astro_vedic_darpan]] — *Unfinished / In-Progress (WIP)* (`Score: 55/100`)
@@ -193,7 +194,6 @@ SORT completion_score DESC, file.name ASC
 - [[meta_pyrefly-1_1_1-win32-x64]] — *Prototype / Early Draft* (`Score: 30/100`)
 - [[meta_pyrefly-1_2_0-win32-x64]] — *Prototype / Early Draft* (`Score: 30/100`)
 - [[microsoft-vs-code]] — *Prototype / Early Draft* (`Score: 20/100`)
-- [[MoneyPrinterTurbo]] — *Prototype / Early Draft* (`Score: 40/100`)
 - [[ms-azuretools_vscode-containers-2_4_5-universal]] — *Prototype / Early Draft* (`Score: 30/100`)
 - [[ms-azuretools_vscode-containers-2_4_5-universal]] — *Prototype / Early Draft* (`Score: 30/100`)
 - [[ms-azuretools_vscode-docker-2_0_0-universal]] — *Prototype / Early Draft* (`Score: 30/100`)

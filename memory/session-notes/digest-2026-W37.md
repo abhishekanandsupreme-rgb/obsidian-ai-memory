@@ -1,6 +1,6 @@
 # Weekly Digest 2026-W37
 
-Generated: 2026-09-13T18:38:10.947349+00:00
+Generated: 2026-09-13T18:53:10.240233+00:00
 
 ## agent-3-monetization - 1 sessions
 - 20260912-222350_newspulse-monet-3.md: # Session newspulse-monet-3 ## Summary Rebuilt crashed monetization deliverables for NewsPulse (C:/Users/asus/news-pulse): monetization/README.md playbook (29KB, 44 verified sources, citation-ledger v

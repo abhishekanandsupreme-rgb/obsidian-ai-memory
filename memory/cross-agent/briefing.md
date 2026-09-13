@@ -1,6 +1,6 @@
 # Cross-Agent Briefing
 
-Generated: 2026-09-13T17:38:30.803505+00:00
+Generated: 2026-09-13T17:53:18.111653+00:00
 
 What each agent did in the last 24h:
 
@@ -77,7 +77,7 @@ What each agent did in the last 24h:
 - latest: # Parallel Swarm Session: Git Repository Reconciler - **Project Audited:** [[posthog]] - **Previous Score:** 35/100 - **Upgraded Score:** 80/100 - **Diagnostics:** { "path_exists": true, "has_git": true, "has_manifest": false, "manifests": [], "has_readme": true, "has_gitignore": true, "has_docker":
 
 ## hermes (9 session log(s))
-- latest: # Session hermes-20260913-0726 ## Summary Detected 31 recent artifacts in hermes store (26h window). Notable: request_dump_05c67984-69ec-471a-9fbe-13e4f5868c31_20260912_162309_166771.json, request_dump_0e7b70d4-91ed-4136-9123-2a4c4b391ef0_20260912_162255_757799.json, request_dump_0e7b70d4-91ed-4136-
+- latest: # Session cron_890eea6477a3_20260913_1130 ## Summary Email triage cron: blocker unchanged (no .gmail-app-password, himalaya cannot auth). Prior run 00:05 verified live + full connect instructions already delivered 09-12 19:06 IST. This run silent per skill pitfall rule. Note: 11:00 run died on model
 
 ## hermes-agent (1 session log(s))
 - latest: # Session: 245ef5c9-97e5-4faa-8594-0b180af9f564 **Agent:** hermes-agent **Started:** 2026-08-22T12:57:35.156975 **Ended:** 2026-08-22T09:23:55.768511+00:00 **Status:** active ## Summary <!-- Session summary goes here --> ## Key Events - ## Actions Taken 1. ## Decisions Made - ## Next Steps -

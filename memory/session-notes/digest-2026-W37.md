@@ -1,9 +1,12 @@
 # Weekly Digest 2026-W37
 
-Generated: 2026-09-13T04:53:25.276420+00:00
+Generated: 2026-09-13T05:08:33.050423+00:00
 
 ## agent-3-monetization - 1 sessions
 - 20260912-222350_newspulse-monet-3.md: # Session newspulse-monet-3 ## Summary Rebuilt crashed monetization deliverables for NewsPulse (C:/Users/asus/news-pulse): monetization/README.md playbook (29KB, 44 verified sources, citation-ledger v
+
+## agents - 1 sessions
+- 20260913-050437_cline-agent-pipeline-demo.md: # Session cline-agent-pipeline-demo ## Summary Built and validated multi-agent-pipeline (Founder mode/multi-agent-pipeline): dependency-free Node orchestrator with 3 parallel sub-agent teams (analysis
 
 ## api-health-sentinel - 2 sessions
 - 20260912-213823_swarm_audit.md: # Parallel Swarm Session: API & Port Health Monitor - **Project Audited:** [[continue_continue-2_0_0-win32-x64]] - **Previous Score:** 30/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_ex

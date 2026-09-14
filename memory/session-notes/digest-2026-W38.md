@@ -1,6 +1,6 @@
 # Weekly Digest 2026-W38
 
-Generated: 2026-09-14T12:38:54.331033+00:00
+Generated: 2026-09-14T12:54:32.975701+00:00
 
 ## agent-3-monetization - 1 sessions
 - 20260912-222350_newspulse-monet-3.md: # Session newspulse-monet-3 ## Summary Rebuilt crashed monetization deliverables for NewsPulse (C:/Users/asus/news-pulse): monetization/README.md playbook (29KB, 44 verified sources, citation-ledger v
@@ -54,7 +54,7 @@ Generated: 2026-09-14T12:38:54.331033+00:00
 - 20260914-091300_swarm_audit.md: # Parallel Swarm Session: Codex GPT-5.5 Engine - **Project Audited:** [[55efbe3d-3d27-4548-9468-ae8a19890d58]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exis
 - 20260914-111201_swarm_audit.md: # Parallel Swarm Session: Codex GPT-5.5 Engine - **Project Audited:** [[apply_team]] - **Previous Score:** 50/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_exists": true, "has_git": fals
 
-## copilot - 41 sessions
+## copilot - 42 sessions
 - 20260912-205943_copilot-test-1.md: # Session copilot-test-1 ## Summary Verified copilot adapter Logged at: 2026-09-12T20:59:43.018193+00:00
 - 20260912-210805_copilot-20260912-2108.md: # Session copilot-20260912-2108 ## Summary Detected 29 recent artifacts in copilot store (26h window). Notable: 671634a2-bcff-423e-bc7f-bc7c2960e89b.lock, a7192086-0018-400e-8573-68da5528f1fd.lock, da
 - 20260912-212308_copilot-20260912-2123.md: # Session copilot-20260912-2123 ## Summary Detected 29 recent artifacts in copilot store (26h window). Notable: 671634a2-bcff-423e-bc7f-bc7c2960e89b.lock, a7192086-0018-400e-8573-68da5528f1fd.lock, da
@@ -96,6 +96,7 @@ Generated: 2026-09-14T12:38:54.331033+00:00
 - 20260914-115743_copilot-20260914-1157.md: # Session copilot-20260914-1157 ## Summary Detected 310 recent artifacts in copilot store (26h window). Notable: .git, .gitignore, .pre-commit-config.yaml, .python-version, .workspace-fork.lock .... N
 - 20260914-120952_copilot-20260914-1209.md: # Session copilot-20260914-1209 ## Summary Detected 310 recent artifacts in copilot store (26h window). Notable: .git, .gitignore, .pre-commit-config.yaml, .python-version, .workspace-fork.lock .... N
 - 20260914-123812_copilot-20260914-1238.md: # Session copilot-20260914-1238 ## Summary Detected 315 recent artifacts in copilot store (26h window). Notable: .git, .gitignore, .pre-commit-config.yaml, .python-version, .workspace-fork.lock .... N
+- 20260914-125347_copilot-20260914-1253.md: # Session copilot-20260914-1253 ## Summary Detected 316 recent artifacts in copilot store (26h window). Notable: .git, .gitignore, .pre-commit-config.yaml, .python-version, .workspace-fork.lock .... N
 
 ## copilot-cli-adapter - 4 sessions
 - 20260912-213824_swarm_audit.md: # Parallel Swarm Session: GitHub Copilot CLI Adapter - **Project Audited:** [[anysphere_remote-containers-1_0_37]] - **Previous Score:** 30/100 - **Upgraded Score:** 60/100 - **Diagnostics:** { "path_
@@ -133,7 +134,7 @@ Generated: 2026-09-14T12:38:54.331033+00:00
 - 20260914-091301_swarm_audit.md: # Parallel Swarm Session: Documentation & README Synthesizer - **Project Audited:** [[wiki_corrupt-20260910T095424]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "pat
 - 20260914-111204_swarm_audit.md: # Parallel Swarm Session: Documentation & README Synthesizer - **Project Audited:** [[velocity-rush]] - **Previous Score:** 50/100 - **Upgraded Score:** 80/100 - **Diagnostics:** { "path_exists": true
 
-## gemini - 73 sessions
+## gemini - 75 sessions
 - 20260912-185942_second-brain-build-20260913.md: # Session second-brain-build-20260913 ## Summary Completed comprehensive personal and professional Second Brain build in Obsidian: mapped 73 active projects across PC (Desktop, Documents, User home), 
 - 20260912-192309_gemini-20260912-1923.md: # Session gemini-20260912-1923 ## Summary Detected 765 recent artifacts in gemini store (26h window). Notable: 00000000.jsonl, 00000001.jsonl, 00000002.jsonl, 00000003.jsonl, 00000004.jsonl .... Newes
 - 20260912-193119_deep-pc-mapping-222-projects.md: # Session deep-pc-mapping-222-projects ## Summary Completed exhaustive PC-wide project discovery: indexed 222 projects across all drives (Desktop, Documents, Downloads, C:\tokenguard, C:\root). Classi
@@ -207,6 +208,8 @@ Generated: 2026-09-14T12:38:54.331033+00:00
 - 20260914-114448_crewai-run-user.md: # Session crewai-run-user ## Summary Executed run_crew.py in crewai_new via .venv Python. The CrewAI agent (AI Research Specialist) executed end-to-end using Gemini 3.6 Flash and produced a 3-point su
 - 20260914-122707_gemini-20260914-1227.md: # Session gemini-20260914-1227 ## Summary Detected 937 recent artifacts in gemini store (26h window). Notable: 00000000.jsonl, 00000001.jsonl, 00000002.jsonl, 00000003.jsonl, 00000004.jsonl .... Newes
 - 20260914-123850_gemini-20260914-1238.md: # Session gemini-20260914-1238 ## Summary Detected 937 recent artifacts in gemini store (26h window). Notable: 00000000.jsonl, 00000001.jsonl, 00000002.jsonl, 00000003.jsonl, 00000004.jsonl .... Newes
+- 20260914-125311_crewai-live-desktop.md: # Session crewai-live-desktop ## Summary Launched visible console window titled 'CrewAI Running' on the user's desktop, and executed run_crew.py end-to-end with Gemini 3.6 Flash. The task completed wi
+- 20260914-125431_gemini-20260914-1254.md: # Session gemini-20260914-1254 ## Summary Detected 1055 recent artifacts in gemini store (26h window). Notable: 00000000.jsonl, 00000001.jsonl, 00000002.jsonl, 00000003.jsonl, 00000004.jsonl .... Newe
 
 ## gemini-3-5-flash - 4 sessions
 - 20260912-213822_swarm_audit.md: # Parallel Swarm Session: Gemini 3.5 Flash Speed Demon - **Project Audited:** [[assets]] - **Previous Score:** 25/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_exists": true, "has_git": 
@@ -233,7 +236,7 @@ Generated: 2026-09-14T12:38:54.331033+00:00
 - 20260914-091300_swarm_audit.md: # Parallel Swarm Session: Git Repository Reconciler - **Project Audited:** [[fd128361-5884-4b2d-a356-610d9897e951]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path
 - 20260914-111201_swarm_audit.md: # Parallel Swarm Session: Git Repository Reconciler - **Project Audited:** [[resume]] - **Previous Score:** 50/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists": true, "has_git": fal
 
-## hermes - 15 sessions
+## hermes - 16 sessions
 - 20260912-175000_vault-setup-20260912.md: # Session vault-setup-20260912 ## Summary Completed full multi-agent Obsidian memory vault setup: vault-sync v2 engine, env var, instruction files for 6 agent homes, scheduled 15-min sync. Logged at: 
 - 20260912-210256_obsidian-vault-complete-setup.md: # Session obsidian-vault-complete-setup ## Summary Completed full multi-agent shared-memory setup: v2 vault-sync.py engine (real session discovery with dedup, memory, briefing, digest, heartbeat, git 
 - 20260912-225326_hermes-20260912-2253.md: # Session hermes-20260912-2253 ## Summary Detected 30 recent artifacts in hermes store (26h window). Notable: request_dump_05c67984-69ec-471a-9fbe-13e4f5868c31_20260912_162309_166771.json, request_dum
@@ -249,6 +252,7 @@ Generated: 2026-09-14T12:38:54.331033+00:00
 - 20260914-104454_hermes-20260914-1044.md: # Session hermes-20260914-1044 ## Summary Detected 2 recent artifacts in hermes store (26h window). Notable: request_dump_0e7b70d4-91ed-4136-9123-2a4c4b391ef0_20260914_151652_137556.json, request_dump
 - 20260914-110349_cron_890eea6477a3_20260914_1730.md: # Session cron_890eea6477a3_20260914_1730 ## Summary Email triage cron: blocker unchanged (no .gmail-app-password, himalaya secret-command error identical, no alternate connector). Live re-verified th
 - 20260914-120254_outreach-drafts-20260914.md: # Session outreach-drafts-20260914 ## Summary money-mission outreach kit drafted (SAVE-ONLY, nothing sent): 4 files in money-mission/outreach-drafts/ — whatsapp-warm-contacts.md (5 Hindi-English messa
+- 20260914-125431_hermes-20260914-1254.md: # Session hermes-20260914-1254 ## Summary Detected 3 recent artifacts in hermes store (26h window). Notable: request_dump_0e7b70d4-91ed-4136-9123-2a4c4b391ef0_20260914_151652_137556.json, request_dump
 
 ## hermes-agent - 1 sessions
 - 20260822-092356_245ef5c9-97e5-4faa-8594-0b180af9f564.md: # Session: 245ef5c9-97e5-4faa-8594-0b180af9f564 **Agent:** hermes-agent **Started:** 2026-08-22T12:57:35.156975 **Ended:** 2026-08-22T09:23:55.768511+00:00 **Status:** active ## Summary <!-- Session s

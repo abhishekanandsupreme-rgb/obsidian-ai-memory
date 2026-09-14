@@ -40,7 +40,7 @@
     "n2": {
       "node_id": "n2",
       "name": "After Gate",
-      "node_type": "obsidian_sync",
+      "node_type": "trigger",
       "config": {},
       "dependencies": [
         "gate"
@@ -56,6 +56,6 @@
       "finished_at": null
     }
   },
-  "created_at": "2026-09-14T09:24:13.258740+00:00",
-  "updated_at": "2026-09-14T09:24:13.258740+00:00"
+  "created_at": "2026-09-14T09:26:31.677071+00:00",
+  "updated_at": "2026-09-14T09:26:31.677071+00:00"
 }

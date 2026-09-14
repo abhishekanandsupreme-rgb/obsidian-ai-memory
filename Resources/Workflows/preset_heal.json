@@ -1,0 +1,107 @@
+{
+  "workflow_id": "preset_heal",
+  "name": "Auto-Test & Self-Healing Pipeline",
+  "description": "Autonomous pipeline executing health check, feature branch creation, test execution, approval checkpoint, and master merge.",
+  "nodes": {
+    "node_trigger": {
+      "node_id": "node_trigger",
+      "name": "Health Check Trigger",
+      "node_type": "trigger",
+      "config": {
+        "description": "Monitors unfinished repos and initiates audit."
+      },
+      "dependencies": [],
+      "ui_position": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "state": "idle",
+      "output": null,
+      "error": null,
+      "started_at": null,
+      "finished_at": null
+    },
+    "node_branch": {
+      "node_id": "node_branch",
+      "name": "Git Feature Branch",
+      "node_type": "git_action",
+      "config": {
+        "description": "Creates isolated feature branch agent-fix/..."
+      },
+      "dependencies": [
+        "node_trigger"
+      ],
+      "ui_position": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "state": "idle",
+      "output": null,
+      "error": null,
+      "started_at": null,
+      "finished_at": null
+    },
+    "node_test": {
+      "node_id": "node_test",
+      "name": "Execute Unit Tests",
+      "node_type": "agent_task",
+      "config": {
+        "description": "Dispatches to Gemini/Claude swarm agent to run test discovery."
+      },
+      "dependencies": [
+        "node_branch"
+      ],
+      "ui_position": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "state": "idle",
+      "output": null,
+      "error": null,
+      "started_at": null,
+      "finished_at": null
+    },
+    "node_gate": {
+      "node_id": "node_gate",
+      "name": "Production Approval Gate",
+      "node_type": "approval_gate",
+      "config": {
+        "description": "Pauses execution for human approval before merge."
+      },
+      "dependencies": [
+        "node_test"
+      ],
+      "ui_position": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "state": "idle",
+      "output": null,
+      "error": null,
+      "started_at": null,
+      "finished_at": null
+    },
+    "node_merge": {
+      "node_id": "node_merge",
+      "name": "Merge & Obsidian Sync",
+      "node_type": "obsidian_sync",
+      "config": {
+        "description": "Merges clean branch to main and updates Obsidian score."
+      },
+      "dependencies": [
+        "node_gate"
+      ],
+      "ui_position": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "state": "idle",
+      "output": null,
+      "error": null,
+      "started_at": null,
+      "finished_at": null
+    }
+  },
+  "created_at": "2026-09-14T09:29:43.618422+00:00",
+  "updated_at": "2026-09-14T09:29:43.618422+00:00"
+}

@@ -1,6 +1,6 @@
 # Weekly Digest 2026-W38
 
-Generated: 2026-09-14T09:24:54.837785+00:00
+Generated: 2026-09-14T09:42:44.079884+00:00
 
 ## agent-3-monetization - 1 sessions
 - 20260912-222350_newspulse-monet-3.md: # Session newspulse-monet-3 ## Summary Rebuilt crashed monetization deliverables for NewsPulse (C:/Users/asus/news-pulse): monetization/README.md playbook (29KB, 44 verified sources, citation-ledger v
@@ -116,7 +116,7 @@ Generated: 2026-09-14T09:24:54.837785+00:00
 - 20260912-213959_swarm_audit.md: # Parallel Swarm Session: Documentation & README Synthesizer - **Project Audited:** [[capability-evolver]] - **Previous Score:** 40/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_exists":
 - 20260914-091301_swarm_audit.md: # Parallel Swarm Session: Documentation & README Synthesizer - **Project Audited:** [[wiki_corrupt-20260910T095424]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "pat
 
-## gemini - 50 sessions
+## gemini - 57 sessions
 - 20260912-185942_second-brain-build-20260913.md: # Session second-brain-build-20260913 ## Summary Completed comprehensive personal and professional Second Brain build in Obsidian: mapped 73 active projects across PC (Desktop, Documents, User home), 
 - 20260912-192309_gemini-20260912-1923.md: # Session gemini-20260912-1923 ## Summary Detected 765 recent artifacts in gemini store (26h window). Notable: 00000000.jsonl, 00000001.jsonl, 00000002.jsonl, 00000003.jsonl, 00000004.jsonl .... Newes
 - 20260912-193119_deep-pc-mapping-222-projects.md: # Session deep-pc-mapping-222-projects ## Summary Completed exhaustive PC-wide project discovery: indexed 222 projects across all drives (Desktop, Documents, Downloads, C:\tokenguard, C:\root). Classi
@@ -167,6 +167,13 @@ Generated: 2026-09-14T09:24:54.837785+00:00
 - 20260914-092413_terminal_cmd_test_t.md: # 💻 Terminal Session (CMD) > **Session ID:** `test_term_cmd` | **Started:** 2026-09-14T09:24:12.333305+00:00 ```text > echo HELLO_AGENT_OS C:\Users\asus\Desktop\abhishek_personal_data\agent_os>HELLO_A
 - 20260914-092444_gemini-20260914-0924.md: # Session gemini-20260914-0924 ## Summary Detected 559 recent artifacts in gemini store (26h window). Notable: 00000000.jsonl, 00000001.jsonl, 00000002.jsonl, 00000003.jsonl, 00000004.jsonl .... Newes
 - 20260914-092449_gemini-20260914-0924.md: # Session gemini-20260914-0924 ## Summary Detected 559 recent artifacts in gemini store (26h window). Notable: 00000000.jsonl, 00000001.jsonl, 00000002.jsonl, 00000003.jsonl, 00000004.jsonl .... Newes
+- 20260914-092509_terminal_cmd_api_te.md: # 💻 Terminal Session (CMD) > **Session ID:** `api_test_term` | **Started:** 2026-09-14T09:25:09.170781+00:00 ```text > echo API_TEST_SUCCESS C:\Users\asus\Desktop\abhishek_personal_data\agent_os>API_T
+- 20260914-092510_terminal_cmd_test_t.md: # 💻 Terminal Session (CMD) > **Session ID:** `test_term_cmd` | **Started:** 2026-09-14T09:25:09.821747+00:00 ```text > echo HELLO_AGENT_OS C:\Users\asus\Desktop\abhishek_personal_data\agent_os>HELLO_A
+- 20260914-092630_terminal_cmd_api_te.md: # 💻 Terminal Session (CMD) > **Session ID:** `api_test_term` | **Started:** 2026-09-14T09:26:30.065509+00:00 ```text > echo API_TEST_SUCCESS C:\Users\asus\Desktop\abhishek_personal_data\agent_os>API_T
+- 20260914-092631_terminal_cmd_test_t.md: # 💻 Terminal Session (CMD) > **Session ID:** `test_term_cmd` | **Started:** 2026-09-14T09:26:30.707241+00:00 ```text > echo HELLO_AGENT_OS C:\Users\asus\Desktop\abhishek_personal_data\agent_os>HELLO_A
+- 20260914-093052_specialized-10tab-max.md: # Session specialized-10tab-max ## Summary Deployed AgentOS 100x MAX Specialized Capabilities Suite: Visual Workflow DAG Engine with topological sorting and approval gates, Interactive Live Terminal S
+- 20260914-093352_crewai-run.md: # Session crewai-run ## Summary Restored powershell.exe into C:/Users/asus/bin, installed google-genai in crewai_new/.venv, configured Gemini 3.6 Flash LLM for CrewAI, and successfully executed run_cr
+- 20260914-094242_gemini-20260914-0942.md: # Session gemini-20260914-0942 ## Summary Detected 705 recent artifacts in gemini store (26h window). Notable: 00000000.jsonl, 00000001.jsonl, 00000002.jsonl, 00000003.jsonl, 00000004.jsonl .... Newes
 
 ## gemini-3-5-flash - 3 sessions
 - 20260912-213822_swarm_audit.md: # Parallel Swarm Session: Gemini 3.5 Flash Speed Demon - **Project Audited:** [[assets]] - **Previous Score:** 25/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_exists": true, "has_git": 

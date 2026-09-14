@@ -1,6 +1,6 @@
 # Weekly Digest 2026-W38
 
-Generated: 2026-09-14T14:10:31.204253+00:00
+Generated: 2026-09-14T14:43:35.716443+00:00
 
 ## agent-3-monetization - 1 sessions
 - 20260912-222350_newspulse-monet-3.md: # Session newspulse-monet-3 ## Summary Rebuilt crashed monetization deliverables for NewsPulse (C:/Users/asus/news-pulse): monetization/README.md playbook (29KB, 44 verified sources, citation-ledger v
@@ -23,19 +23,23 @@ Generated: 2026-09-14T14:10:31.204253+00:00
 ## claude - 1 sessions
 - 20260912-180802_claude-20260912-1808.md: # Session claude-20260912-1808 ## Summary Detected 7 recent artifacts in claude store (26h window). Notable: 414381fb-72b5-4f1a-ac2e-19d4699d10ec.jsonl, 42c109bd-e395-4e29-be21-05a8be13b62b.jsonl, 449
 
-## claude-code-lead - 5 sessions
+## claude-code-lead - 7 sessions
 - 20260912-213823_swarm_audit.md: # Parallel Swarm Session: Claude Code Lead - **Project Audited:** [[_opencode]] - **Previous Score:** 15/100 - **Upgraded Score:** 60/100 - **Diagnostics:** { "path_exists": true, "has_git": false, "h
 - 20260912-214004_swarm_audit.md: # Parallel Swarm Session: Claude Code Lead - **Project Audited:** [[llvm-vs-code-extensions_vscode-clangd-0_6_0-universal]] - **Previous Score:** 30/100 - **Upgraded Score:** 65/100 - **Diagnostics:**
 - 20260914-063935_swarm_audit.md: # Parallel Swarm Session: Claude Code Lead - **Project Audited:** [[0d0046ff-edf9-4a36-a3f9-8d45b8fe9809]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists":
 - 20260914-091300_swarm_audit.md: # Parallel Swarm Session: Claude Code Lead - **Project Audited:** [[3493971b-500c-40fc-9144-fa7c4a818b12]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists":
 - 20260914-111200_swarm_audit.md: # Parallel Swarm Session: Claude Code Lead - **Project Audited:** [[Ai_hack_agent]] - **Previous Score:** 50/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists": true, "has_git": false
+- 20260914-143725_swarm_audit.md: # Parallel Swarm Session: Claude Code Lead - **Project Audited:** [[Ai_hack_agent]] - **Previous Score:** 50/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists": true, "has_git": false
+- 20260914-144129_swarm_audit.md: # Parallel Swarm Session: Claude Code Lead - **Project Audited:** [[Ai_hack_agent]] - **Previous Score:** 50/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists": true, "has_git": false
 
-## claude-opus-deep - 5 sessions
+## claude-opus-deep - 7 sessions
 - 20260912-213818_swarm_audit.md: # Parallel Swarm Session: Claude Opus Deep Thinker - **Project Audited:** [[AstroAI-android-feature-desi-connect-app-9924190810085556398]] - **Previous Score:** 20/100 - **Upgraded Score:** 65/100 - *
 - 20260912-214001_swarm_audit.md: # Parallel Swarm Session: Claude Opus Deep Thinker - **Project Audited:** [[meta_pyrefly-1_1_1-win32-x64]] - **Previous Score:** 30/100 - **Upgraded Score:** 60/100 - **Diagnostics:** { "path_exists":
 - 20260914-063935_swarm_audit.md: # Parallel Swarm Session: Claude Opus Deep Thinker - **Project Audited:** [[194f7a93-7143-4f9b-a24f-9d8b609624ef]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_
 - 20260914-091300_swarm_audit.md: # Parallel Swarm Session: Claude Opus Deep Thinker - **Project Audited:** [[42e60169-736a-4e18-a9d9-24af1b355e27]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_
 - 20260914-111200_swarm_audit.md: # Parallel Swarm Session: Claude Opus Deep Thinker - **Project Audited:** [[ansel]] - **Previous Score:** 50/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists": true, "has_git": false
+- 20260914-143725_swarm_audit.md: # Parallel Swarm Session: Claude Opus Deep Thinker - **Project Audited:** [[ansel]] - **Previous Score:** 50/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists": true, "has_git": false
+- 20260914-144129_swarm_audit.md: # Parallel Swarm Session: Claude Opus Deep Thinker - **Project Audited:** [[ansel]] - **Previous Score:** 50/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists": true, "has_git": false
 
 ## cline - 2 sessions
 - 20260912-205924_test-s1.md: # Session test-s1 ## Summary Verified cline universal memory Logged at: 2026-09-12T20:59:24.188586+00:00
@@ -47,12 +51,14 @@ Generated: 2026-09-14T14:10:31.204253+00:00
 - 20260914-091300_swarm_audit.md: # Parallel Swarm Session: Cline Headless Worker - **Project Audited:** [[d3ce36d6-3492-4b06-812f-caa9abaa2041]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exi
 - 20260914-111201_swarm_audit.md: # Parallel Swarm Session: Cline Headless Worker - **Project Audited:** [[prime-agent]] - **Previous Score:** 50/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_exists": true, "has_git": fa
 
-## codex-gpt5 - 5 sessions
+## codex-gpt5 - 7 sessions
 - 20260912-213819_swarm_audit.md: # Parallel Swarm Session: Codex GPT-5.5 Engine - **Project Audited:** [[microsoft-vs-code]] - **Previous Score:** 20/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists": true, "has_git
 - 20260912-214000_swarm_audit.md: # Parallel Swarm Session: Codex GPT-5.5 Engine - **Project Audited:** [[ms-azuretools_vscode-containers-2_4_5-universal]] - **Previous Score:** 30/100 - **Upgraded Score:** 65/100 - **Diagnostics:** {
 - 20260914-063935_swarm_audit.md: # Parallel Swarm Session: Codex GPT-5.5 Engine - **Project Audited:** [[1f17d55d-3bf3-4251-a187-2e00f1892309]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exis
 - 20260914-091300_swarm_audit.md: # Parallel Swarm Session: Codex GPT-5.5 Engine - **Project Audited:** [[55efbe3d-3d27-4548-9468-ae8a19890d58]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exis
 - 20260914-111201_swarm_audit.md: # Parallel Swarm Session: Codex GPT-5.5 Engine - **Project Audited:** [[apply_team]] - **Previous Score:** 50/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_exists": true, "has_git": fals
+- 20260914-143725_swarm_audit.md: # Parallel Swarm Session: Codex GPT-5.5 Engine - **Project Audited:** [[apply_team]] - **Previous Score:** 50/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_exists": true, "has_git": fals
+- 20260914-144129_swarm_audit.md: # Parallel Swarm Session: Codex GPT-5.5 Engine - **Project Audited:** [[apply_team]] - **Previous Score:** 50/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_exists": true, "has_git": fals
 
 ## copilot - 45 sessions
 - 20260912-205943_copilot-test-1.md: # Session copilot-test-1 ## Summary Verified copilot adapter Logged at: 2026-09-12T20:59:43.018193+00:00
@@ -137,7 +143,7 @@ Generated: 2026-09-14T14:10:31.204253+00:00
 - 20260914-091301_swarm_audit.md: # Parallel Swarm Session: Documentation & README Synthesizer - **Project Audited:** [[wiki_corrupt-20260910T095424]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "pat
 - 20260914-111204_swarm_audit.md: # Parallel Swarm Session: Documentation & README Synthesizer - **Project Audited:** [[velocity-rush]] - **Previous Score:** 50/100 - **Upgraded Score:** 80/100 - **Diagnostics:** { "path_exists": true
 
-## gemini - 81 sessions
+## gemini - 86 sessions
 - 20260912-185942_second-brain-build-20260913.md: # Session second-brain-build-20260913 ## Summary Completed comprehensive personal and professional Second Brain build in Obsidian: mapped 73 active projects across PC (Desktop, Documents, User home), 
 - 20260912-192309_gemini-20260912-1923.md: # Session gemini-20260912-1923 ## Summary Detected 765 recent artifacts in gemini store (26h window). Notable: 00000000.jsonl, 00000001.jsonl, 00000002.jsonl, 00000003.jsonl, 00000004.jsonl .... Newes
 - 20260912-193119_deep-pc-mapping-222-projects.md: # Session deep-pc-mapping-222-projects ## Summary Completed exhaustive PC-wide project discovery: indexed 222 projects across all drives (Desktop, Documents, Downloads, C:\tokenguard, C:\root). Classi
@@ -219,6 +225,11 @@ Generated: 2026-09-14T14:10:31.204253+00:00
 - 20260914-132640_gemini-20260914-1326.md: # Session gemini-20260914-1326 ## Summary Detected 1096 recent artifacts in gemini store (26h window). Notable: 00000000.jsonl, 00000001.jsonl, 00000002.jsonl, 00000003.jsonl, 00000004.jsonl .... Newe
 - 20260914-133700_crewai-startup-and-web.md: # Session crewai-startup-and-web ## Summary Created FastAPI CrewAI Web Station on port 8500 with real-time web dashboard and REST API. Integrated CrewAI into AgentStack startup pipeline (start_all.cmd
 - 20260914-140349_gemini-20260914-1403.md: # Session gemini-20260914-1403 ## Summary Detected 1149 recent artifacts in gemini store (26h window). Notable: 00000000.jsonl, 00000001.jsonl, 00000002.jsonl, 00000003.jsonl, 00000004.jsonl .... Newe
+- 20260914-141533_terminal_cmd_test_t.md: # 💻 Terminal Session (CMD) > **Session ID:** `test_term_cmd` | **Started:** 2026-09-14T14:15:32.406294+00:00 ```text > echo HELLO_AGENT_OS C:\Users\asus\Desktop\abhishek_personal_data\agent_os>HELLO_A
+- 20260914-141550_terminal_cmd_api_te.md: # 💻 Terminal Session (CMD) > **Session ID:** `api_test_term` | **Started:** 2026-09-14T14:15:49.807332+00:00 ```text > echo API_TEST_SUCCESS C:\Users\asus\Desktop\abhishek_personal_data\agent_os>API_T
+- 20260914-144118_terminal_cmd_test_t.md: # 💻 Terminal Session (CMD) > **Session ID:** `test_term_cmd` | **Started:** 2026-09-14T14:41:17.302912+00:00 ```text > echo HELLO_AGENT_OS C:\Users\asus\Desktop\abhishek_personal_data\agent_os>HELLO_A
+- 20260914-144125_terminal_cmd_api_te.md: # 💻 Terminal Session (CMD) > **Session ID:** `api_test_term` | **Started:** 2026-09-14T14:41:25.110379+00:00 ```text > echo API_TEST_SUCCESS C:\Users\asus\Desktop\abhishek_personal_data\agent_os>API_T
+- 20260914-144321_gemini-20260914-1443.md: # Session gemini-20260914-1443 ## Summary Detected 1149 recent artifacts in gemini store (26h window). Notable: 00000000.jsonl, 00000001.jsonl, 00000002.jsonl, 00000003.jsonl, 00000004.jsonl .... Newe
 
 ## gemini-3-5-flash - 4 sessions
 - 20260912-213822_swarm_audit.md: # Parallel Swarm Session: Gemini 3.5 Flash Speed Demon - **Project Audited:** [[assets]] - **Previous Score:** 25/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_exists": true, "has_git": 
@@ -226,12 +237,14 @@ Generated: 2026-09-14T14:10:31.204253+00:00
 - 20260914-091259_swarm_audit.md: # Parallel Swarm Session: Gemini 3.5 Flash Speed Demon - **Project Audited:** [[69df70aa-d419-4393-b0e7-6909202b0605]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "p
 - 20260914-111201_swarm_audit.md: # Parallel Swarm Session: Gemini 3.5 Flash Speed Demon - **Project Audited:** [[money-mission]] - **Previous Score:** 50/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists": true, "has
 
-## gemini-architect - 5 sessions
+## gemini-architect - 7 sessions
 - 20260912-213824_swarm_audit.md: # Parallel Swarm Session: Gemini 3.1 Pro Architect - **Project Audited:** [[_kilocode]] - **Previous Score:** 15/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_exists": true, "has_git": f
 - 20260912-214002_swarm_audit.md: # Parallel Swarm Session: Gemini 3.1 Pro Architect - **Project Audited:** [[kade_kade-4_0_4-universal]] - **Previous Score:** 30/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists": tr
 - 20260914-063935_swarm_audit.md: # Parallel Swarm Session: Gemini 3.1 Pro Architect - **Project Audited:** [[06dafc81-47b0-41ad-831c-5ab421be0a0e]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_
 - 20260914-091300_swarm_audit.md: # Parallel Swarm Session: Gemini 3.1 Pro Architect - **Project Audited:** [[3096b02f-52e5-49e7-8de0-7aae1a90754e]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_
 - 20260914-111202_swarm_audit.md: # Parallel Swarm Session: Gemini 3.1 Pro Architect - **Project Audited:** [[Affiliate_marketing_business_plus_other_side_gigs]] - **Previous Score:** 50/100 - **Upgraded Score:** 75/100 - **Diagnostic
+- 20260914-143725_swarm_audit.md: # Parallel Swarm Session: Gemini 3.1 Pro Architect - **Project Audited:** [[Affiliate_marketing_business_plus_other_side_gigs]] - **Previous Score:** 50/100 - **Upgraded Score:** 60/100 - **Diagnostic
+- 20260914-144129_swarm_audit.md: # Parallel Swarm Session: Gemini 3.1 Pro Architect - **Project Audited:** [[Affiliate_marketing_business_plus_other_side_gigs]] - **Previous Score:** 50/100 - **Upgraded Score:** 60/100 - **Diagnostic
 
 ## gemma3-local - 4 sessions
 - 20260912-213818_swarm_audit.md: # Parallel Swarm Session: Gemma 3 Local Assistant - **Project Audited:** [[0828626b-a3bd-4176-a8df-6ba6a25cfb48]] - **Previous Score:** 30/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_e
@@ -269,12 +282,14 @@ Generated: 2026-09-14T14:10:31.204253+00:00
 ## hermes-agent2 - 1 sessions
 - 20260912-222425_newspulse-build.md: # Session newspulse-build ## Summary Built scripts/build_site.py (stdlib-only static site generator for NewsPulse) + scripts/make_sample_data.py + data/sample-articles.json. 680 articles -> 809 files 
 
-## hermes-automation - 5 sessions
+## hermes-automation - 7 sessions
 - 20260912-213817_swarm_audit.md: # Parallel Swarm Session: Hermes Background Runner - **Project Audited:** [[canvases]] - **Previous Score:** 20/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_exists": true, "has_git": fa
 - 20260912-214002_swarm_audit.md: # Parallel Swarm Session: Hermes Background Runner - **Project Audited:** [[meta_pyrefly-1_2_0-win32-x64]] - **Previous Score:** 30/100 - **Upgraded Score:** 60/100 - **Diagnostics:** { "path_exists":
 - 20260914-063935_swarm_audit.md: # Parallel Swarm Session: Hermes Background Runner - **Project Audited:** [[1d5969f9-aa45-4e78-8818-bc88013873ce]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_
 - 20260914-091300_swarm_audit.md: # Parallel Swarm Session: Hermes Background Runner - **Project Audited:** [[476a0bcd-1dab-490a-aa0a-1279a4cfe400]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_
 - 20260914-111202_swarm_audit.md: # Parallel Swarm Session: Hermes Background Runner - **Project Audited:** [[application_kit]] - **Previous Score:** 50/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_exists": true, "has_g
+- 20260914-143725_swarm_audit.md: # Parallel Swarm Session: Hermes Background Runner - **Project Audited:** [[application_kit]] - **Previous Score:** 50/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_exists": true, "has_g
+- 20260914-144130_swarm_audit.md: # Parallel Swarm Session: Hermes Background Runner - **Project Audited:** [[application_kit]] - **Previous Score:** 50/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_exists": true, "has_g
 
 ## hermes-subagent - 1 sessions
 - 20260914-115712_jobpkg-top3.md: # Session jobpkg-top3 ## Summary Drafted SAVE-ONLY remote-job application package for top 3 openings (AnswerThis Product Engineer, Vela Founding AI FSE, Smart Working Founding Engineer) in C:/Users/as

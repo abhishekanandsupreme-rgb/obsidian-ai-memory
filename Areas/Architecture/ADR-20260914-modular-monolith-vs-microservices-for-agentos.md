@@ -1,6 +1,6 @@
 ---
 title: "ADR: Modular Monolith vs Microservices for AgentOS"
-adr_id: "DEBATE-20260914-f1a2b3"
+adr_id: "DEBATE-20260914-3fc72e"
 status: "APPROVED_WITH_CONDITIONS"
 consensus_score: 78
 date: "2026-09-14"
@@ -12,7 +12,7 @@ tags:
 
 # 🏛️ Architecture Decision Record: Modular Monolith vs Microservices for AgentOS
 
-> **Status:** `APPROVED_WITH_CONDITIONS` | **Consensus:** `78%` | **Debate ID:** `DEBATE-20260914-f1a2b3`
+> **Status:** `APPROVED_WITH_CONDITIONS` | **Consensus:** `78%` | **Debate ID:** `DEBATE-20260914-3fc72e`
 
 ## 📋 Context & Dilemma
 Benchmarking single-process IPC against distributed microservices.

@@ -1,6 +1,6 @@
 # Cross-Agent Briefing
 
-Generated: 2026-09-14T10:29:20.528478+00:00
+Generated: 2026-09-14T10:44:57.041558+00:00
 
 What each agent did in the last 24h:
 
@@ -52,8 +52,8 @@ What each agent did in the last 24h:
 ## docs-synthesizer (1 session log(s))
 - latest: # Parallel Swarm Session: Documentation & README Synthesizer - **Project Audited:** [[wiki_corrupt-20260910T095424]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists": true, "has_git": true, "has_manifest": false, "manifests": [], "has_readme": true, "has_g
 
-## gemini (23 session log(s))
-- latest: # Session gemini-20260914-1029 ## Summary Detected 777 recent artifacts in gemini store (26h window). Notable: 00000000.jsonl, 00000001.jsonl, 00000002.jsonl, 00000003.jsonl, 00000004.jsonl .... Newest: transcript.jsonl. Logged at: 2026-09-14T10:29:19.012514+00:00
+## gemini (24 session log(s))
+- latest: # Session gemini-20260914-1044 ## Summary Detected 823 recent artifacts in gemini store (26h window). Notable: 00000000.jsonl, 00000001.jsonl, 00000002.jsonl, 00000003.jsonl, 00000004.jsonl .... Newest: transcript.jsonl. Logged at: 2026-09-14T10:44:53.636418+00:00
 
 ## gemini-3-5-flash (1 session log(s))
 - latest: # Parallel Swarm Session: Gemini 3.5 Flash Speed Demon - **Project Audited:** [[69df70aa-d419-4393-b0e7-6909202b0605]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists": true, "has_git": true, "has_manifest": false, "manifests": [], "has_readme": true, "has
@@ -67,8 +67,8 @@ What each agent did in the last 24h:
 ## git-sentinel-bot (1 session log(s))
 - latest: # Parallel Swarm Session: Git Repository Reconciler - **Project Audited:** [[fd128361-5884-4b2d-a356-610d9897e951]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists": true, "has_git": true, "has_manifest": false, "manifests": [], "has_readme": true, "has_gi
 
-## hermes (3 session log(s))
-- latest: # Session hermes-20260914-0955 ## Summary Detected 1 recent artifacts in hermes store (26h window). Notable: request_dump_0e7b70d4-91ed-4136-9123-2a4c4b391ef0_20260914_151652_137556.json. Newest: request_dump_0e7b70d4-91ed-4136-9123-2a4c4b391ef0_20260914_151652_137556.json. Logged at: 2026-09-14T09:
+## hermes (4 session log(s))
+- latest: # Session hermes-20260914-1044 ## Summary Detected 2 recent artifacts in hermes store (26h window). Notable: request_dump_0e7b70d4-91ed-4136-9123-2a4c4b391ef0_20260914_151652_137556.json, request_dump_cron_890eea6477a3_20260914_150032_20260914_160021_438704.json. Newest: request_dump_0e7b70d4-91ed-4
 
 ## hermes-automation (2 session log(s))
 - latest: # Parallel Swarm Session: Hermes Background Runner - **Project Audited:** [[476a0bcd-1dab-490a-aa0a-1279a4cfe400]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists": true, "has_git": true, "has_manifest": false, "manifests": [], "has_readme": true, "has_git

@@ -1,6 +1,6 @@
 # Weekly Digest 2026-W38
 
-Generated: 2026-09-14T10:29:21.535958+00:00
+Generated: 2026-09-14T10:44:58.368125+00:00
 
 ## agent-3-monetization - 1 sessions
 - 20260912-222350_newspulse-monet-3.md: # Session newspulse-monet-3 ## Summary Rebuilt crashed monetization deliverables for NewsPulse (C:/Users/asus/news-pulse): monetization/README.md playbook (29KB, 44 verified sources, citation-ledger v
@@ -116,7 +116,7 @@ Generated: 2026-09-14T10:29:21.535958+00:00
 - 20260912-213959_swarm_audit.md: # Parallel Swarm Session: Documentation & README Synthesizer - **Project Audited:** [[capability-evolver]] - **Previous Score:** 40/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_exists":
 - 20260914-091301_swarm_audit.md: # Parallel Swarm Session: Documentation & README Synthesizer - **Project Audited:** [[wiki_corrupt-20260910T095424]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "pat
 
-## gemini - 63 sessions
+## gemini - 64 sessions
 - 20260912-185942_second-brain-build-20260913.md: # Session second-brain-build-20260913 ## Summary Completed comprehensive personal and professional Second Brain build in Obsidian: mapped 73 active projects across PC (Desktop, Documents, User home), 
 - 20260912-192309_gemini-20260912-1923.md: # Session gemini-20260912-1923 ## Summary Detected 765 recent artifacts in gemini store (26h window). Notable: 00000000.jsonl, 00000001.jsonl, 00000002.jsonl, 00000003.jsonl, 00000004.jsonl .... Newes
 - 20260912-193119_deep-pc-mapping-222-projects.md: # Session deep-pc-mapping-222-projects ## Summary Completed exhaustive PC-wide project discovery: indexed 222 projects across all drives (Desktop, Documents, Downloads, C:\tokenguard, C:\root). Classi
@@ -180,6 +180,7 @@ Generated: 2026-09-14T10:29:21.535958+00:00
 - 20260914-100221_mission-control-engine.md: # Session mission-control-engine ## Summary Engineered and deployed Mission Control Autonomous Long-Running Goal Engine for AgentOS 100x MAX. Implemented hierarchical Commander-Worker milestone decomp
 - 20260914-100747_gemini-20260914-1007.md: # Session gemini-20260914-1007 ## Summary Detected 766 recent artifacts in gemini store (26h window). Notable: 00000000.jsonl, 00000001.jsonl, 00000002.jsonl, 00000003.jsonl, 00000004.jsonl .... Newes
 - 20260914-102919_gemini-20260914-1029.md: # Session gemini-20260914-1029 ## Summary Detected 777 recent artifacts in gemini store (26h window). Notable: 00000000.jsonl, 00000001.jsonl, 00000002.jsonl, 00000003.jsonl, 00000004.jsonl .... Newes
+- 20260914-104453_gemini-20260914-1044.md: # Session gemini-20260914-1044 ## Summary Detected 823 recent artifacts in gemini store (26h window). Notable: 00000000.jsonl, 00000001.jsonl, 00000002.jsonl, 00000003.jsonl, 00000004.jsonl .... Newes
 
 ## gemini-3-5-flash - 3 sessions
 - 20260912-213822_swarm_audit.md: # Parallel Swarm Session: Gemini 3.5 Flash Speed Demon - **Project Audited:** [[assets]] - **Previous Score:** 25/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_exists": true, "has_git": 
@@ -202,7 +203,7 @@ Generated: 2026-09-14T10:29:21.535958+00:00
 - 20260912-213958_swarm_audit.md: # Parallel Swarm Session: Git Repository Reconciler - **Project Audited:** [[posthog]] - **Previous Score:** 35/100 - **Upgraded Score:** 80/100 - **Diagnostics:** { "path_exists": true, "has_git": tr
 - 20260914-091300_swarm_audit.md: # Parallel Swarm Session: Git Repository Reconciler - **Project Audited:** [[fd128361-5884-4b2d-a356-610d9897e951]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path
 
-## hermes - 12 sessions
+## hermes - 13 sessions
 - 20260912-175000_vault-setup-20260912.md: # Session vault-setup-20260912 ## Summary Completed full multi-agent Obsidian memory vault setup: vault-sync v2 engine, env var, instruction files for 6 agent homes, scheduled 15-min sync. Logged at: 
 - 20260912-210256_obsidian-vault-complete-setup.md: # Session obsidian-vault-complete-setup ## Summary Completed full multi-agent shared-memory setup: v2 vault-sync.py engine (real session discovery with dedup, memory, briefing, digest, heartbeat, git 
 - 20260912-225326_hermes-20260912-2253.md: # Session hermes-20260912-2253 ## Summary Detected 30 recent artifacts in hermes store (26h window). Notable: request_dump_05c67984-69ec-471a-9fbe-13e4f5868c31_20260912_162309_166771.json, request_dum
@@ -215,6 +216,7 @@ Generated: 2026-09-14T10:29:21.535958+00:00
 - 20260913-173957_cron_890eea6477a3_20260913_1130.md: # Session cron_890eea6477a3_20260913_1130 ## Summary Email triage cron: blocker unchanged (no .gmail-app-password, himalaya cannot auth). Prior run 00:05 verified live + full connect instructions alre
 - 20260914-062651_cron_890eea6477a3_20260914_1200.md: # Session cron_890eea6477a3_20260914_1200 ## Summary Email triage cron: blocker still unchanged (no .gmail-app-password, himalaya secret-command error identical to 09-13 23:35 run, no alternate connec
 - 20260914-095525_hermes-20260914-0955.md: # Session hermes-20260914-0955 ## Summary Detected 1 recent artifacts in hermes store (26h window). Notable: request_dump_0e7b70d4-91ed-4136-9123-2a4c4b391ef0_20260914_151652_137556.json. Newest: requ
+- 20260914-104454_hermes-20260914-1044.md: # Session hermes-20260914-1044 ## Summary Detected 2 recent artifacts in hermes store (26h window). Notable: request_dump_0e7b70d4-91ed-4136-9123-2a4c4b391ef0_20260914_151652_137556.json, request_dump
 
 ## hermes-agent - 1 sessions
 - 20260822-092356_245ef5c9-97e5-4faa-8594-0b180af9f564.md: # Session: 245ef5c9-97e5-4faa-8594-0b180af9f564 **Agent:** hermes-agent **Started:** 2026-08-22T12:57:35.156975 **Ended:** 2026-08-22T09:23:55.768511+00:00 **Status:** active ## Summary <!-- Session s

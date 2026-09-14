@@ -1,0 +1,61 @@
+{
+  "workflow_id": "gate_test",
+  "name": "Gate Test",
+  "description": "",
+  "nodes": {
+    "n1": {
+      "node_id": "n1",
+      "name": "Trigger",
+      "node_type": "trigger",
+      "config": {},
+      "dependencies": [],
+      "ui_position": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "state": "idle",
+      "output": null,
+      "error": null,
+      "started_at": null,
+      "finished_at": null
+    },
+    "gate": {
+      "node_id": "gate",
+      "name": "Checkpoint",
+      "node_type": "approval_gate",
+      "config": {},
+      "dependencies": [
+        "n1"
+      ],
+      "ui_position": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "state": "idle",
+      "output": null,
+      "error": null,
+      "started_at": null,
+      "finished_at": null
+    },
+    "n2": {
+      "node_id": "n2",
+      "name": "After Gate",
+      "node_type": "obsidian_sync",
+      "config": {},
+      "dependencies": [
+        "gate"
+      ],
+      "ui_position": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "state": "idle",
+      "output": null,
+      "error": null,
+      "started_at": null,
+      "finished_at": null
+    }
+  },
+  "created_at": "2026-09-14T09:24:13.258740+00:00",
+  "updated_at": "2026-09-14T09:24:13.258740+00:00"
+}

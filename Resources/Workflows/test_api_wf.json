@@ -1,0 +1,25 @@
+{
+  "workflow_id": "test_api_wf",
+  "name": "API Test Workflow",
+  "description": "Integration test",
+  "nodes": {
+    "t1": {
+      "node_id": "t1",
+      "name": "Start",
+      "node_type": "trigger",
+      "config": {},
+      "dependencies": [],
+      "ui_position": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "state": "idle",
+      "output": null,
+      "error": null,
+      "started_at": null,
+      "finished_at": null
+    }
+  },
+  "created_at": "2026-09-14T09:24:12.309717+00:00",
+  "updated_at": "2026-09-14T09:24:12.309717+00:00"
+}

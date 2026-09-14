@@ -1,0 +1,109 @@
+{
+  "workflow_id": "wf-auto-heal",
+  "name": "Autonomous Audit, Test & Git Heal",
+  "description": "Scans unfinished repos, runs unit tests, and self-heals failing suites.",
+  "nodes": {
+    "node-trig-1": {
+      "node_id": "node-trig-1",
+      "name": "Manual / Webhook Trigger",
+      "node_type": "trigger",
+      "config": {
+        "source": "manual"
+      },
+      "dependencies": [],
+      "ui_position": {
+        "x": 80,
+        "y": 120
+      },
+      "state": "idle",
+      "output": null,
+      "error": null,
+      "started_at": null,
+      "finished_at": null
+    },
+    "node-agent-1": {
+      "node_id": "node-agent-1",
+      "name": "Gemini 3.1 Pro Code Diagnostic",
+      "node_type": "agent_task",
+      "config": {
+        "agent_id": "gemini",
+        "action": "diagnose_unfinished"
+      },
+      "dependencies": [
+        "node-trig-1"
+      ],
+      "ui_position": {
+        "x": 320,
+        "y": 120
+      },
+      "state": "idle",
+      "output": null,
+      "error": null,
+      "started_at": null,
+      "finished_at": null
+    },
+    "node-heal-1": {
+      "node_id": "node-heal-1",
+      "name": "Git Feature Branch & Test Scaffolder",
+      "node_type": "git_action",
+      "config": {
+        "action": "heal_project",
+        "auto_merge": false
+      },
+      "dependencies": [
+        "node-agent-1"
+      ],
+      "ui_position": {
+        "x": 580,
+        "y": 120
+      },
+      "state": "idle",
+      "output": null,
+      "error": null,
+      "started_at": null,
+      "finished_at": null
+    },
+    "node-gate-1": {
+      "node_id": "node-gate-1",
+      "name": "Human Approval Gate (Merge to Main)",
+      "node_type": "approval_gate",
+      "config": {
+        "prompt": "Approve auto-merge of healed feature branch into main?"
+      },
+      "dependencies": [
+        "node-heal-1"
+      ],
+      "ui_position": {
+        "x": 840,
+        "y": 120
+      },
+      "state": "idle",
+      "output": null,
+      "error": null,
+      "started_at": null,
+      "finished_at": null
+    },
+    "node-sync-1": {
+      "node_id": "node-sync-1",
+      "name": "Obsidian Second Brain Synchronizer",
+      "node_type": "obsidian_sync",
+      "config": {
+        "action": "sync_notes"
+      },
+      "dependencies": [
+        "node-gate-1"
+      ],
+      "ui_position": {
+        "x": 1100,
+        "y": 120
+      },
+      "state": "idle",
+      "output": null,
+      "error": null,
+      "started_at": null,
+      "finished_at": null
+    }
+  },
+  "created_at": "2026-09-14T09:25:02.282288+00:00",
+  "updated_at": "2026-09-14T09:25:02.282288+00:00"
+}

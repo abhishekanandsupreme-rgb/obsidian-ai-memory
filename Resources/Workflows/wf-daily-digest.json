@@ -1,0 +1,111 @@
+{
+  "workflow_id": "wf-daily-digest",
+  "name": "Daily Multi-Agent Neural Synthesis",
+  "description": "Collates 24h cross-agent memory, runs LLM synthesis, and publishes to briefing note.",
+  "nodes": {
+    "node-cron-1": {
+      "node_id": "node-cron-1",
+      "name": "Daily 4h Heartbeat Cron",
+      "node_type": "trigger",
+      "config": {
+        "schedule": "0 */4 * * *"
+      },
+      "dependencies": [],
+      "ui_position": {
+        "x": 80,
+        "y": 100
+      },
+      "state": "idle",
+      "output": null,
+      "error": null,
+      "started_at": null,
+      "finished_at": null
+    },
+    "node-claude-1": {
+      "node_id": "node-claude-1",
+      "name": "Claude Code Security Audit",
+      "node_type": "agent_task",
+      "config": {
+        "agent_id": "claude",
+        "task": "audit_security"
+      },
+      "dependencies": [
+        "node-cron-1"
+      ],
+      "ui_position": {
+        "x": 340,
+        "y": 60
+      },
+      "state": "idle",
+      "output": null,
+      "error": null,
+      "started_at": null,
+      "finished_at": null
+    },
+    "node-hermes-1": {
+      "node_id": "node-hermes-1",
+      "name": "Hermes Autonomous Discovery",
+      "node_type": "agent_task",
+      "config": {
+        "agent_id": "hermes",
+        "task": "discover_git_changes"
+      },
+      "dependencies": [
+        "node-cron-1"
+      ],
+      "ui_position": {
+        "x": 340,
+        "y": 160
+      },
+      "state": "idle",
+      "output": null,
+      "error": null,
+      "started_at": null,
+      "finished_at": null
+    },
+    "node-llm-1": {
+      "node_id": "node-llm-1",
+      "name": "DeepSeek Hybrid Neural Synthesizer",
+      "node_type": "llm_prompt",
+      "config": {
+        "prompt": "Synthesize agent actions and output executive brief.",
+        "provider": "deepseek"
+      },
+      "dependencies": [
+        "node-claude-1",
+        "node-hermes-1"
+      ],
+      "ui_position": {
+        "x": 640,
+        "y": 110
+      },
+      "state": "idle",
+      "output": null,
+      "error": null,
+      "started_at": null,
+      "finished_at": null
+    },
+    "node-vault-1": {
+      "node_id": "node-vault-1",
+      "name": "Update Obsidian Daily Synthesis Note",
+      "node_type": "obsidian_sync",
+      "config": {
+        "target": "memory/cross-agent/daily-synthesis.md"
+      },
+      "dependencies": [
+        "node-llm-1"
+      ],
+      "ui_position": {
+        "x": 920,
+        "y": 110
+      },
+      "state": "idle",
+      "output": null,
+      "error": null,
+      "started_at": null,
+      "finished_at": null
+    }
+  },
+  "created_at": "2026-09-14T09:25:02.284289+00:00",
+  "updated_at": "2026-09-14T09:25:02.284289+00:00"
+}

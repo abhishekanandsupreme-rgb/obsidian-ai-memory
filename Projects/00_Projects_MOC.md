@@ -1,10 +1,10 @@
 ---
 title: "Projects Map of Content"
 type: moc
-last_updated: 2026-09-12 21:41
+last_updated: 2026-09-14 06:35
 total_projects: 222
-finished_count: 56
-unfinished_count: 166
+finished_count: 57
+unfinished_count: 165
 tags:
   - moc
   - projects
@@ -14,12 +14,12 @@ tags:
 # 🗺️ Master Projects Map of Content (MOC)
 
 > Central navigation index for all **222 mapped codebases** across the computer.
-> **Readiness:** 🟢 **56 Finished / Production-Ready** | 🟡 **166 Unfinished / In-Progress**
+> **Readiness:** 🟢 **57 Finished / Production-Ready** | 🟡 **165 Unfinished / In-Progress**
 > Interlinked with [[AI Memory Hub]] for cross-agent memory discovery.
 
 ---
 
-## 🟢 Finished & Production-Ready Projects (56)
+## 🟢 Finished & Production-Ready Projects (57)
 Projects with clean git state, remote remotes, verified builds, or live deployments:
 
 ```dataview
@@ -28,6 +28,7 @@ FROM "Projects"
 WHERE is_finished = true AND file.name != "00_Projects_MOC"
 SORT completion_score DESC, file.name ASC
 ```
+- [[_mpt]] — *Core User Repositories* (`Score: 90/100`)
 - [[MoneyPrinterTurbo]] — *Core User Repositories* (`Score: 90/100`)
 - [[api]] — *Founder Mode SaaS* (`Score: 100/100`)
 - [[arxiv-reader]] — *Core User Repositories* (`Score: 90/100`)
@@ -89,7 +90,7 @@ SORT completion_score DESC, file.name ASC
 
 ---
 
-## 🟡 Unfinished & In-Progress Projects (166)
+## 🟡 Unfinished & In-Progress Projects (165)
 Active developments, prototypes, drafts, and projects needing work or remote sync:
 
 ```dataview
@@ -124,7 +125,6 @@ SORT completion_score DESC, file.name ASC
 - [[8f4738d6-f70d-43db-9e02-c69178ae6244]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
 - [[965b2d0f-4e6d-42fb-9b43-2fac4db57bde]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
 - [[98da3a45-3c49-4a33-9d0f-4c5f18a3644a]] — *Unfinished / In-Progress (WIP)* (`Score: 45/100`)
-- [[_mpt]] — *Prototype / Early Draft* (`Score: 40/100`)
 - [[ad-orchestrator]] — *Prototype / Early Draft* (`Score: 30/100`)
 - [[ai-prompt-store]] — *Unfinished / In-Progress (WIP)* (`Score: 70/100`)
 - [[ai-prompt-store-remote]] — *Unfinished / In-Progress (WIP)* (`Score: 70/100`)

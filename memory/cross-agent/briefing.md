@@ -1,6 +1,6 @@
 # Cross-Agent Briefing
 
-Generated: 2026-09-14T18:53:21.043485+00:00
+Generated: 2026-09-14T19:08:11.096549+00:00
 
 What each agent did in the last 24h:
 
@@ -67,8 +67,8 @@ What each agent did in the last 24h:
 ## git-sentinel-bot (2 session log(s))
 - latest: # Parallel Swarm Session: Git Repository Reconciler - **Project Audited:** [[resume]] - **Previous Score:** 50/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists": true, "has_git": false, "has_manifest": false, "manifests": [], "has_readme": true, "has_gitignore": true, "has_docker":
 
-## hermes (8 session log(s))
-- latest: # Session hermes-20260914-1810 ## Summary Detected 6 recent artifacts in hermes store (26h window). Notable: request_dump_0e7b70d4-91ed-4136-9123-2a4c4b391ef0_20260914_151652_137556.json, request_dump_20260908_003500_5ab978_20260914_181050_469290.json, request_dump_cron_15292a883ebf_20260914_223241_
+## hermes (9 session log(s))
+- latest: # Session cron_890eea6477a3_20260915_1530 ## Summary Email triage cron 09-15: blocker still unchanged — .gmail-app-password missing, himalaya v2.1.0 secret-command error identical, no gog/alternate connector. Live re-verified. Connect instructions already delivered 09-12; runs since 09-13 silent. Th
 
 ## hermes-automation (8 session log(s))
 - latest: # Parallel Swarm Session: Hermes Background Runner - **Project Audited:** [[application_kit]] - **Previous Score:** 50/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_exists": true, "has_git": false, "has_manifest": false, "manifests": [], "has_readme": true, "has_gitignore": true, "has_

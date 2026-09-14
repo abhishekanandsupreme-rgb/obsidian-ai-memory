@@ -1,6 +1,6 @@
 # Cross-Agent Briefing
 
-Generated: 2026-09-14T14:43:35.210765+00:00
+Generated: 2026-09-14T14:53:46.202944+00:00
 
 What each agent did in the last 24h:
 
@@ -16,10 +16,10 @@ What each agent did in the last 24h:
 ## claude
 - no logged activity in last 24h
 
-## claude-code-lead (5 session log(s))
+## claude-code-lead (8 session log(s))
 - latest: # Parallel Swarm Session: Claude Code Lead - **Project Audited:** [[Ai_hack_agent]] - **Previous Score:** 50/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists": true, "has_git": false, "has_manifest": false, "manifests": [], "has_readme": true, "has_gitignore": true, "has_docker": f
 
-## claude-opus-deep (5 session log(s))
+## claude-opus-deep (8 session log(s))
 - latest: # Parallel Swarm Session: Claude Opus Deep Thinker - **Project Audited:** [[ansel]] - **Previous Score:** 50/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists": true, "has_git": false, "has_manifest": false, "manifests": [], "has_readme": true, "has_gitignore": true, "has_docker": f
 
 ## cline-headless-bot (2 session log(s))
@@ -28,11 +28,11 @@ What each agent did in the last 24h:
 ## codex
 - no logged activity in last 24h
 
-## codex-gpt5 (5 session log(s))
+## codex-gpt5 (8 session log(s))
 - latest: # Parallel Swarm Session: Codex GPT-5.5 Engine - **Project Audited:** [[apply_team]] - **Previous Score:** 50/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_exists": true, "has_git": false, "has_manifest": false, "manifests": [], "has_readme": true, "has_gitignore": true, "has_docker": 
 
-## copilot (17 session log(s))
-- latest: # Session copilot-20260914-1402 ## Summary Detected 324 recent artifacts in copilot store (26h window). Notable: .git, .gitignore, .pre-commit-config.yaml, .python-version, .workspace-fork.lock .... Newest: AGENTS.md. Logged at: 2026-09-14T14:02:39.310029+00:00
+## copilot (18 session log(s))
+- latest: # Session copilot-20260914-1453 ## Summary Detected 329 recent artifacts in copilot store (26h window). Notable: .git, .gitignore, .pre-commit-config.yaml, .python-version, .workspace-fork.lock .... Newest: AGENTS.md. Logged at: 2026-09-14T14:53:16.443422+00:00
 
 ## copilot-cli-adapter (2 session log(s))
 - latest: # Parallel Swarm Session: GitHub Copilot CLI Adapter - **Project Audited:** [[rakazo]] - **Previous Score:** 50/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists": true, "has_git": false, "has_manifest": false, "manifests": [], "has_readme": true, "has_gitignore": true, "has_docker"
@@ -52,13 +52,13 @@ What each agent did in the last 24h:
 ## docs-synthesizer (2 session log(s))
 - latest: # Parallel Swarm Session: Documentation & README Synthesizer - **Project Audited:** [[velocity-rush]] - **Previous Score:** 50/100 - **Upgraded Score:** 80/100 - **Diagnostics:** { "path_exists": true, "has_git": true, "has_manifest": true, "manifests": [ "package.json" ], "has_readme": true, "has_g
 
-## gemini (46 session log(s))
-- latest: # Session gemini-20260914-1443 ## Summary Detected 1149 recent artifacts in gemini store (26h window). Notable: 00000000.jsonl, 00000001.jsonl, 00000002.jsonl, 00000003.jsonl, 00000004.jsonl .... Newest: transcript.jsonl. Logged at: 2026-09-14T14:43:21.779115+00:00
+## gemini (51 session log(s))
+- latest: # 💻 Terminal Session (CMD) > **Session ID:** `api_test_term` | **Started:** 2026-09-14T14:53:21.002253+00:00 ```text > echo API_TEST_SUCCESS C:\Users\asus\Desktop\abhishek_personal_data\agent_os>API_TEST_SUCCESS C:\Users\asus\Desktop\abhishek_personal_data\agent_os> ```
 
 ## gemini-3-5-flash (2 session log(s))
 - latest: # Parallel Swarm Session: Gemini 3.5 Flash Speed Demon - **Project Audited:** [[money-mission]] - **Previous Score:** 50/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists": true, "has_git": false, "has_manifest": false, "manifests": [], "has_readme": true, "has_gitignore": true, "ha
 
-## gemini-architect (5 session log(s))
+## gemini-architect (8 session log(s))
 - latest: # Parallel Swarm Session: Gemini 3.1 Pro Architect - **Project Audited:** [[Affiliate_marketing_business_plus_other_side_gigs]] - **Previous Score:** 50/100 - **Upgraded Score:** 60/100 - **Diagnostics:** { "path_exists": true, "has_git": false, "has_manifest": false, "manifests": [], "has_readme": 
 
 ## gemma3-local (2 session log(s))
@@ -67,10 +67,10 @@ What each agent did in the last 24h:
 ## git-sentinel-bot (2 session log(s))
 - latest: # Parallel Swarm Session: Git Repository Reconciler - **Project Audited:** [[resume]] - **Previous Score:** 50/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists": true, "has_git": false, "has_manifest": false, "manifests": [], "has_readme": true, "has_gitignore": true, "has_docker":
 
-## hermes (7 session log(s))
-- latest: # Session hermes-20260914-1254 ## Summary Detected 3 recent artifacts in hermes store (26h window). Notable: request_dump_0e7b70d4-91ed-4136-9123-2a4c4b391ef0_20260914_151652_137556.json, request_dump_20260908_003500_5ab978_20260914_181050_469290.json, request_dump_cron_890eea6477a3_20260914_150032_
+## hermes (8 session log(s))
+- latest: # Session hermes-20260914-1453 ## Summary Detected 4 recent artifacts in hermes store (26h window). Notable: request_dump_0e7b70d4-91ed-4136-9123-2a4c4b391ef0_20260914_151652_137556.json, request_dump_20260908_003500_5ab978_20260914_181050_469290.json, request_dump_cron_890eea6477a3_20260914_150032_
 
-## hermes-automation (5 session log(s))
+## hermes-automation (8 session log(s))
 - latest: # Parallel Swarm Session: Hermes Background Runner - **Project Audited:** [[application_kit]] - **Previous Score:** 50/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_exists": true, "has_git": false, "has_manifest": false, "manifests": [], "has_readme": true, "has_gitignore": true, "has_
 
 ## hermes-subagent (1 session log(s))

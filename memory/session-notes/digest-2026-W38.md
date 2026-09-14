@@ -1,6 +1,6 @@
 # Weekly Digest 2026-W38
 
-Generated: 2026-09-14T07:54:07.661759+00:00
+Generated: 2026-09-14T08:27:10.966353+00:00
 
 ## agent-3-monetization - 1 sessions
 - 20260912-222350_newspulse-monet-3.md: # Session newspulse-monet-3 ## Summary Rebuilt crashed monetization deliverables for NewsPulse (C:/Users/asus/news-pulse): monetization/README.md playbook (29KB, 44 verified sources, citation-ledger v
@@ -42,7 +42,7 @@ Generated: 2026-09-14T07:54:07.661759+00:00
 - 20260912-214000_swarm_audit.md: # Parallel Swarm Session: Codex GPT-5.5 Engine - **Project Audited:** [[ms-azuretools_vscode-containers-2_4_5-universal]] - **Previous Score:** 30/100 - **Upgraded Score:** 65/100 - **Diagnostics:** {
 - 20260914-063935_swarm_audit.md: # Parallel Swarm Session: Codex GPT-5.5 Engine - **Project Audited:** [[1f17d55d-3bf3-4251-a187-2e00f1892309]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exis
 
-## copilot - 34 sessions
+## copilot - 35 sessions
 - 20260912-205943_copilot-test-1.md: # Session copilot-test-1 ## Summary Verified copilot adapter Logged at: 2026-09-12T20:59:43.018193+00:00
 - 20260912-210805_copilot-20260912-2108.md: # Session copilot-20260912-2108 ## Summary Detected 29 recent artifacts in copilot store (26h window). Notable: 671634a2-bcff-423e-bc7f-bc7c2960e89b.lock, a7192086-0018-400e-8573-68da5528f1fd.lock, da
 - 20260912-212308_copilot-20260912-2123.md: # Session copilot-20260912-2123 ## Summary Detected 29 recent artifacts in copilot store (26h window). Notable: 671634a2-bcff-423e-bc7f-bc7c2960e89b.lock, a7192086-0018-400e-8573-68da5528f1fd.lock, da
@@ -77,6 +77,7 @@ Generated: 2026-09-14T07:54:07.661759+00:00
 - 20260914-073945_copilot-20260914-0739.md: # Session copilot-20260914-0739 ## Summary Detected 2376 recent artifacts in copilot store (26h window). Notable: .dockerignore, .gitattributes, .gitignore, .mcp.json, .npmrc .... Newest: SKILL.md. Lo
 - 20260914-075127_bug-review-20260914.md: # Session bug-review-20260914 ## Summary Reviewed Founder mode portfolio and reproduced two bugs: multi-agent-pipeline countTestBlocks counts commented/string test calls; replypilot API fallbacks rere
 - 20260914-075315_copilot-20260914-0753.md: # Session copilot-20260914-0753 ## Summary Detected 997 recent artifacts in copilot store (26h window). Notable: .dockerignore, .gitattributes, .gitignore, .mcp.json, .npmrc .... Newest: cli.md. Logge
+- 20260914-081007_copilot-20260914-0810.md: # Session copilot-20260914-0810 ## Summary Detected 603 recent artifacts in copilot store (26h window). Notable: .gitattributes, .gitignore, .mcp.json, .npmrc, .nvmrc .... Newest: cli.md. Logged at: 2
 
 ## copilot-cli-adapter - 2 sessions
 - 20260912-213824_swarm_audit.md: # Parallel Swarm Session: GitHub Copilot CLI Adapter - **Project Audited:** [[anysphere_remote-containers-1_0_37]] - **Previous Score:** 30/100 - **Upgraded Score:** 60/100 - **Diagnostics:** { "path_

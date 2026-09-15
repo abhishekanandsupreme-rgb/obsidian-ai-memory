@@ -1,6 +1,6 @@
 # Weekly Digest 2026-W38
 
-Generated: 2026-09-15T16:55:24.024278+00:00
+Generated: 2026-09-15T17:23:25.869699+00:00
 
 ## agent-3-monetization - 1 sessions
 - 20260912-222350_newspulse-monet-3.md: # Session newspulse-monet-3 ## Summary Rebuilt crashed monetization deliverables for NewsPulse (C:/Users/asus/news-pulse): monetization/README.md playbook (29KB, 44 verified sources, citation-ledger v
@@ -294,7 +294,7 @@ Generated: 2026-09-15T16:55:24.024278+00:00
 - 20260914-091300_swarm_audit.md: # Parallel Swarm Session: Git Repository Reconciler - **Project Audited:** [[fd128361-5884-4b2d-a356-610d9897e951]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path
 - 20260914-111201_swarm_audit.md: # Parallel Swarm Session: Git Repository Reconciler - **Project Audited:** [[resume]] - **Previous Score:** 50/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists": true, "has_git": fal
 
-## hermes - 24 sessions
+## hermes - 25 sessions
 - 20260912-175000_vault-setup-20260912.md: # Session vault-setup-20260912 ## Summary Completed full multi-agent Obsidian memory vault setup: vault-sync v2 engine, env var, instruction files for 6 agent homes, scheduled 15-min sync. Logged at: 
 - 20260912-210256_obsidian-vault-complete-setup.md: # Session obsidian-vault-complete-setup ## Summary Completed full multi-agent shared-memory setup: v2 vault-sync.py engine (real session discovery with dedup, memory, briefing, digest, heartbeat, git 
 - 20260912-225326_hermes-20260912-2253.md: # Session hermes-20260912-2253 ## Summary Detected 30 recent artifacts in hermes store (26h window). Notable: request_dump_05c67984-69ec-471a-9fbe-13e4f5868c31_20260912_162309_166771.json, request_dum
@@ -319,6 +319,7 @@ Generated: 2026-09-15T16:55:24.024278+00:00
 - 20260915-030819_hermes-20260915-0308.md: # Session hermes-20260915-0308 ## Summary Detected 7 recent artifacts in hermes store (26h window). Notable: request_dump_0e7b70d4-91ed-4136-9123-2a4c4b391ef0_20260914_151652_137556.json, request_dump
 - 20260915-041800_hermes-20260915-0418.md: # Session hermes-20260915-0418 ## Summary Detected 10 recent artifacts in hermes store (26h window). Notable: request_dump_0e7b70d4-91ed-4136-9123-2a4c4b391ef0_20260914_151652_137556.json, request_dum
 - 20260915-165523_hermes-20260915-1655.md: # Session hermes-20260915-1655 ## Summary Detected 8 recent artifacts in hermes store (26h window). Notable: request_dump_cron_15292a883ebf_20260914_223241_20260914_232943_014567.json, request_dump_cr
+- 20260915-172324_hermes-20260915-1723.md: # Session hermes-20260915-1723 ## Summary Detected 9 recent artifacts in hermes store (26h window). Notable: request_dump_cron_15292a883ebf_20260914_223241_20260914_232943_014567.json, request_dump_cr
 
 ## hermes-agent - 1 sessions
 - 20260822-092356_245ef5c9-97e5-4faa-8594-0b180af9f564.md: # Session: 245ef5c9-97e5-4faa-8594-0b180af9f564 **Agent:** hermes-agent **Started:** 2026-08-22T12:57:35.156975 **Ended:** 2026-08-22T09:23:55.768511+00:00 **Status:** active ## Summary <!-- Session s

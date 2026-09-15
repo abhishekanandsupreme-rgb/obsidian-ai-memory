@@ -1,6 +1,6 @@
 # Weekly Digest 2026-W38
 
-Generated: 2026-09-15T20:09:04.329854+00:00
+Generated: 2026-09-15T20:23:23.585991+00:00
 
 ## agent-3-monetization - 1 sessions
 - 20260912-222350_newspulse-monet-3.md: # Session newspulse-monet-3 ## Summary Rebuilt crashed monetization deliverables for NewsPulse (C:/Users/asus/news-pulse): monetization/README.md playbook (29KB, 44 verified sources, citation-ledger v
@@ -168,7 +168,7 @@ Generated: 2026-09-15T20:09:04.329854+00:00
 - 20260914-091301_swarm_audit.md: # Parallel Swarm Session: Documentation & README Synthesizer - **Project Audited:** [[wiki_corrupt-20260910T095424]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "pat
 - 20260914-111204_swarm_audit.md: # Parallel Swarm Session: Documentation & README Synthesizer - **Project Audited:** [[velocity-rush]] - **Previous Score:** 50/100 - **Upgraded Score:** 80/100 - **Diagnostics:** { "path_exists": true
 
-## gemini - 105 sessions
+## gemini - 107 sessions
 - 20260912-185942_second-brain-build-20260913.md: # Session second-brain-build-20260913 ## Summary Completed comprehensive personal and professional Second Brain build in Obsidian: mapped 73 active projects across PC (Desktop, Documents, User home), 
 - 20260912-192309_gemini-20260912-1923.md: # Session gemini-20260912-1923 ## Summary Detected 765 recent artifacts in gemini store (26h window). Notable: 00000000.jsonl, 00000001.jsonl, 00000002.jsonl, 00000003.jsonl, 00000004.jsonl .... Newes
 - 20260912-193119_deep-pc-mapping-222-projects.md: # Session deep-pc-mapping-222-projects ## Summary Completed exhaustive PC-wide project discovery: indexed 222 projects across all drives (Desktop, Documents, Downloads, C:\tokenguard, C:\root). Classi
@@ -274,6 +274,8 @@ Generated: 2026-09-15T20:09:04.329854+00:00
 - 20260915-200553_exp_survey1.md: # Session exp_survey1 ## Summary Completed survey for Milestone 1 OS Provisioning and Direct LAN Interconnect. Uncovered critical 2.16GB disk space constraint vs 5.83GB Omarchy ISO, fixed ISO 404 URL 
 - 20260915-200624_exp_surv_3.md: # Session exp_surv_3 ## Summary Explorer Survey 3 completed comprehensive investigation of distributed dual-node agent factory architecture (Windows Master + Omarchy Linux Worker). Key architectural f
 - 20260915-200901_gemini-20260915-2009.md: # Session gemini-20260915-2009 ## Summary Detected 705 recent artifacts in gemini store (26h window). Notable: .af5d5f99-94a9-4729-a9d5-d5985b69c67b.3f17b93f-04a9-4a1c-8202-df195f5a0f15.tmp, 00000000.
+- 20260915-201433_exp_survey_2.md: # Session exp_survey_2 ## Summary Completed comprehensive storage audit across drives C: and G: (C: 2.20 GB free, G: Google Drive mirror). Cataloged 105.74 GB of offloadable data (Docker VHDX 23.85 GB
+- 20260915-202322_gemini-20260915-2023.md: # Session gemini-20260915-2023 ## Summary Detected 933 recent artifacts in gemini store (26h window). Notable: .af5d5f99-94a9-4729-a9d5-d5985b69c67b.3f17b93f-04a9-4a1c-8202-df195f5a0f15.tmp, 00000000.
 
 ## gemini-3-5-flash - 4 sessions
 - 20260912-213822_swarm_audit.md: # Parallel Swarm Session: Gemini 3.5 Flash Speed Demon - **Project Audited:** [[assets]] - **Previous Score:** 25/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_exists": true, "has_git": 

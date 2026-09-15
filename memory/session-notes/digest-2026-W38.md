@@ -1,6 +1,6 @@
 # Weekly Digest 2026-W38
 
-Generated: 2026-09-15T19:23:30.089083+00:00
+Generated: 2026-09-15T19:38:22.988396+00:00
 
 ## agent-3-monetization - 1 sessions
 - 20260912-222350_newspulse-monet-3.md: # Session newspulse-monet-3 ## Summary Rebuilt crashed monetization deliverables for NewsPulse (C:/Users/asus/news-pulse): monetization/README.md playbook (29KB, 44 verified sources, citation-ledger v
@@ -69,7 +69,7 @@ Generated: 2026-09-15T19:23:30.089083+00:00
 - 20260914-145020_swarm_audit.md: # Parallel Swarm Session: Codex GPT-5.5 Engine - **Project Audited:** [[apply_team]] - **Previous Score:** 50/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_exists": true, "has_git": fals
 - 20260914-145323_swarm_audit.md: # Parallel Swarm Session: Codex GPT-5.5 Engine - **Project Audited:** [[apply_team]] - **Previous Score:** 50/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_exists": true, "has_git": fals
 
-## copilot - 59 sessions
+## copilot - 60 sessions
 - 20260912-205943_copilot-test-1.md: # Session copilot-test-1 ## Summary Verified copilot adapter Logged at: 2026-09-12T20:59:43.018193+00:00
 - 20260912-210805_copilot-20260912-2108.md: # Session copilot-20260912-2108 ## Summary Detected 29 recent artifacts in copilot store (26h window). Notable: 671634a2-bcff-423e-bc7f-bc7c2960e89b.lock, a7192086-0018-400e-8573-68da5528f1fd.lock, da
 - 20260912-212308_copilot-20260912-2123.md: # Session copilot-20260912-2123 ## Summary Detected 29 recent artifacts in copilot store (26h window). Notable: 671634a2-bcff-423e-bc7f-bc7c2960e89b.lock, a7192086-0018-400e-8573-68da5528f1fd.lock, da
@@ -129,6 +129,7 @@ Generated: 2026-09-15T19:23:30.089083+00:00
 - 20260915-182304_copilot-20260915-1823.md: # Session copilot-20260915-1823 ## Summary Detected 272 recent artifacts in copilot store (26h window). Notable: .workspace-fork.lock, 15cb6586-dd7c-4505-9d2a-9dc58a9734ea, 3d32d4c7fb7aff6622fba9262b5
 - 20260915-190754_copilot-20260915-1907.md: # Session copilot-20260915-1907 ## Summary Detected 276 recent artifacts in copilot store (26h window). Notable: .workspace-fork.lock, 15cb6586-dd7c-4505-9d2a-9dc58a9734ea, 26fde0bc-4b7f-4700-a9a9-a5d
 - 20260915-192306_copilot-20260915-1923.md: # Session copilot-20260915-1923 ## Summary Detected 268 recent artifacts in copilot store (26h window). Notable: .workspace-fork.lock, 15cb6586-dd7c-4505-9d2a-9dc58a9734ea, 3d32d4c7fb7aff6622fba9262b5
+- 20260915-193807_copilot-20260915-1938.md: # Session copilot-20260915-1938 ## Summary Detected 238 recent artifacts in copilot store (26h window). Notable: .workspace-fork.lock, 15cb6586-dd7c-4505-9d2a-9dc58a9734ea, 3d32d4c7fb7aff6622fba9262b5
 
 ## copilot-cli-adapter - 4 sessions
 - 20260912-213824_swarm_audit.md: # Parallel Swarm Session: GitHub Copilot CLI Adapter - **Project Audited:** [[anysphere_remote-containers-1_0_37]] - **Previous Score:** 30/100 - **Upgraded Score:** 60/100 - **Diagnostics:** { "path_
@@ -299,7 +300,7 @@ Generated: 2026-09-15T19:23:30.089083+00:00
 - 20260914-091300_swarm_audit.md: # Parallel Swarm Session: Git Repository Reconciler - **Project Audited:** [[fd128361-5884-4b2d-a356-610d9897e951]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path
 - 20260914-111201_swarm_audit.md: # Parallel Swarm Session: Git Repository Reconciler - **Project Audited:** [[resume]] - **Previous Score:** 50/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists": true, "has_git": fal
 
-## hermes - 29 sessions
+## hermes - 30 sessions
 - 20260912-175000_vault-setup-20260912.md: # Session vault-setup-20260912 ## Summary Completed full multi-agent Obsidian memory vault setup: vault-sync v2 engine, env var, instruction files for 6 agent homes, scheduled 15-min sync. Logged at: 
 - 20260912-210256_obsidian-vault-complete-setup.md: # Session obsidian-vault-complete-setup ## Summary Completed full multi-agent shared-memory setup: v2 vault-sync.py engine (real session discovery with dedup, memory, briefing, digest, heartbeat, git 
 - 20260912-225326_hermes-20260912-2253.md: # Session hermes-20260912-2253 ## Summary Detected 30 recent artifacts in hermes store (26h window). Notable: request_dump_05c67984-69ec-471a-9fbe-13e4f5868c31_20260912_162309_166771.json, request_dum
@@ -329,6 +330,7 @@ Generated: 2026-09-15T19:23:30.089083+00:00
 - 20260915-182318_hermes-20260915-1823.md: # Session hermes-20260915-1823 ## Summary Detected 11 recent artifacts in hermes store (26h window). Notable: request_dump_cron_15292a883ebf_20260914_223241_20260914_232943_014567.json, request_dump_c
 - 20260915-183826_hermes-20260915-1838.md: # Session hermes-20260915-1838 ## Summary Detected 12 recent artifacts in hermes store (26h window). Notable: request_dump_cron_15292a883ebf_20260914_223241_20260914_232943_014567.json, request_dump_c
 - 20260915-190913_hermes-20260915-1909.md: # Session hermes-20260915-1909 ## Summary Detected 13 recent artifacts in hermes store (26h window). Notable: request_dump_cron_15292a883ebf_20260914_223241_20260914_232943_014567.json, request_dump_c
+- 20260915-193822_hermes-20260915-1938.md: # Session hermes-20260915-1938 ## Summary Detected 14 recent artifacts in hermes store (26h window). Notable: request_dump_cron_15292a883ebf_20260914_223241_20260914_232943_014567.json, request_dump_c
 
 ## hermes-agent - 1 sessions
 - 20260822-092356_245ef5c9-97e5-4faa-8594-0b180af9f564.md: # Session: 245ef5c9-97e5-4faa-8594-0b180af9f564 **Agent:** hermes-agent **Started:** 2026-08-22T12:57:35.156975 **Ended:** 2026-08-22T09:23:55.768511+00:00 **Status:** active ## Summary <!-- Session s

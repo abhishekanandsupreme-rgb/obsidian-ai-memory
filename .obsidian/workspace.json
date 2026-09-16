@@ -33,10 +33,14 @@
             "id": "7ee2381c7ff92ce1",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "memory/session-notes/digest-2026-W38.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "digest-2026-W38"
             }
           }
         ]
@@ -206,8 +210,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "7ee2381c7ff92ce1",
+  "active": "c6ad58e5e9de6490",
   "lastOpenFiles": [
+    "agents/copilot/sessions/20260916-172621_copilot-20260916-1726.md",
     "agents/system/heartbeat.md",
     "agents/hermes-agent/sessions/20260822-092356_245ef5c9-97e5-4faa-8594-0b180af9f564.md",
     "Welcome.md"

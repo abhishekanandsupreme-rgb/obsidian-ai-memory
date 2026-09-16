@@ -1,6 +1,6 @@
 # Weekly Digest 2026-W38
 
-Generated: 2026-09-16T06:08:17.546186+00:00
+Generated: 2026-09-16T06:23:19.336970+00:00
 
 ## agent-3-monetization - 1 sessions
 - 20260912-222350_newspulse-monet-3.md: # Session newspulse-monet-3 ## Summary Rebuilt crashed monetization deliverables for NewsPulse (C:/Users/asus/news-pulse): monetization/README.md playbook (29KB, 44 verified sources, citation-ledger v
@@ -173,7 +173,7 @@ Generated: 2026-09-16T06:08:17.546186+00:00
 - 20260914-091301_swarm_audit.md: # Parallel Swarm Session: Documentation & README Synthesizer - **Project Audited:** [[wiki_corrupt-20260910T095424]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "pat
 - 20260914-111204_swarm_audit.md: # Parallel Swarm Session: Documentation & README Synthesizer - **Project Audited:** [[velocity-rush]] - **Previous Score:** 50/100 - **Upgraded Score:** 80/100 - **Diagnostics:** { "path_exists": true
 
-## gemini - 160 sessions
+## gemini - 161 sessions
 - 20260912-185942_second-brain-build-20260913.md: # Session second-brain-build-20260913 ## Summary Completed comprehensive personal and professional Second Brain build in Obsidian: mapped 73 active projects across PC (Desktop, Documents, User home), 
 - 20260912-192309_gemini-20260912-1923.md: # Session gemini-20260912-1923 ## Summary Detected 765 recent artifacts in gemini store (26h window). Notable: 00000000.jsonl, 00000001.jsonl, 00000002.jsonl, 00000003.jsonl, 00000004.jsonl .... Newes
 - 20260912-193119_deep-pc-mapping-222-projects.md: # Session deep-pc-mapping-222-projects ## Summary Completed exhaustive PC-wide project discovery: indexed 222 projects across all drives (Desktop, Documents, Downloads, C:\tokenguard, C:\root). Classi
@@ -334,6 +334,7 @@ Generated: 2026-09-16T06:08:17.546186+00:00
 - 20260916-053817_gemini-20260916-0538.md: # Session gemini-20260916-0538 ## Summary Detected 2057 recent artifacts in gemini store (26h window). Notable: .66e74bf0-3535-42f9-bb62-e445152bed1e.c8e92822-4a7f-41d6-a502-98018a920ce8.tmp, .acd7792
 - 20260916-055317_gemini-20260916-0553.md: # Session gemini-20260916-0553 ## Summary Detected 2057 recent artifacts in gemini store (26h window). Notable: .66e74bf0-3535-42f9-bb62-e445152bed1e.c8e92822-4a7f-41d6-a502-98018a920ce8.tmp, .acd7792
 - 20260916-060816_gemini-20260916-0608.md: # Session gemini-20260916-0608 ## Summary Detected 2057 recent artifacts in gemini store (26h window). Notable: .66e74bf0-3535-42f9-bb62-e445152bed1e.c8e92822-4a7f-41d6-a502-98018a920ce8.tmp, .acd7792
+- 20260916-062318_gemini-20260916-0623.md: # Session gemini-20260916-0623 ## Summary Detected 2057 recent artifacts in gemini store (26h window). Notable: .66e74bf0-3535-42f9-bb62-e445152bed1e.c8e92822-4a7f-41d6-a502-98018a920ce8.tmp, .acd7792
 
 ## gemini-3-5-flash - 4 sessions
 - 20260912-213822_swarm_audit.md: # Parallel Swarm Session: Gemini 3.5 Flash Speed Demon - **Project Audited:** [[assets]] - **Previous Score:** 25/100 - **Upgraded Score:** 75/100 - **Diagnostics:** { "path_exists": true, "has_git": 

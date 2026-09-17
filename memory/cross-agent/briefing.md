@@ -1,6 +1,6 @@
 # Cross-Agent Briefing
 
-Generated: 2026-09-17T17:53:37.393270+00:00
+Generated: 2026-09-17T18:08:21.773576+00:00
 
 What each agent did in the last 24h:
 
@@ -20,7 +20,7 @@ What each agent did in the last 24h:
 - no logged activity in last 24h
 
 ## hermes (48 session log(s))
-- latest: # Session hermes-20260917-1738 ## Summary Detected 55 recent artifacts in hermes store (26h window). Notable: request_dump_cron_15292a883ebf_20260916_232311_20260916_232407_006422.json, request_dump_cron_15292a883ebf_20260917_210029_20260917_210030_442168.json, request_dump_cron_6c0a084bdfbf_2026091
+- latest: # Session hermes-20260917-1808 ## Summary Detected 56 recent artifacts in hermes store (26h window). Notable: request_dump_cron_15292a883ebf_20260916_232311_20260916_232407_006422.json, request_dump_cron_15292a883ebf_20260917_210029_20260917_210030_442168.json, request_dump_cron_6c0a084bdfbf_2026091
 
 ## opencode (1 session log(s))
 - latest: # Session pcmap-20260917 ## Summary Mapped whole PC into Obsidian for device move via 5 parallel agents (filesystem/drives, 13 git repos + high/med/low priorities, apps/toolchain/VSCode-55/npm-40, active work agents_factory+AstroAI+Odoo+Ringdesk, vault state). Created 5 notes: Device Migration Index

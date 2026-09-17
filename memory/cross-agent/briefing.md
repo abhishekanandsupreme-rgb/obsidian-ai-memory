@@ -1,6 +1,6 @@
 # Cross-Agent Briefing
 
-Generated: 2026-09-17T17:23:43.221551+00:00
+Generated: 2026-09-17T17:38:33.357648+00:00
 
 What each agent did in the last 24h:
 
@@ -13,14 +13,14 @@ What each agent did in the last 24h:
 ## codex (1 session log(s))
 - latest: # Session codex-20260916-1753 ## Summary Detected 2 recent artifacts in codex store (26h window). Notable: rollout-2026-09-16T22-55-35-01a0ab40-a387-7832-9abc-2719a32fb40d.jsonl, rollout-2026-09-16T22-58-25-01a0ab43-3b25-7150-86c4-18e5f6ea2844.jsonl. Newest: rollout-2026-09-16T22-55-35-01a0ab40-a387
 
-## copilot (5 session log(s))
+## copilot (4 session log(s))
 - latest: # Session copilot-20260916-2253 ## Summary Detected 68 recent artifacts in copilot store (26h window). Notable: .workspace-fork.lock, 3d32d4c7fb7aff6622fba9262b58ceb6302b9850b048edd0c461cfab4101b3e0.verifier, 4a117de9458320ec51c92fa02fa28997f0daa063efeb5ba40068ea4696bd8e7b.verifier, data.db, data.db
 
 ## gemini
 - no logged activity in last 24h
 
-## hermes (47 session log(s))
-- latest: # Session hermes-20260917-1714 ## Summary Detected 54 recent artifacts in hermes store (26h window). Notable: request_dump_cron_15292a883ebf_20260916_232311_20260916_232407_006422.json, request_dump_cron_15292a883ebf_20260917_210029_20260917_210030_442168.json, request_dump_cron_6c0a084bdfbf_2026091
+## hermes (48 session log(s))
+- latest: # Session hermes-20260917-1738 ## Summary Detected 55 recent artifacts in hermes store (26h window). Notable: request_dump_cron_15292a883ebf_20260916_232311_20260916_232407_006422.json, request_dump_cron_15292a883ebf_20260917_210029_20260917_210030_442168.json, request_dump_cron_6c0a084bdfbf_2026091
 
 ## opencode (1 session log(s))
 - latest: # Session pcmap-20260917 ## Summary Mapped whole PC into Obsidian for device move via 5 parallel agents (filesystem/drives, 13 git repos + high/med/low priorities, apps/toolchain/VSCode-55/npm-40, active work agents_factory+AstroAI+Odoo+Ringdesk, vault state). Created 5 notes: Device Migration Index

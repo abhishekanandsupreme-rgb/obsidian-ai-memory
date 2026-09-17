@@ -1,6 +1,6 @@
 # Cross-Agent Briefing
 
-Generated: 2026-09-17T19:23:24.576264+00:00
+Generated: 2026-09-17T19:38:23.916930+00:00
 
 What each agent did in the last 24h:
 
@@ -20,10 +20,10 @@ What each agent did in the last 24h:
 - no logged activity in last 24h
 
 ## hermes (48 session log(s))
-- latest: # Session hermes-20260917-1908 ## Summary Detected 59 recent artifacts in hermes store (26h window). Notable: request_dump_20260918_003407_8e9467_20260918_003417_221833.json, request_dump_cron_15292a883ebf_20260916_232311_20260916_232407_006422.json, request_dump_cron_15292a883ebf_20260917_210029_20
+- latest: # Session hermes-20260917-1938 ## Summary Detected 60 recent artifacts in hermes store (26h window). Notable: request_dump_20260918_003407_8e9467_20260918_003417_221833.json, request_dump_cron_15292a883ebf_20260916_232311_20260916_232407_006422.json, request_dump_cron_15292a883ebf_20260917_210029_20
 
-## opencode (3 session log(s))
-- latest: # Session localai-tune-20260917 ## Summary Local-AI tune: diagnosed Ollama CUDA broken on GTX1650+driver610.47 (illegal memory access full offload, garbage at 10 layers; CPU path verified 33/12.5 tok/s). Fixed: removed OLLAMA_GPU_OVERHEAD=0, set KEEP_ALIVE 30m, MAX_LOADED 1, quarantined stale C:/Use
+## opencode (5 session log(s))
+- latest: # Session ocr-install-20260918 ## Summary Installed alibaba/open-code-review globally via npm (ocr v1.12.5 windows/amd64, HEAD 189be5b). Repo cloned to Documents/open-code-review. Had to allow postinstall scripts for binary download. Logged at: 2026-09-17T19:32:39.092431+00:00
 
 ## prime
 - no logged activity in last 24h

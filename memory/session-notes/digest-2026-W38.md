@@ -1,6 +1,6 @@
 # Weekly Digest 2026-W38
 
-Generated: 2026-09-17T17:14:42.884152+00:00
+Generated: 2026-09-17T17:23:43.559122+00:00
 
 ## agent-3-monetization - 1 sessions
 - 20260912-222350_newspulse-monet-3.md: # Session newspulse-monet-3 ## Summary Rebuilt crashed monetization deliverables for NewsPulse (C:/Users/asus/news-pulse): monetization/README.md playbook (29KB, 44 verified sources, citation-ledger v
@@ -544,8 +544,9 @@ Generated: 2026-09-17T17:14:42.884152+00:00
 - 20260914-091301_swarm_audit.md: # Parallel Swarm Session: Nvidia Nemotron 3 Ultra - **Project Audited:** [[alert-dryosaurus]] - **Previous Score:** 45/100 - **Upgraded Score:** 80/100 - **Diagnostics:** { "path_exists": true, "has_g
 - 20260914-111201_swarm_audit.md: # Parallel Swarm Session: Nvidia Nemotron 3 Ultra - **Project Audited:** [[Personal_and_jobs]] - **Previous Score:** 50/100 - **Upgraded Score:** 60/100 - **Diagnostics:** { "path_exists": true, "has_
 
-## opencode - 1 sessions
+## opencode - 2 sessions
 - 20260913-060800_colab-cli-install-01.md: # Session colab-cli-install-01 ## Summary Installed google-colab-cli 0.6.0 (PyPI) via uv tool install into WSL distro OpenClawGateway (Ubuntu 24.04). Bootstrapped uv 0.12.13 first (curl astral.sh inst
+- 20260917-171937_pcmap-20260917.md: # Session pcmap-20260917 ## Summary Mapped whole PC into Obsidian for device move via 5 parallel agents (filesystem/drives, 13 git repos + high/med/low priorities, apps/toolchain/VSCode-55/npm-40, act
 
 ## opencode-agent-bot - 4 sessions
 - 20260912-213821_swarm_audit.md: # Parallel Swarm Session: OpenCode Engine - **Project Audited:** [[anthropic_claude-code-2_1_220-win32-x64]] - **Previous Score:** 30/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists

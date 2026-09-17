@@ -1,6 +1,6 @@
 # Cross-Agent Briefing
 
-Generated: 2026-09-17T18:53:31.413928+00:00
+Generated: 2026-09-17T19:08:48.341231+00:00
 
 What each agent did in the last 24h:
 
@@ -19,8 +19,8 @@ What each agent did in the last 24h:
 ## gemini
 - no logged activity in last 24h
 
-## hermes (47 session log(s))
-- latest: # Session hermes-20260917-1838 ## Summary Detected 57 recent artifacts in hermes store (26h window). Notable: request_dump_cron_15292a883ebf_20260916_232311_20260916_232407_006422.json, request_dump_cron_15292a883ebf_20260917_210029_20260917_210030_442168.json, request_dump_cron_6c0a084bdfbf_2026091
+## hermes (48 session log(s))
+- latest: # Session hermes-20260917-1908 ## Summary Detected 59 recent artifacts in hermes store (26h window). Notable: request_dump_20260918_003407_8e9467_20260918_003417_221833.json, request_dump_cron_15292a883ebf_20260916_232311_20260916_232407_006422.json, request_dump_cron_15292a883ebf_20260917_210029_20
 
 ## opencode (2 session log(s))
 - latest: # Session archify-graphify-01 ## Summary Installed archify (tt-a1i/archify) + graphify (CLI 0.9.63) globally to opencode/agents/claude/codex. Inventoried 38 projects computer-wide to Graphs/_computer-projects-inventory.md. Pilot-mapped last-survivor-apocalypse (asset scaffold, 1 wav) with archify sh

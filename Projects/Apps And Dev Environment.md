@@ -76,6 +76,13 @@ Python: ms-python.python/pylance/debugpy/python-envs, jupyter+renderers+keymap. 
 4. AI/IDE layer: Antigravity, Zed, OpenCode 1.18.31, Cline, Orca, Qoder, Comfy Desktop, BrowserOS neo.
 5. Restore: `npm i -g` list above, `uv tool install aider-chat browser-use`, pip (FastAPI/boto3/faster-whisper), Docker images/volumes, `%APPDATA%/npm`, Obsidian vault.
 
+## Local AI Status (2026-09-17)
+
+- GPU: GTX 1650 4GB. Ollama 0.33.3 CUDA runner is BROKEN on it (illegal memory access on full offload, garbage output even at 10 layers). Driver 610.47 suspect — clean reinstall pending (see below).
+- Daily driver NOW: `qwen2.5-3b-cpu` (CPU-pinned variant of qwen2.5:3b-instruct, ctx 4096) — verified 8–12 tok/s. Server env: `OLLAMA_NUM_PARALLEL=1`, `OLLAMA_MAX_LOADED_MODELS=1`, `OLLAMA_KEEP_ALIVE=30m`; stale `C:\Users\asus\bin\ollama.exe` dev build renamed to `.stale-bak`; User PATH deduped 65→47 entries + Ollama app dir added.
+- Do NOT use full-GPU offload or the 4.1GB Gemma E2B blob until driver reinstall is tested. faster-whisper already sees CUDA (ctranslate2 count=1) — transcription can use GPU.
+- Next: DDU-clean GPU driver reinstall → re-test `qwen2.5:3b-instruct` full offload (expect 30–60 tok/s if fixed).
+
 ## Related
 
 - [[Device Migration Index]]

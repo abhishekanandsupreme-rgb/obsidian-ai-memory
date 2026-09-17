@@ -1,6 +1,6 @@
 # Cross-Agent Briefing
 
-Generated: 2026-09-17T19:08:48.341231+00:00
+Generated: 2026-09-17T19:23:24.576264+00:00
 
 What each agent did in the last 24h:
 
@@ -22,8 +22,8 @@ What each agent did in the last 24h:
 ## hermes (48 session log(s))
 - latest: # Session hermes-20260917-1908 ## Summary Detected 59 recent artifacts in hermes store (26h window). Notable: request_dump_20260918_003407_8e9467_20260918_003417_221833.json, request_dump_cron_15292a883ebf_20260916_232311_20260916_232407_006422.json, request_dump_cron_15292a883ebf_20260917_210029_20
 
-## opencode (2 session log(s))
-- latest: # Session archify-graphify-01 ## Summary Installed archify (tt-a1i/archify) + graphify (CLI 0.9.63) globally to opencode/agents/claude/codex. Inventoried 38 projects computer-wide to Graphs/_computer-projects-inventory.md. Pilot-mapped last-survivor-apocalypse (asset scaffold, 1 wav) with archify sh
+## opencode (3 session log(s))
+- latest: # Session localai-tune-20260917 ## Summary Local-AI tune: diagnosed Ollama CUDA broken on GTX1650+driver610.47 (illegal memory access full offload, garbage at 10 layers; CPU path verified 33/12.5 tok/s). Fixed: removed OLLAMA_GPU_OVERHEAD=0, set KEEP_ALIVE 30m, MAX_LOADED 1, quarantined stale C:/Use
 
 ## prime
 - no logged activity in last 24h

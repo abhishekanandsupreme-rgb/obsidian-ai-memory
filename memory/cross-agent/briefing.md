@@ -1,6 +1,6 @@
 # Cross-Agent Briefing
 
-Generated: 2026-09-17T18:08:21.773576+00:00
+Generated: 2026-09-17T18:23:31.330964+00:00
 
 What each agent did in the last 24h:
 
@@ -22,8 +22,8 @@ What each agent did in the last 24h:
 ## hermes (48 session log(s))
 - latest: # Session hermes-20260917-1808 ## Summary Detected 56 recent artifacts in hermes store (26h window). Notable: request_dump_cron_15292a883ebf_20260916_232311_20260916_232407_006422.json, request_dump_cron_15292a883ebf_20260917_210029_20260917_210030_442168.json, request_dump_cron_6c0a084bdfbf_2026091
 
-## opencode (1 session log(s))
-- latest: # Session pcmap-20260917 ## Summary Mapped whole PC into Obsidian for device move via 5 parallel agents (filesystem/drives, 13 git repos + high/med/low priorities, apps/toolchain/VSCode-55/npm-40, active work agents_factory+AstroAI+Odoo+Ringdesk, vault state). Created 5 notes: Device Migration Index
+## opencode (2 session log(s))
+- latest: # Session archify-graphify-01 ## Summary Installed archify (tt-a1i/archify) + graphify (CLI 0.9.63) globally to opencode/agents/claude/codex. Inventoried 38 projects computer-wide to Graphs/_computer-projects-inventory.md. Pilot-mapped last-survivor-apocalypse (asset scaffold, 1 wav) with archify sh
 
 ## prime
 - no logged activity in last 24h

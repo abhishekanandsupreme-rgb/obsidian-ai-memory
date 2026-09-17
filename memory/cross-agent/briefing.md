@@ -1,6 +1,6 @@
 # Cross-Agent Briefing
 
-Generated: 2026-09-17T19:38:23.916930+00:00
+Generated: 2026-09-17T19:55:44.006829+00:00
 
 What each agent did in the last 24h:
 
@@ -19,11 +19,11 @@ What each agent did in the last 24h:
 ## gemini
 - no logged activity in last 24h
 
-## hermes (48 session log(s))
+## hermes (47 session log(s))
 - latest: # Session hermes-20260917-1938 ## Summary Detected 60 recent artifacts in hermes store (26h window). Notable: request_dump_20260918_003407_8e9467_20260918_003417_221833.json, request_dump_cron_15292a883ebf_20260916_232311_20260916_232407_006422.json, request_dump_cron_15292a883ebf_20260917_210029_20
 
-## opencode (5 session log(s))
-- latest: # Session ocr-install-20260918 ## Summary Installed alibaba/open-code-review globally via npm (ocr v1.12.5 windows/amd64, HEAD 189be5b). Repo cloned to Documents/open-code-review. Had to allow postinstall scripts for binary download. Logged at: 2026-09-17T19:32:39.092431+00:00
+## opencode (7 session log(s))
+- latest: # Session skill-install-20260918 ## Summary Backlog cleared: addyosmani 25/25 already present. AAS 17.4.0 full library installed to .agents/skills (2399 dirs, 2396 with SKILL.md; 122 pre-existing sheltered in .scratch/skills-backup). ffmpeg-skill demo rendered+verified (wave_reels.mp4 5s 1080x1920, 
 
 ## prime
 - no logged activity in last 24h

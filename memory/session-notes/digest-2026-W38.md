@@ -1,6 +1,6 @@
 # Weekly Digest 2026-W38
 
-Generated: 2026-09-17T19:38:24.144526+00:00
+Generated: 2026-09-17T19:55:44.468352+00:00
 
 ## agent-3-monetization - 1 sessions
 - 20260912-222350_newspulse-monet-3.md: # Session newspulse-monet-3 ## Summary Rebuilt crashed monetization deliverables for NewsPulse (C:/Users/asus/news-pulse): monetization/README.md playbook (29KB, 44 verified sources, citation-ledger v
@@ -549,13 +549,15 @@ Generated: 2026-09-17T19:38:24.144526+00:00
 - 20260914-091301_swarm_audit.md: # Parallel Swarm Session: Nvidia Nemotron 3 Ultra - **Project Audited:** [[alert-dryosaurus]] - **Previous Score:** 45/100 - **Upgraded Score:** 80/100 - **Diagnostics:** { "path_exists": true, "has_g
 - 20260914-111201_swarm_audit.md: # Parallel Swarm Session: Nvidia Nemotron 3 Ultra - **Project Audited:** [[Personal_and_jobs]] - **Previous Score:** 50/100 - **Upgraded Score:** 60/100 - **Diagnostics:** { "path_exists": true, "has_
 
-## opencode - 6 sessions
+## opencode - 8 sessions
 - 20260913-060800_colab-cli-install-01.md: # Session colab-cli-install-01 ## Summary Installed google-colab-cli 0.6.0 (PyPI) via uv tool install into WSL distro OpenClawGateway (Ubuntu 24.04). Bootstrapped uv 0.12.13 first (curl astral.sh inst
 - 20260917-171937_pcmap-20260917.md: # Session pcmap-20260917 ## Summary Mapped whole PC into Obsidian for device move via 5 parallel agents (filesystem/drives, 13 git repos + high/med/low priorities, apps/toolchain/VSCode-55/npm-40, act
 - 20260917-181944_archify-graphify-01.md: # Session archify-graphify-01 ## Summary Installed archify (tt-a1i/archify) + graphify (CLI 0.9.63) globally to opencode/agents/claude/codex. Inventoried 38 projects computer-wide to Graphs/_computer-
 - 20260917-190906_localai-tune-20260917.md: # Session localai-tune-20260917 ## Summary Local-AI tune: diagnosed Ollama CUDA broken on GTX1650+driver610.47 (illegal memory access full offload, garbage at 10 layers; CPU path verified 33/12.5 tok/
 - 20260917-192425_localai-tune-20260917.md: # Session localai-tune-20260917 ## Summary LM Studio Bionic runs (1.1.3+5, self-healed install). Fixed model-download failure: all 4 whisper HF-cache entries poisoned with 0-byte files (likely full-di
 - 20260917-193239_ocr-install-20260918.md: # Session ocr-install-20260918 ## Summary Installed alibaba/open-code-review globally via npm (ocr v1.12.5 windows/amd64, HEAD 189be5b). Repo cloned to Documents/open-code-review. Had to allow postins
+- 20260917-194112_skill-install-20260918.md: # Session skill-install-20260918 ## Summary Installed cloudflare/security-audit-skill globally to .agents/skills/security-audit (21 files; vendor CLI refused global so copied manually). Installed ffmp
+- 20260917-194855_skill-install-20260918.md: # Session skill-install-20260918 ## Summary Backlog cleared: addyosmani 25/25 already present. AAS 17.4.0 full library installed to .agents/skills (2399 dirs, 2396 with SKILL.md; 122 pre-existing shel
 
 ## opencode-agent-bot - 4 sessions
 - 20260912-213821_swarm_audit.md: # Parallel Swarm Session: OpenCode Engine - **Project Audited:** [[anthropic_claude-code-2_1_220-win32-x64]] - **Previous Score:** 30/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists

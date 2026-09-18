@@ -1,6 +1,6 @@
 # Cross-Agent Briefing
 
-Generated: 2026-09-18T16:53:36.842992+00:00
+Generated: 2026-09-18T17:08:46.844722+00:00
 
 What each agent did in the last 24h:
 
@@ -19,8 +19,8 @@ What each agent did in the last 24h:
 ## gemini
 - no logged activity in last 24h
 
-## hermes (28 session log(s))
-- latest: # Session hermes-20260918-1638 ## Summary Detected 44 recent artifacts in hermes store (26h window). Notable: request_dump_20260918_003407_8e9467_20260918_003417_221833.json, request_dump_20260918_003407_8e9467_20260918_182838_342539.json, request_dump_cron_15292a883ebf_20260917_210029_20260917_2100
+## hermes (29 session log(s))
+- latest: # Session hermes-20260918-1708 ## Summary Detected 44 recent artifacts in hermes store (26h window). Notable: request_dump_20260918_003407_8e9467_20260918_003417_221833.json, request_dump_20260918_003407_8e9467_20260918_182838_342539.json, request_dump_cron_15292a883ebf_20260917_210029_20260917_2100
 
 ## opencode (7 session log(s))
 - latest: # Session skill-install-20260918 ## Summary Backlog cleared: addyosmani 25/25 already present. AAS 17.4.0 full library installed to .agents/skills (2399 dirs, 2396 with SKILL.md; 122 pre-existing sheltered in .scratch/skills-backup). ffmpeg-skill demo rendered+verified (wave_reels.mp4 5s 1080x1920, 

@@ -1,6 +1,6 @@
 # Cross-Agent Briefing
 
-Generated: 2026-09-18T11:53:19.454285+00:00
+Generated: 2026-09-18T12:43:49.400387+00:00
 
 What each agent did in the last 24h:
 
@@ -13,14 +13,14 @@ What each agent did in the last 24h:
 ## codex
 - no logged activity in last 24h
 
-## copilot (4 session log(s))
-- latest: # Session copilot-20260917-2338 ## Summary Detected 3 recent artifacts in copilot store (26h window). Notable: process-1789582355659-26500.log, process-1789675108155-4008.log, process-1789685844084-4896.log. Newest: process-1789582355659-26500.log. Logged at: 2026-09-17T23:38:09.319418+00:00
+## copilot (5 session log(s))
+- latest: # Session copilot-20260918-1239 ## Summary Detected 4 recent artifacts in copilot store (26h window). Notable: 2cf4f939-44c0-4500-bdf8-665aa2e3f4cc.lock, process-1789675108155-4008.log, process-1789685844084-4896.log, process-1789734443624-22472.log. Newest: 2cf4f939-44c0-4500-bdf8-665aa2e3f4cc.lock
 
 ## gemini
 - no logged activity in last 24h
 
 ## hermes (28 session log(s))
-- latest: # Session hermes-20260918-1108 ## Summary Detected 43 recent artifacts in hermes store (26h window). Notable: request_dump_20260918_003407_8e9467_20260918_003417_221833.json, request_dump_cron_15292a883ebf_20260917_210029_20260917_210030_442168.json, request_dump_cron_6c0a084bdfbf_20260918_142931_20
+- latest: # Session hermes-20260918-1243 ## Summary Detected 43 recent artifacts in hermes store (26h window). Notable: request_dump_20260918_003407_8e9467_20260918_003417_221833.json, request_dump_cron_15292a883ebf_20260917_210029_20260917_210030_442168.json, request_dump_cron_6c0a084bdfbf_20260918_142931_20
 
 ## opencode (7 session log(s))
 - latest: # Session skill-install-20260918 ## Summary Backlog cleared: addyosmani 25/25 already present. AAS 17.4.0 full library installed to .agents/skills (2399 dirs, 2396 with SKILL.md; 122 pre-existing sheltered in .scratch/skills-backup). ffmpeg-skill demo rendered+verified (wave_reels.mp4 5s 1080x1920, 

@@ -1,6 +1,6 @@
 # Weekly Digest 2026-W38
 
-Generated: 2026-09-19T17:49:02.019414+00:00
+Generated: 2026-09-19T18:28:52.978491+00:00
 
 ## agent-3-monetization - 1 sessions
 - 20260912-222350_newspulse-monet-3.md: # Session newspulse-monet-3 ## Summary Rebuilt crashed monetization deliverables for NewsPulse (C:/Users/asus/news-pulse): monetization/README.md playbook (29KB, 44 verified sources, citation-ledger v
@@ -19,9 +19,6 @@ Generated: 2026-09-19T17:49:02.019414+00:00
 - 20260912-214000_swarm_audit.md: # Parallel Swarm Session: BrowserOS neo Web Agent - **Project Audited:** [[ms-python_vscode-python-envs-1_20_1-universal]] - **Previous Score:** 30/100 - **Upgraded Score:** 85/100 - **Diagnostics:** 
 - 20260914-091300_swarm_audit.md: # Parallel Swarm Session: BrowserOS neo Web Agent - **Project Audited:** [[77f26db1-58e1-4846-977a-842090a5199d]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_e
 - 20260914-111203_swarm_audit.md: # Parallel Swarm Session: BrowserOS neo Web Agent - **Project Audited:** [[news-pulse]] - **Previous Score:** 50/100 - **Upgraded Score:** 90/100 - **Diagnostics:** { "path_exists": true, "has_git": t
-
-## claude - 1 sessions
-- 20260912-180802_claude-20260912-1808.md: # Session claude-20260912-1808 ## Summary Detected 7 recent artifacts in claude store (26h window). Notable: 414381fb-72b5-4f1a-ac2e-19d4699d10ec.jsonl, 42c109bd-e395-4e29-be21-05a8be13b62b.jsonl, 449
 
 ## claude-code-lead - 10 sessions
 - 20260912-213823_swarm_audit.md: # Parallel Swarm Session: Claude Code Lead - **Project Audited:** [[_opencode]] - **Previous Score:** 15/100 - **Upgraded Score:** 60/100 - **Diagnostics:** { "path_exists": true, "has_git": false, "h
@@ -394,7 +391,6 @@ Generated: 2026-09-19T17:49:02.019414+00:00
 - 20260914-111201_swarm_audit.md: # Parallel Swarm Session: Git Repository Reconciler - **Project Audited:** [[resume]] - **Previous Score:** 50/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists": true, "has_git": fal
 
 ## hermes - 173 sessions
-- 20260912-175000_vault-setup-20260912.md: # Session vault-setup-20260912 ## Summary Completed full multi-agent Obsidian memory vault setup: vault-sync v2 engine, env var, instruction files for 6 agent homes, scheduled 15-min sync. Logged at: 
 - 20260912-210256_obsidian-vault-complete-setup.md: # Session obsidian-vault-complete-setup ## Summary Completed full multi-agent shared-memory setup: v2 vault-sync.py engine (real session discovery with dedup, memory, briefing, digest, heartbeat, git 
 - 20260912-225326_hermes-20260912-2253.md: # Session hermes-20260912-2253 ## Summary Detected 30 recent artifacts in hermes store (26h window). Notable: request_dump_05c67984-69ec-471a-9fbe-13e4f5868c31_20260912_162309_166771.json, request_dum
 - 20260913-001328_vr-swarm-p1.md: # Session vr-swarm-p1 ## Summary Velocity Rush (browser 3D racer, C:/Users/asus/velocity-rush): scaffold committed (vite+three+cannon-es, 12-module contract, build green, verify 12/12). Dispatched 10 
@@ -567,6 +563,7 @@ Generated: 2026-09-19T17:49:02.019414+00:00
 - 20260919-163818_hermes-20260919-1638.md: # Session hermes-20260919-1638 ## Summary Detected 55 recent artifacts in hermes store (26h window). Notable: request_dump_cron_15292a883ebf_20260918_210054_20260918_210055_804363.json, request_dump_c
 - 20260919-170814_hermes-20260919-1708.md: # Session hermes-20260919-1708 ## Summary Detected 55 recent artifacts in hermes store (26h window). Notable: request_dump_cron_15292a883ebf_20260918_210054_20260918_210055_804363.json, request_dump_c
 - 20260919-174855_hermes-20260919-1748.md: # Session hermes-20260919-1748 ## Summary Detected 54 recent artifacts in hermes store (26h window). Notable: request_dump_cron_15292a883ebf_20260919_210021_20260919_210045_345901.json, request_dump_c
+- 20260919-181532_hermes-20260919-1815.md: # Session hermes-20260919-1815 ## Summary Detected 54 recent artifacts in hermes store (26h window). Notable: request_dump_cron_15292a883ebf_20260919_210021_20260919_210045_345901.json, request_dump_c
 
 ## hermes-agent - 1 sessions
 - 20260822-092356_245ef5c9-97e5-4faa-8594-0b180af9f564.md: # Session: 245ef5c9-97e5-4faa-8594-0b180af9f564 **Agent:** hermes-agent **Started:** 2026-08-22T12:57:35.156975 **Ended:** 2026-08-22T09:23:55.768511+00:00 **Status:** active ## Summary <!-- Session s

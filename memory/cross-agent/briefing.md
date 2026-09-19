@@ -1,6 +1,6 @@
 # Cross-Agent Briefing
 
-Generated: 2026-09-19T07:10:19.298548+00:00
+Generated: 2026-09-19T09:09:56.199950+00:00
 
 What each agent did in the last 24h:
 
@@ -13,14 +13,14 @@ What each agent did in the last 24h:
 ## codex
 - no logged activity in last 24h
 
-## copilot (4 session log(s))
-- latest: # Session copilot-20260918-2008 ## Summary Detected 5 recent artifacts in copilot store (26h window). Notable: process-1789675108155-4008.log, process-1789685844084-4896.log, process-1789734443624-22472.log, process-1789736613548-21248.log, process-1789759956507-36196.log. Newest: process-1789675108
+## copilot (5 session log(s))
+- latest: # Session copilot-20260919-0908 ## Summary Detected 4 recent artifacts in copilot store (26h window). Notable: process-1789734443624-22472.log, process-1789736613548-21248.log, process-1789759956507-36196.log, process-1789803509866-43960.log. Newest: process-1789734443624-22472.log. Logged at: 2026-
 
 ## gemini
 - no logged activity in last 24h
 
-## hermes (35 session log(s))
-- latest: # Session hermes-20260919-0710 ## Summary Detected 54 recent artifacts in hermes store (26h window). Notable: request_dump_20260918_003407_8e9467_20260918_182838_342539.json, request_dump_cron_15292a883ebf_20260918_210054_20260918_210055_804363.json, request_dump_cron_6c0a084bdfbf_20260918_142931_20
+## hermes (37 session log(s))
+- latest: # Session hermes-20260919-0909 ## Summary Detected 56 recent artifacts in hermes store (26h window). Notable: request_dump_20260918_003407_8e9467_20260918_182838_342539.json, request_dump_cron_15292a883ebf_20260918_210054_20260918_210055_804363.json, request_dump_cron_6c0a084bdfbf_20260918_142931_20
 
 ## prime
 - no logged activity in last 24h

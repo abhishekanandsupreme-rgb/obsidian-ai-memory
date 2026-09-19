@@ -1,6 +1,6 @@
 # Weekly Digest 2026-W38
 
-Generated: 2026-09-19T19:24:33.559857+00:00
+Generated: 2026-09-19T19:40:42.436121+00:00
 
 ## agent-3-monetization - 1 sessions
 - 20260912-222350_newspulse-monet-3.md: # Session newspulse-monet-3 ## Summary Rebuilt crashed monetization deliverables for NewsPulse (C:/Users/asus/news-pulse): monetization/README.md playbook (29KB, 44 verified sources, citation-ledger v
@@ -192,8 +192,7 @@ Generated: 2026-09-19T19:24:33.559857+00:00
 - 20260914-091301_swarm_audit.md: # Parallel Swarm Session: Documentation & README Synthesizer - **Project Audited:** [[wiki_corrupt-20260910T095424]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "pat
 - 20260914-111204_swarm_audit.md: # Parallel Swarm Session: Documentation & README Synthesizer - **Project Audited:** [[velocity-rush]] - **Previous Score:** 50/100 - **Upgraded Score:** 80/100 - **Diagnostics:** { "path_exists": true
 
-## gemini - 164 sessions
-- 20260912-193119_deep-pc-mapping-222-projects.md: # Session deep-pc-mapping-222-projects ## Summary Completed exhaustive PC-wide project discovery: indexed 222 projects across all drives (Desktop, Documents, Downloads, C:\tokenguard, C:\root). Classi
+## gemini - 163 sessions
 - 20260912-194116_gemini-20260912-1941.md: # Session gemini-20260912-1941 ## Summary Detected 811 recent artifacts in gemini store (26h window). Notable: 00000000.jsonl, 00000001.jsonl, 00000002.jsonl, 00000003.jsonl, 00000004.jsonl .... Newes
 - 20260912-195456_gemini-20260912-1954.md: # Session gemini-20260912-1954 ## Summary Detected 851 recent artifacts in gemini store (26h window). Notable: 00000000.jsonl, 00000001.jsonl, 00000002.jsonl, 00000003.jsonl, 00000004.jsonl .... Newes
 - 20260912-200034_build-agent-os-telemetry.md: # Session build-agent-os-telemetry ## Summary Engineered and launched AgentOS v2.0 in c:/Users/asus/Desktop/abhishek_personal_data/agent_os: kernel process scheduler, pluggable connector architecture,
@@ -388,7 +387,7 @@ Generated: 2026-09-19T19:24:33.559857+00:00
 - 20260914-091300_swarm_audit.md: # Parallel Swarm Session: Git Repository Reconciler - **Project Audited:** [[fd128361-5884-4b2d-a356-610d9897e951]] - **Previous Score:** 45/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path
 - 20260914-111201_swarm_audit.md: # Parallel Swarm Session: Git Repository Reconciler - **Project Audited:** [[resume]] - **Previous Score:** 50/100 - **Upgraded Score:** 65/100 - **Diagnostics:** { "path_exists": true, "has_git": fal
 
-## hermes - 175 sessions
+## hermes - 176 sessions
 - 20260912-210256_obsidian-vault-complete-setup.md: # Session obsidian-vault-complete-setup ## Summary Completed full multi-agent shared-memory setup: v2 vault-sync.py engine (real session discovery with dedup, memory, briefing, digest, heartbeat, git 
 - 20260912-225326_hermes-20260912-2253.md: # Session hermes-20260912-2253 ## Summary Detected 30 recent artifacts in hermes store (26h window). Notable: request_dump_05c67984-69ec-471a-9fbe-13e4f5868c31_20260912_162309_166771.json, request_dum
 - 20260913-001328_vr-swarm-p1.md: # Session vr-swarm-p1 ## Summary Velocity Rush (browser 3D racer, C:/Users/asus/velocity-rush): scaffold committed (vite+three+cannon-es, 12-module contract, build green, verify 12/12). Dispatched 10 
@@ -564,6 +563,7 @@ Generated: 2026-09-19T19:24:33.559857+00:00
 - 20260919-181532_hermes-20260919-1815.md: # Session hermes-20260919-1815 ## Summary Detected 54 recent artifacts in hermes store (26h window). Notable: request_dump_cron_15292a883ebf_20260919_210021_20260919_210045_345901.json, request_dump_c
 - 20260919-185706_hermes-20260919-1857.md: # Session hermes-20260919-1857 ## Summary Detected 54 recent artifacts in hermes store (26h window). Notable: request_dump_cron_15292a883ebf_20260919_210021_20260919_210045_345901.json, request_dump_c
 - 20260919-190932_hermes-20260919-1909.md: # Session hermes-20260919-1909 ## Summary Detected 54 recent artifacts in hermes store (26h window). Notable: request_dump_cron_15292a883ebf_20260919_210021_20260919_210045_345901.json, request_dump_c
+- 20260919-194039_hermes-20260919-1940.md: # Session hermes-20260919-1940 ## Summary Detected 54 recent artifacts in hermes store (26h window). Notable: request_dump_cron_15292a883ebf_20260919_210021_20260919_210045_345901.json, request_dump_c
 
 ## hermes-agent2 - 1 sessions
 - 20260912-222425_newspulse-build.md: # Session newspulse-build ## Summary Built scripts/build_site.py (stdlib-only static site generator for NewsPulse) + scripts/make_sample_data.py + data/sample-articles.json. 680 articles -> 809 files 

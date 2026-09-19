@@ -1,6 +1,6 @@
 # Cross-Agent Briefing
 
-Generated: 2026-09-19T15:38:13.426183+00:00
+Generated: 2026-09-19T15:53:19.144142+00:00
 
 What each agent did in the last 24h:
 
@@ -19,7 +19,7 @@ What each agent did in the last 24h:
 ## gemini
 - no logged activity in last 24h
 
-## hermes (38 session log(s))
+## hermes (37 session log(s))
 - latest: # Session hermes-20260919-1538 ## Summary Detected 56 recent artifacts in hermes store (26h window). Notable: request_dump_cron_15292a883ebf_20260918_210054_20260918_210055_804363.json, request_dump_cron_15292a883ebf_20260919_210021_20260919_210045_345901.json, request_dump_cron_890eea6477a3_2026091
 
 ## prime
